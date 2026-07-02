@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Reveal } from "@/components/Reveal";
@@ -129,6 +130,57 @@ export default function Home() {
               </div>
             ))}
           </Reveal>
+        </section>
+
+        {/* ============ SHORTCUT ============ */}
+        <section className="mx-auto max-w-6xl px-5 pt-16 md:pt-20">
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+            {[
+              {
+                href: "/buku/alkitab",
+                title: "Alkitab",
+                desc: "TB, TL, Batak Toba",
+                icon: (
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z" />
+                ),
+              },
+              {
+                href: "/buku/buku-ende",
+                title: "Buku Ende",
+                desc: "Nyanyian Batak Toba",
+                icon: <path d="M9 18V5l12-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm12-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />,
+              },
+              {
+                href: "/buku/kidung-jemaat",
+                title: "Kidung Jemaat",
+                desc: "Lagu pujian Indonesia",
+                icon: <path d="M9 18V5l12-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm12-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />,
+              },
+              {
+                href: "/informasi",
+                title: "Informasi",
+                desc: "Persembahan & layanan",
+                icon: <><circle cx="12" cy="12" r="10" /><path d="M12 16v-4M12 8h.01" /></>,
+              },
+            ].map((s, i) => (
+              <Reveal key={s.href} delay={i * 70}>
+                <Link
+                  href={s.href}
+                  className="card group flex h-full flex-col gap-3 p-6 hover:-translate-y-1 hover:shadow-[var(--shadow-lift)]"
+                >
+                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-mist text-royal transition-colors group-hover:bg-blue group-hover:text-white">
+                    <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      {s.icon}
+                    </svg>
+                  </span>
+                  <span>
+                    <span className="block font-semibold text-black">{s.title}</span>
+                    <span className="mt-0.5 block text-xs text-black/60">{s.desc}</span>
+                  </span>
+                </Link>
+              </Reveal>
+            ))}
+          </div>
         </section>
 
         {/* ============ TENTANG HKBP ============ */}
