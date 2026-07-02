@@ -257,17 +257,28 @@ export default function Home() {
                   Kami juga menyelenggarakan ibadah pada perayaan besar Kristen
                   Protestan sepanjang tahun.
                 </p>
-                <div className="mt-5 flex flex-wrap gap-2.5">
-                  {specialServices.map((name) => (
-                    <span
-                      key={name}
-                      className="inline-flex items-center gap-2 rounded-full bg-mist px-4 py-2 text-sm font-medium text-black"
+                <div className="mt-5 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
+                  {specialServices.map((s) => (
+                    <div
+                      key={s.name}
+                      className="flex items-center gap-3 rounded-xl bg-mist px-4 py-2.5"
                     >
-                      <span className="h-1.5 w-1.5 mark-cross bg-blue" />
-                      {name}
-                    </span>
+                      <span className="h-2 w-2 shrink-0 mark-cross bg-blue" />
+                      <span className="min-w-0">
+                        <span className="block truncate text-sm font-semibold text-black">
+                          {s.name}
+                        </span>
+                        <span className="block text-xs text-black/60">
+                          {s.tanggal}
+                        </span>
+                      </span>
+                    </div>
                   ))}
                 </div>
+                <p className="mt-4 text-xs text-black/50">
+                  Tanggal hari besar yang berpindah mengikuti kalender gerejawi
+                  tahunan.
+                </p>
               </div>
             </Reveal>
           </div>

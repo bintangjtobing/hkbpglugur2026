@@ -59,15 +59,16 @@ export const weeklyServices = [
   },
 ] as const;
 
-/* Ibadah raya dan hari besar gerejawi */
+/* Ibadah raya dan hari besar gerejawi.
+   Tanggal hari besar yang berpindah mengikuti kalender Paskah, perbarui tiap tahun. */
 export const specialServices = [
-  "Ibadah Natal",
-  "Ibadah Jumat Agung",
-  "Ibadah Kebangkitan (Paskah)",
-  "Ibadah Kenaikan Yesus Kristus",
-  "Ibadah Pentakosta",
-  "Ibadah Kematian",
-  "Ibadah Tahun Baru",
+  { name: "Ibadah Natal", tanggal: "25 Desember 2026" },
+  { name: "Ibadah Tahun Baru", tanggal: "1 Januari 2027" },
+  { name: "Ibadah Jumat Agung", tanggal: "26 Maret 2027" },
+  { name: "Ibadah Kebangkitan (Paskah)", tanggal: "28 Maret 2027" },
+  { name: "Ibadah Kenaikan Yesus Kristus", tanggal: "6 Mei 2027" },
+  { name: "Ibadah Pentakosta", tanggal: "16 Mei 2027" },
+  { name: "Ibadah Kematian", tanggal: "Sesuai kebutuhan" },
 ] as const;
 
 /* Statistik jemaat */
