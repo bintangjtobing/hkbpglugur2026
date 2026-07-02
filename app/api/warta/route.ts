@@ -106,5 +106,28 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Gagal mengirim. Coba lagi nanti." }, { status: 502 });
   }
 
+  // Email konfirmasi ke pengirim. Kegagalannya tidak membatalkan proses.
+  const ackBody = `
+    <p style="margin:0 0 14px 0;">Salam sejahtera, <strong>${escapeHtml(nama)}</strong>.</p>
+    <p style="margin:0 0 14px 0;">Terima kasih telah mengirimkan Warta Tata Ibadah. Berkas Anda sudah kami terima. Tim kami akan memverifikasi lalu mengunggah versi rapinya ke halaman Warta Tata Ibadah.</p>
+    <div style="background:#eef1ff;border-radius:12px;padding:16px 18px;margin:0 0 14px 0;">
+      <div style="font-size:12px;font-weight:600;color:#5b6486;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:6px;">Ringkasan kiriman</div>
+      <div style="color:#12183A;">Berkas terkirim: ${fileAttachments.length} file.${keterangan ? "<br>Keterangan: " + escapeHtml(keterangan) : ""}</div>
+    </div>
+    <p style="margin:0;color:#5b6486;font-size:13px;">Email ini dikirim otomatis. Anda tidak perlu membalasnya. Tuhan Yesus memberkati.</p>
+  `;
+  try {
+    await transport.sendMail({
+      from: `"HKBP Glugur" <${user}>`,
+      to: email,
+      subject: "Warta Anda telah kami terima - HKBP Glugur",
+      text: `Salam sejahtera, ${nama}.\n\nTerima kasih telah mengirimkan Warta Tata Ibadah. Berkas Anda sudah kami terima dan akan diverifikasi lalu diunggah ke halaman Warta Tata Ibadah.\n\nBerkas terkirim: ${fileAttachments.length} file.\n\nEmail ini dikirim otomatis. Anda tidak perlu membalasnya. Tuhan Yesus memberkati.`,
+      html: renderEmail({ title: "Warta Anda telah kami terima", bodyHtml: ackBody }),
+      attachments: logo,
+    });
+  } catch {
+    // Abaikan. Email utama sudah terkirim.
+  }
+
   return NextResponse.json({ ok: true });
 }
