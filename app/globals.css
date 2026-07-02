@@ -1,0 +1,195 @@
+@import "tailwindcss";
+
+/* ============================================================
+   HKBP Glugur — Design Tokens
+   Palette diturunkan dari logo HKBP (#0000FF)
+   ============================================================ */
+@theme {
+  /* Warna */
+  --color-blue: #0000ff; /* Logo blue — signature, dipakai hemat */
+  --color-royal: #2138e0; /* Interaktif: tombol, link */
+  --color-royal-600: #1a2ec0;
+  --color-navy: #0a1550; /* Hero, footer, teks gelap */
+  --color-navy-800: #060d33;
+  --color-ink: #12183a; /* Teks utama di area terang */
+  --color-slate: #55608a; /* Teks sekunder */
+  --color-mist: #eef1ff; /* Wash biru lembut */
+  --color-mist-200: #dbe1ff;
+  --color-paper: #f7f8fc; /* Kertas hangat */
+  --color-line: #e5e8f5; /* Garis pemisah tipis */
+
+  /* Tipografi */
+  --font-display: var(--font-urbanist); /* Header dan headline */
+  --font-sans: var(--font-open-sans); /* Body */
+
+  /* Radius & shadow */
+  --radius-card: 18px;
+  --shadow-soft: 0 1px 2px rgba(10, 21, 80, 0.04),
+    0 12px 32px -12px rgba(10, 21, 80, 0.18);
+  --shadow-lift: 0 2px 4px rgba(10, 21, 80, 0.05),
+    0 24px 48px -20px rgba(10, 21, 80, 0.28);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Animations */
+  --animate-rise: rise 0.9s var(--ease-out) both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================================
+   Base
+   ============================================================ */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* Pakai bobot asli dari font, bukan bold sintetis dari browser. */
+  font-synthesis-weight: none;
+}
+
+::selection {
+  background: var(--color-blue);
+  color: #fff;
+}
+
+/* Fokus keyboard yang jelas (aksesibilitas) */
+:focus-visible {
+  outline: 3px solid var(--color-royal);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), Georgia, serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* ============================================================
+   Signature: motif "benang ulos" (tenun Batak)
+   Garis-garis tenun dalam nuansa biru dari logo
+   ============================================================ */
+.ulos-thread {
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--color-blue) 0 2px,
+    transparent 2px 7px,
+    color-mix(in srgb, var(--color-royal) 60%, transparent) 7px 8px,
+    transparent 8px 13px
+  );
+}
+
+/* Penanda berbentuk salib (menggantikan bentuk ketupat) */
+.mark-cross {
+  clip-path: polygon(
+    42% 0, 58% 0, 58% 28%, 100% 28%, 100% 44%, 58% 44%,
+    58% 100%, 42% 100%, 42% 44%, 0 44%, 0 28%, 42% 28%
+  );
+  border-radius: 0;
+}
+
+.eyebrow {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+/* Kartu dasar */
+.card {
+  background: #fff;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.35s var(--ease-out), box-shadow 0.35s var(--ease-out);
+}
+
+/* Confetti saat hover logo tema (bukan balon, seperti taburan pesta) */
+.confetti {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 20;
+}
+.confetti i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 7px;
+  width: 7px;
+  border-radius: 1px;
+  opacity: 0;
+}
+.group:hover .confetti i {
+  animation: confetti-pop 0.75s var(--ease-out) forwards;
+}
+@keyframes confetti-pop {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0.2) rotate(0deg);
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy)))
+      scale(1) rotate(var(--rot));
+  }
+}
+
+/* Reveal saat scroll (JS menambah .is-visible) */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.8s var(--ease-out), transform 0.8s var(--ease-out);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
