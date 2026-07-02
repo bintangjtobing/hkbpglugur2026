@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { PageBanner } from "@/components/PageBanner";
 import { Reveal } from "@/components/Reveal";
 import { PhotoGallery } from "@/components/PhotoGallery";
+import { GalleryUploadForm } from "@/components/GalleryUploadForm";
 import { withUtm } from "@/lib/utm";
 import {
   youtubeChannels,
@@ -132,6 +133,26 @@ export default async function MediaPage() {
             </Reveal>
 
             <PhotoGallery albums={photoAlbums} />
+          </div>
+        </section>
+
+        {/* ===== KIRIM FOTO ===== */}
+        <section className="mx-auto max-w-3xl px-5 py-16 md:py-20">
+          <Reveal>
+            <span className="eyebrow inline-flex items-center gap-2 text-royal">
+              <span className="h-1.5 w-1.5 mark-cross bg-blue" />
+              Kirim Foto
+            </span>
+            <h2 className="mt-4 text-3xl font-semibold text-black sm:text-4xl">
+              Bagikan foto kegiatan Anda
+            </h2>
+            <p className="mt-4 text-lg leading-relaxed text-black/75">
+              Punya foto ibadah atau kegiatan gereja? Kirimkan di sini. Tim kami
+              akan meninjau lalu menampilkan yang sesuai di galeri.
+            </p>
+          </Reveal>
+          <div className="mt-8">
+            <GalleryUploadForm />
           </div>
         </section>
       </main>

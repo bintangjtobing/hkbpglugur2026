@@ -45,3 +45,6 @@ next-env.d.ts
 
 # Dokumen pengetahuan internal, jangan di-commit
 KNOWLEDGE.md
+
+# Foto kiriman jemaat menunggu verifikasi (runtime)
+public/gallery-pending/
