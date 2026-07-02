@@ -6,7 +6,7 @@ import { Reveal } from "@/components/Reveal";
 import { pimpinanHKBP, pimpinanDistrik, type Leader } from "@/lib/leadership";
 
 export const metadata: Metadata = {
-  title: "Pimpinan HKBP dan Distrik X Medan Aceh Periode 2024 sampai 2028",
+  title: "Pimpinan HKBP dan Distrik X Medan Aceh",
   description:
     "Daftar pimpinan HKBP dan pimpinan Distrik X Medan Aceh periode 2024 sampai 2028, naungan pelayanan HKBP Glugur.",
   alternates: { canonical: "/kepemimpinan" },
@@ -52,6 +52,18 @@ export default function KepemimpinanPage() {
         />
 
         <section className="mx-auto max-w-5xl px-5 py-20 md:py-24">
+          <div className="mb-10 max-w-3xl space-y-4 text-[16px] leading-relaxed text-black/75">
+            <p>
+              HKBP Glugur melayani dalam naungan Huria Kristen Batak Protestan
+              dan Distrik X Medan Aceh. Para pemimpin gereja menggembalakan
+              jemaat, mengarahkan pelayanan, dan menjaga ajaran tetap setia pada
+              firman Tuhan.
+            </p>
+            <p>
+              Berikut susunan pimpinan HKBP di tingkat pusat dan pimpinan Distrik
+              X Medan Aceh untuk periode pelayanan 2024 sampai 2028.
+            </p>
+          </div>
           <div className="grid gap-8 lg:grid-cols-2">
             <Reveal>
               <LeaderTable title="Pimpinan HKBP" data={pimpinanHKBP} />

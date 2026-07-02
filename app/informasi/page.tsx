@@ -13,7 +13,7 @@ import {
 } from "@/lib/info";
 
 export const metadata: Metadata = {
-  title: "Informasi Jemaat: Persembahan, Tarif Fasilitas, dan Pernikahan",
+  title: "Informasi Jemaat: Layanan dan Tarif",
   description:
     "Rekening persembahan HKBP Glugur, tarif pemakaian fasilitas gereja, serta syarat administrasi pertunangan dan pernikahan.",
   alternates: { canonical: "/informasi" },

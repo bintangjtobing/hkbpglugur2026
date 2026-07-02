@@ -6,7 +6,7 @@ import { Reveal } from "@/components/Reveal";
 import { sintuaList } from "@/lib/sintua";
 
 export const metadata: Metadata = {
-  title: "Majelis Sintua HKBP Glugur",
+  title: "Majelis Sintua",
   description:
     "Daftar Sintua atau penatua yang melayani jemaat HKBP Glugur, Ressort Medan Utara, Distrik X Medan Aceh.",
   alternates: { canonical: "/sintua" },

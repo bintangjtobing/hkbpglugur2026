@@ -6,7 +6,7 @@ import { PageBanner } from "@/components/PageBanner";
 import { Reveal } from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "Buku Digital: Alkitab, Buku Ende, dan Kidung Jemaat",
+  title: "Buku Digital: Alkitab dan Nyanyian",
   description:
     "Baca Alkitab (Terjemahan Baru, Terjemahan Lama, Batak Toba), Buku Ende, dan Kidung Jemaat langsung dari situs HKBP Glugur.",
   alternates: { canonical: "/buku" },

@@ -24,8 +24,7 @@ const SITE_URL = "https://hkbpglugur.com";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default:
-      "HKBP Glugur, Gereja HKBP Ressort Medan Utara di Glugur Darat, Medan",
+    default: "HKBP Glugur, Gereja Ressort Medan Utara di Medan",
     template: "%s | HKBP Glugur",
   },
   description:

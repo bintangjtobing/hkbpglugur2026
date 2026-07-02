@@ -13,7 +13,7 @@ import {
 } from "@/lib/media";
 
 export const metadata: Metadata = {
-  title: "Galeri dan Media: Video dan Foto HKBP Glugur",
+  title: "Galeri Foto dan Video",
   description:
     "Tonton video kegiatan dan ibadah HKBP Glugur di YouTube, serta lihat album foto gereja di Google Maps dan Facebook.",
   alternates: { canonical: "/media" },
