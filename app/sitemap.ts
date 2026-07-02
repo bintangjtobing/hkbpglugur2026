@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/tema-transformasi",
     "/pengembang",
     "/warta",
+    "/sejarah-hkbp-glugur",
   ];
   return routes.map((path) => ({
     url: `${SITE_URL}${path}`,

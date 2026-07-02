@@ -238,6 +238,7 @@ export const nav: NavItem[] = [
     href: "/#tentang",
     children: [
       { label: "Profil Gereja", href: "/#tentang" },
+      { label: "Sejarah HKBP Glugur", href: "/sejarah-hkbp-glugur" },
       { label: "Sejarah HKBP", href: "/#sejarah" },
       { label: "Huria Pagaran", href: "/#pagaran" },
       { label: "Pimpinan Gereja", href: "/kepemimpinan" },

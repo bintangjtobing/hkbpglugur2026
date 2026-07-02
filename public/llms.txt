@@ -6,6 +6,7 @@
 - [Beranda](https://hkbpglugur.com/): Profil singkat, jadwal ibadah, makna logo, pelayanan, sejarah, statistik, ulasan, dan lokasi.
 - [Pimpinan Gereja](https://hkbpglugur.com/kepemimpinan): Pimpinan HKBP dan Distrik X Medan Aceh periode 2024 sampai 2028.
 - [Majelis Sintua](https://hkbpglugur.com/sintua): Daftar 47 Sintua (penatua) HKBP Glugur.
+- [Sejarah HKBP Glugur](https://hkbpglugur.com/sejarah-hkbp-glugur): Artikel perjalanan HKBP Glugur di Glugur Darat, dari akar HKBP sampai menjadi pusat Ressort Medan Utara.
 - [Tema Transformasi HKBP 2024-2028](https://hkbpglugur.com/tema-transformasi): Makna tema, Roma 12:2, filosofi logo, visi, dan misi HKBP.
 
 ## Buku digital
