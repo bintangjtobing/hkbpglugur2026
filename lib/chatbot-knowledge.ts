@@ -24,13 +24,28 @@ TENTANG HKBP
 - Tokoh: Ingwer Ludwig Nommensen, dikenang sebagai Apostel Batak.
 - Tema 2024 sampai 2028: Transformasi, Roma 12:2 "Berubahlah oleh pembaruan budimu". Visi: menjadi berkat bagi dunia. Misi: menjadikan murid Kristus pelaku Firman.
 
+SEJARAH HKBP GLUGUR
+- HKBP Glugur berdiri di Glugur Darat, kawasan tua Kota Medan, dan menjadi pusat Ressort Medan Utara. Artikel lengkap ada di halaman /sejarah-hkbp-glugur.
+- Penting: HKBP Glugur (Glugur Darat, Ressort Medan Utara) berbeda dari HKBP Sei Glugur (Ressort Padang Bulan). Jangan tertukar.
+- Pada 9 Juni 2024 jemaat menggelar pesta penggalangan dana renovasi aula dan gereja sekaligus perayaan ulang tahun ke-68 HKBP di Medan, dihadiri ribuan jemaat.
+
+KEPEMIMPINAN
+- Pimpinan Jemaat HKBP Glugur: Ronni E. Silitonga. Pendeta Fungsional: Rosnila Nellawaty Sihombing.
+- Ephorus HKBP periode 2024 sampai 2028: Pdt. Dr. Victor Tinambunan, MST. Sekretaris Jenderal: Pdt. Rikson M. Hutahaean, M.Th.
+- Praeses Distrik X Medan Aceh: Pdt. Suwandi Sinambela, S.Th., M.Psi.
+- Daftar lengkap pimpinan ada di halaman /kepemimpinan dan daftar sintua di /sintua.
+
 PELAYANAN
 - Sekolah Minggu, Naposobulung (NHKBP), Punguan Ina, Punguan Ama, Paduan Suara, Diakonia Sosial.
 
+WARTA TATA IBADAH
+- Warta dan tata ibadah mingguan tersedia dalam bentuk PDF di halaman /warta, bisa dibaca dan diunduh. Pengurus atau jemaat dapat mengirim warta lewat formulir di halaman itu untuk diverifikasi lalu dipublikasikan.
+
 PERSEMBAHAN
 - Bank BNI nomor rekening 0292882601 atas nama HKBP Glugur Resort Medan Utara.
+- Sumbangan bunga hidup untuk altar: hubungi pihak gereja di (061) 6611846 paling lambat 3 hari sebelum hari Minggu.
 
-TARIF FASILITAS (data 2022)
+TARIF FASILITAS (data per Maret 2024)
 - Aula acara na monding: ruas Rp1.000.000, umum Rp2.000.000.
 - Aula acara selain na monding: ruas Rp750.000, umum Rp1.500.000.
 - Gedung Serbaguna (GSG): ruas Rp750.000, umum Rp1.500.000.
@@ -48,10 +63,13 @@ BUKU DIGITAL (di situs)
 - Kidung Jemaat: 502 lagu Indonesia, di /buku/kidung-jemaat.
 
 HALAMAN LAIN
-- Kepemimpinan di /kepemimpinan. Sintua di /sintua. Informasi di /informasi. Galeri dan video di /media. Tema Transformasi di /tema-transformasi. Permintaan perbaikan konten di /permintaan.
+- Kepemimpinan di /kepemimpinan. Sintua di /sintua. Informasi di /informasi. Warta Tata Ibadah di /warta. Sejarah HKBP Glugur di /sejarah-hkbp-glugur. Galeri dan video di /media (jemaat juga bisa mengirim foto di sana). Tema Transformasi di /tema-transformasi. Permintaan perbaikan konten di /permintaan. Tentang pengembang situs di /pengembang.
 
 ULASAN
 - Google 4,6 (59 ulasan). Facebook 4,8 (35 ulasan).
+
+SITUS DAN PENGEMBANG
+- Situs ini dibangun sebagai inisiatif relawan oleh Bintang Tobing. Ada tautan donasi Saweria di halaman /pengembang.
 `;
 
 export const SYSTEM_PROMPT = `Kamu adalah "Pelayan Digital HKBP Glugur", asisten ramah di situs resmi HKBP Glugur. Tugasmu menjawab pertanyaan seputar gereja HKBP Glugur dan informasi yang ada di situs ini.
