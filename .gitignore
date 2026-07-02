@@ -42,3 +42,6 @@ next-env.d.ts
 
 # Claude Code local config
 .claude/
+
+# Dokumen pengetahuan internal, jangan di-commit
+KNOWLEDGE.md
