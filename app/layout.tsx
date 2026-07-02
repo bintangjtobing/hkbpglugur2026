@@ -3,6 +3,7 @@ import { Urbanist, Open_Sans } from "next/font/google";
 import "./globals.css";
 import { church } from "@/lib/content";
 import { Analytics } from "@/components/Analytics";
+import { ChatWidget } from "@/components/ChatWidget";
 import { GA_ID, CLARITY_ID } from "@/lib/analytics";
 
 const urbanist = Urbanist({
@@ -147,6 +148,7 @@ export default function RootLayout({
         />
         <Analytics />
         {children}
+        <ChatWidget />
       </body>
     </html>
   );
