@@ -200,11 +200,13 @@ export function Header() {
 
       {/* Menu mobile */}
       <div
-        className={`overflow-hidden border-t bg-white/95 backdrop-blur-md transition-[max-height] duration-300 lg:hidden ${
-          open ? "max-h-[40rem] border-line" : "max-h-0 border-transparent"
+        className={`border-t bg-white/95 backdrop-blur-md transition-[max-height] duration-300 lg:hidden ${
+          open
+            ? "max-h-[calc(100dvh-64px)] overflow-y-auto overscroll-contain border-line"
+            : "max-h-0 overflow-hidden border-transparent"
         }`}
       >
-        <nav className="flex flex-col gap-1 px-5 py-4">
+        <nav className="flex flex-col gap-1 px-5 py-4 pb-8">
           {nav.map((item) => (
             <div key={item.label}>
               <a
