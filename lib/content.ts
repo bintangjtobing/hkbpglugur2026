@@ -231,7 +231,14 @@ export const nav: NavItem[] = [
       { label: "Pimpinan Gereja", href: "/kepemimpinan" },
     ],
   },
-  { label: "Ibadah", href: "/#ibadah" },
+  {
+    label: "Ibadah",
+    href: "/#ibadah",
+    children: [
+      { label: "Jadwal Ibadah", href: "/#ibadah" },
+      { label: "Warta Tata Ibadah", href: "/warta" },
+    ],
+  },
   {
     label: "Pelayanan",
     href: "/#pelayanan",

@@ -157,6 +157,12 @@ export default function Home() {
                 icon: <path d="M9 18V5l12-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm12-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />,
               },
               {
+                href: "/warta",
+                title: "Tata Ibadah",
+                desc: "Warta ibadah mingguan",
+                icon: <><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6M9 13h6M9 17h4" /></>,
+              },
+              {
                 href: "/informasi",
                 title: "Informasi",
                 desc: "Persembahan & layanan",

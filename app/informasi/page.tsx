@@ -10,6 +10,7 @@ import {
   tarifKetentuan,
   tarifTahun,
   adminPernikahan,
+  bungaHidup,
 } from "@/lib/info";
 
 export const metadata: Metadata = {
@@ -77,6 +78,25 @@ export default function InformasiPage() {
                 </div>
               </div>
             </Reveal>
+
+            <Reveal delay={120}>
+              <div className="mt-6 flex flex-col gap-3 rounded-[var(--radius-card)] border border-line bg-mist p-6 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <p className="text-sm font-semibold text-black">
+                    Sumbangan Bunga Hidup untuk Altar
+                  </p>
+                  <p className="mt-1 text-[15px] leading-relaxed text-black/70">
+                    {bungaHidup}
+                  </p>
+                </div>
+                <a
+                  href={`tel:${church.contact.phoneLink}`}
+                  className="inline-flex w-fit shrink-0 items-center gap-2 rounded-full bg-royal px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-royal-600"
+                >
+                  Telepon {church.contact.phone}
+                </a>
+              </div>
+            </Reveal>
           </section>
 
           {/* ===== TARIF FASILITAS ===== */}
@@ -90,7 +110,7 @@ export default function InformasiPage() {
                 Tarif pemakaian fasilitas gereja
               </h2>
               <p className="mt-4 max-w-2xl text-lg text-black/75">
-                Tarif berlaku untuk ruas dan umum. Data ketentuan tahun{" "}
+                Tarif berlaku untuk ruas dan umum. Data ketentuan per{" "}
                 {tarifTahun}.
               </p>
             </Reveal>

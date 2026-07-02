@@ -10,8 +10,12 @@ export const persembahan = {
   note: "Salurkan persembahan dan dukungan Anda melalui rekening resmi gereja.",
 };
 
-/* Tarif pemakaian fasilitas, data tahun 2022 */
-export const tarifTahun = "2022";
+/* Tarif pemakaian fasilitas, data per Maret 2024 */
+export const tarifTahun = "Maret 2024";
+
+/* Sumbangan bunga hidup untuk altar. Kontak diarahkan ke pihak gereja. */
+export const bungaHidup =
+  "Bagi jemaat yang ingin memberi sumbangan berupa bunga hidup untuk altar, mohon menghubungi pihak gereja paling lambat 3 hari sebelum hari Minggu.";
 
 export const tarifItems = [
   { item: "Aula untuk acara na monding", ruas: "Rp1.000.000", umum: "Rp2.000.000" },

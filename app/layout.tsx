@@ -52,10 +52,11 @@ export const metadata: Metadata = {
       "Rumah untuk bertumbuh dalam iman, kasih, dan pelayanan di Glugur Darat, Medan. Lihat jadwal ibadah, sejarah, dan pelayanan HKBP Glugur.",
     images: [
       {
-        url: "/hkbp-logo.webp",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Logo HKBP Glugur",
+        alt: "HKBP Glugur, gereja HKBP Ressort Medan Utara di Glugur Darat, Medan",
+        type: "image/png",
       },
     ],
   },
@@ -64,7 +65,12 @@ export const metadata: Metadata = {
     title: "HKBP Glugur, Gereja HKBP Medan",
     description:
       "Jadwal ibadah, sejarah, dan pelayanan HKBP Glugur di Glugur Darat, Medan.",
-    images: ["/hkbp-logo.webp"],
+    images: [
+      {
+        url: "/og-image.png",
+        alt: "HKBP Glugur, gereja HKBP Ressort Medan Utara di Glugur Darat, Medan",
+      },
+    ],
   },
   robots: {
     index: true,

@@ -14,7 +14,8 @@
 - [Kidung Jemaat](https://hkbpglugur.com/buku/kidung-jemaat): 502 lagu pujian berbahasa Indonesia.
 
 ## Informasi dan layanan
-- [Informasi Jemaat](https://hkbpglugur.com/informasi): Persembahan (rekening bank), tarif fasilitas gereja, dan administrasi pernikahan.
+- [Warta Tata Ibadah](https://hkbpglugur.com/warta): Baca dan unduh warta serta tata ibadah mingguan (PDF). Pengurus dapat mengirim warta untuk diverifikasi.
+- [Informasi Jemaat](https://hkbpglugur.com/informasi): Persembahan (rekening bank), sumbangan bunga hidup, tarif fasilitas gereja, dan administrasi pernikahan.
 - [Galeri dan Media](https://hkbpglugur.com/media): Video YouTube dan album foto gereja.
 - [Permintaan Perbaikan Konten](https://hkbpglugur.com/permintaan): Formulir kirim koreksi konten dengan lampiran.
 - [Tentang Pengembang](https://hkbpglugur.com/pengembang): Situs dibangun relawan Bintang Tobing.

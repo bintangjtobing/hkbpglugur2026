@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/media",
     "/tema-transformasi",
     "/pengembang",
+    "/warta",
   ];
   return routes.map((path) => ({
     url: `${SITE_URL}${path}`,
