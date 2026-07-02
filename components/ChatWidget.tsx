@@ -18,7 +18,8 @@ function clean(s: string) {
   return s
     .replace(/`+/g, "")
     .replace(/\*+/g, "")
-    .replace(/^\s{0,3}#{1,6}\s+/gm, "");
+    .replace(/^\s{0,3}#{1,6}\s+/gm, "")
+    .replace(/^\s{0,3}[-•]\s+/gm, "");
 }
 
 function PastorAvatar({ className = "" }: { className?: string }) {
