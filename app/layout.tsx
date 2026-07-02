@@ -109,8 +109,21 @@ const jsonLd = {
     worstRating: "1",
   },
   subOrganization: [
-    { "@type": "Church", name: "HKBP Pulo Brayan" },
-    { "@type": "Church", name: "HKBP Pardomuan Nauli" },
+    {
+      "@type": "Church",
+      name: "HKBP Pulo Brayan",
+      address: "Jl. KL. Yos Sudarso, Pulo Brayan Kota, Kec. Medan Barat, Kota Medan, Sumatera Utara 20239",
+    },
+    {
+      "@type": "Church",
+      name: "HKBP Marturia",
+      address: "Jl. Tol Mulia 5 No.17, Tj. Mulia Hilir, Kec. Medan Deli, Kota Medan, Sumatera Utara 20241",
+    },
+    {
+      "@type": "Church",
+      name: "HKBP Pardomuan Nauli",
+      address: "Titi Papan, Kec. Medan Deli, Kota Medan, Sumatera Utara 20242",
+    },
   ],
   sameAs: [church.contact.facebook],
   openingHoursSpecification: [

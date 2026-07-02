@@ -6,7 +6,11 @@ IDENTITAS
 - Nama: HKBP Glugur (Huria Kristen Batak Protestan Glugur), pusat Ressort Medan Utara, Distrik X Medan Aceh.
 - Alamat: Jl. Pembangunan III No.57A, Glugur Darat II, Kec. Medan Timur, Kota Medan, Sumatera Utara 20238.
 - Telepon: (061) 6611846. Email: hkbpglugurmdn@gmail.com. Facebook: facebook.com/hkbpglugurofficial.
-- 16 lingkungan, 47 sintua, 2 huria pagaran: HKBP Pulo Brayan dan HKBP Pardomuan Nauli.
+- 16 lingkungan, 47 sintua, 3 huria pagaran di bawah Ressort Medan Utara:
+  1. HKBP Pulo Brayan, Jl. KL. Yos Sudarso, Pulo Brayan Kota, Kec. Medan Barat, Kota Medan, Sumatera Utara 20239.
+  2. HKBP Marturia, Jl. Tol Mulia 5 No.17, Tj. Mulia Hilir, Kec. Medan Deli, Kota Medan, Sumatera Utara 20241.
+  3. HKBP Pardomuan Nauli, Titi Papan, Kec. Medan Deli, Kota Medan, Sumatera Utara 20242.
+  Nomor telepon huria pagaran belum tersedia. Untuk info, hubungi HKBP Glugur di (061) 6611846.
 
 JADWAL IBADAH
 - Minggu 07.45 WIB Kebaktian Pagi.

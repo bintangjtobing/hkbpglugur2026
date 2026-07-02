@@ -76,25 +76,37 @@ export const stats = [
   { value: "16", label: "Lingkungan", sub: "Wijk pelayanan jemaat" },
   { value: "47", label: "Sintua", sub: "Penatua yang melayani" },
   { value: "1861", label: "Warisan HKBP", sub: "Tahun berdirinya HKBP" },
-  { value: "2", label: "Huria Pagaran", sub: "Gereja di bawah Ressort" },
+  { value: "3", label: "Huria Pagaran", sub: "Gereja di bawah Ressort" },
 ] as const;
 
 /* Huria pagaran di bawah Ressort Medan Utara */
 export const ressort = {
   center: "HKBP Glugur",
+  centerAlamat:
+    "Jl. Pembangunan III No.57A, Glugur Darat II, Kec. Medan Timur, Kota Medan, Sumatera Utara 20238",
   name: "HKBP Ressort Medan Utara",
   distrik: "Distrik X Medan Aceh",
-  note: "HKBP Glugur menjadi pusat Ressort Medan Utara. Dua huria pagaran melayani di bawah naungan yang sama.",
+  note: "HKBP Glugur menjadi pusat Ressort Medan Utara. Tiga huria pagaran melayani di bawah naungan yang sama.",
   pagaran: [
     {
       name: "HKBP Pulo Brayan",
       role: "Huria Pagaran",
-      desc: "Gereja pagaran yang melayani jemaat di kawasan Pulo Brayan, Medan.",
+      desc: "Melayani jemaat di kawasan Pulo Brayan, Medan.",
+      alamat:
+        "Jl. KL. Yos Sudarso, Pulo Brayan Kota, Kec. Medan Barat, Kota Medan, Sumatera Utara 20239",
+    },
+    {
+      name: "HKBP Marturia",
+      role: "Huria Pagaran",
+      desc: "Melayani jemaat di kawasan Tanjung Mulia, Medan Deli.",
+      alamat:
+        "Jl. Tol Mulia 5 No.17, Tj. Mulia Hilir, Kec. Medan Deli, Kota Medan, Sumatera Utara 20241",
     },
     {
       name: "HKBP Pardomuan Nauli",
       role: "Huria Pagaran",
-      desc: "Gereja pagaran yang melayani jemaat di kawasan Pardomuan Nauli, Medan.",
+      desc: "Melayani jemaat di kawasan Titi Papan, Medan Deli.",
+      alamat: "Titi Papan, Kec. Medan Deli, Kota Medan, Sumatera Utara 20242",
     },
   ],
 } as const;
