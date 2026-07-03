@@ -165,14 +165,7 @@ export const nav: NavItem[] = [
       { key: "kidungJemaat", href: "/buku/kidung-jemaat" },
     ],
   },
-  {
-    key: "galeri",
-    href: "/media",
-    children: [
-      { key: "galeriFoto", href: "/media" },
-      { key: "ulasan", href: "/ulasan" },
-    ],
-  },
+  { key: "galeri", href: "/media" },
   {
     key: "informasi",
     href: "/informasi",
@@ -180,6 +173,7 @@ export const nav: NavItem[] = [
       { key: "persembahan", href: "/informasi#persembahan" },
       { key: "tarif", href: "/informasi#tarif" },
       { key: "pernikahan", href: "/informasi#pernikahan" },
+      { key: "ulasan", href: "/ulasan" },
     ],
   },
 ];
