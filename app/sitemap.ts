@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { locales, defaultLocale } from "@/lib/i18n/config";
 import { localizeHref } from "@/lib/i18n/href";
-import { SITE_URL } from "@/lib/i18n/metadata";
+import { SITE_URL, HREFLANG_LOCALES } from "@/lib/i18n/metadata";
 
 const routes = [
   "",
@@ -30,8 +30,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
   for (const path of routes) {
+    // hreflang hanya untuk locale dengan kode ISO 639-1 valid (id, en).
+    // bbc tidak punya kode hreflang valid, jadi entri bbc tanpa alternates.
     const languages: Record<string, string> = {};
-    for (const l of locales) languages[l] = abs(path, l);
+    for (const l of HREFLANG_LOCALES) languages[l] = abs(path, l);
     languages["x-default"] = abs(path, defaultLocale);
 
     for (const l of locales) {
@@ -40,7 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency: "weekly",
         priority: path === "" ? 1 : 0.8,
-        alternates: { languages },
+        ...(HREFLANG_LOCALES.includes(l) ? { alternates: { languages } } : {}),
       });
     }
   }
