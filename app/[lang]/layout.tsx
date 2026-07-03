@@ -57,6 +57,8 @@ export async function generateMetadata({
       "gereja Kristen Medan Timur",
     ],
     authors: [{ name: "HKBP Glugur" }],
+    creator: "Bintang Tobing",
+    publisher: "Bintang Tobing",
     alternates: buildAlternates("/", locale),
     openGraph: {
       type: "website",

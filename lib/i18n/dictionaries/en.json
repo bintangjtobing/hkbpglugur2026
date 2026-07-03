@@ -422,8 +422,8 @@
   "reviews": {
     "banner": {
       "eyebrow": "Reviews",
-      "title": "Reviews for this site",
-      "desc": "How was your experience using the HKBP Glugur site? Give a rating and tell us."
+      "title": "Congregation and Visitor Reviews",
+      "desc": "How was your experience worshiping or visiting HKBP Glugur? Give a rating and tell us."
     },
     "summaryCount": "reviews",
     "summaryOf": "of",
@@ -437,7 +437,7 @@
       "email": "Email (optional)",
       "emailHint": "Fill this in if you want us to contact you. It is not shown.",
       "text": "Review",
-      "textPlaceholder": "Tell us your experience using this site.",
+      "textPlaceholder": "Tell us about your experience at HKBP Glugur.",
       "anonymous": "Send as anonymous, name hidden",
       "captchaLabel": "Verification, what is the result of",
       "captchaAnswer": "Answer",
@@ -456,8 +456,8 @@
       "errorConn": "Failed to connect to the server. Try again."
     },
     "cta": {
-      "title": "Already used this site?",
-      "desc": "Let us know your experience. Your review helps us improve the service.",
+      "title": "Have you visited HKBP Glugur?",
+      "desc": "Let us know your experience. Your review encourages our ministry.",
       "button": "Give a Review"
     },
     "email": {
@@ -876,8 +876,8 @@
       "description": "The story of HKBP Glugur in Glugur Darat, Medan, from the roots of HKBP in the Batak land to becoming the center of Ressort Medan Utara, Distrik X Medan Aceh."
     },
     "ulasan": {
-      "title": "HKBP Glugur Site Reviews",
-      "description": "Read and give reviews for the HKBP Glugur site. Share your experience using this site."
+      "title": "HKBP Glugur Reviews",
+      "description": "Read reviews from the HKBP Glugur congregation and visitors, and share your experience."
     },
     "ketentuan": {
       "title": "Terms of Service",

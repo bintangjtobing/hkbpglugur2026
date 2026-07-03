@@ -422,8 +422,8 @@
   "reviews": {
     "banner": {
       "eyebrow": "Ulasan",
-      "title": "Ulasan untuk situs ini",
-      "desc": "Bagaimana pengalaman Anda memakai situs HKBP Glugur? Beri rating dan ceritakan."
+      "title": "Ulasan Jemaat dan Pengunjung",
+      "desc": "Bagaimana pengalaman Anda beribadah atau berkunjung ke HKBP Glugur? Beri rating dan ceritakan."
     },
     "summaryCount": "ulasan",
     "summaryOf": "dari",
@@ -437,7 +437,7 @@
       "email": "Email (opsional)",
       "emailHint": "Diisi bila Anda ingin kami hubungi. Tidak ditampilkan.",
       "text": "Ulasan",
-      "textPlaceholder": "Ceritakan pengalaman Anda memakai situs ini.",
+      "textPlaceholder": "Ceritakan pengalaman Anda di HKBP Glugur.",
       "anonymous": "Kirim sebagai anonim, nama disembunyikan",
       "captchaLabel": "Verifikasi, berapa hasil",
       "captchaAnswer": "Jawaban",
@@ -456,8 +456,8 @@
       "errorConn": "Gagal terhubung ke server. Coba lagi."
     },
     "cta": {
-      "title": "Sudah memakai situs ini?",
-      "desc": "Beri tahu kami pengalaman Anda. Ulasan Anda membantu kami memperbaiki layanan.",
+      "title": "Sudah berkunjung ke HKBP Glugur?",
+      "desc": "Beri tahu kami pengalaman Anda. Ulasan Anda menyemangati pelayanan kami.",
       "button": "Beri Ulasan"
     },
     "email": {
@@ -876,8 +876,8 @@
       "description": "Kisah perjalanan HKBP Glugur di Glugur Darat, Medan, dari akar HKBP di Tanah Batak sampai menjadi pusat Ressort Medan Utara, Distrik X Medan Aceh."
     },
     "ulasan": {
-      "title": "Ulasan Situs HKBP Glugur",
-      "description": "Baca dan beri ulasan untuk situs HKBP Glugur. Bagikan pengalaman Anda memakai situs ini."
+      "title": "Ulasan HKBP Glugur",
+      "description": "Baca ulasan jemaat dan pengunjung HKBP Glugur, lalu bagikan pengalaman Anda."
     },
     "ketentuan": {
       "title": "Ketentuan Layanan",

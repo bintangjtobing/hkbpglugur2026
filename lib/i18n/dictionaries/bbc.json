@@ -422,8 +422,8 @@
   "reviews": {
     "banner": {
       "eyebrow": "Ulasan",
-      "title": "Ulasan tu situs on",
-      "desc": "Songon dia pengalamanmu mamangke situs HKBP Glugur? Lehon rating jala baritahon."
+      "title": "Ulasan ni Ruas dohot Pangunjung",
+      "desc": "Songon dia pengalamanmu marmingguon manang mardalan tu HKBP Glugur? Lehon rating jala baritahon."
     },
     "summaryCount": "ulasan",
     "summaryOf": "sian",
@@ -437,7 +437,7 @@
       "email": "Email (opsional)",
       "emailHint": "Diisi molo naeng hubungi hami ho. Ndang dipatuduhon.",
       "text": "Ulasan",
-      "textPlaceholder": "Baritahon pengalamanmu mamangke situs on.",
+      "textPlaceholder": "Baritahon pengalamanmu di HKBP Glugur.",
       "anonymous": "Kirim songon anonim, goar disombunihon",
       "captchaLabel": "Verifikasi, sadia hasilna",
       "captchaAnswer": "Aloi",
@@ -456,8 +456,8 @@
       "errorConn": "Gagal tarhubung tu server. Ulahi."
     },
     "cta": {
-      "title": "Nunga dipangke situs on?",
-      "desc": "Paboa tu hami pengalamanmu. Ulasanmu mangurupi hami paurus parhaladoon.",
+      "title": "Nunga hea ho mardalan tu HKBP Glugur?",
+      "desc": "Paboa tu hami pengalamanmu. Ulasanmu pahisar roha ni parhaladoon nami.",
       "button": "Lehon Ulasan"
     },
     "email": {
@@ -876,8 +876,8 @@
       "description": "Barita ni pardalanan HKBP Glugur di Glugur Darat, Medan, sian bona ni HKBP di Tano Batak sahat gabe pusat Ressort Medan Utara, Distrik X Medan Aceh."
     },
     "ulasan": {
-      "title": "Ulasan ni Situs HKBP Glugur",
-      "description": "Jaha jala lehon ulasan tu situs HKBP Glugur. Bagihon pengalamanmu mamangke situs on."
+      "title": "Ulasan HKBP Glugur",
+      "description": "Jaha ulasan ni ruas dohot pangunjung HKBP Glugur, jala bagihon pengalamanmu."
     },
     "ketentuan": {
       "title": "Aturan Layanan",

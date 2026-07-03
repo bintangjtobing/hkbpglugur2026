@@ -6,7 +6,8 @@ import { Mark } from "@/components/Mark";
 import { withUtm } from "@/lib/utm";
 import { getDictionary } from "@/lib/i18n";
 import { isLocale, type Locale } from "@/lib/i18n/config";
-import { pageMetadata } from "@/lib/i18n/metadata";
+import { pageMetadata, SITE_URL } from "@/lib/i18n/metadata";
+import { localizeHref } from "@/lib/i18n/href";
 
 export async function generateMetadata({
   params,
@@ -34,9 +35,38 @@ export default async function SejarahGlugurPage({
 }) {
   const { lang } = await params;
   const locale: Locale = isLocale(lang) ? lang : "id";
-  const t = getDictionary(locale).sejarah;
+  const dict = getDictionary(locale);
+  const t = dict.sejarah;
+
+  const pageUrl = `${SITE_URL}${localizeHref("/sejarah-hkbp-glugur", locale)}`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: t.title,
+    description: dict.meta.sejarah.description,
+    image: `${SITE_URL}/og-image.png`,
+    datePublished: "2026-07-02",
+    dateModified: "2026-07-04",
+    inLanguage: locale === "en" ? "en" : locale === "bbc" ? "bbc" : "id",
+    author: { "@type": "Organization", name: t.byline, url: SITE_URL },
+    publisher: {
+      "@type": "Organization",
+      name: "Bintang Tobing",
+      url: "https://bintangtobing.com",
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/hkbp-logo.webp`,
+      },
+    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main className="flex-1">
         {/* Hero artikel */}
