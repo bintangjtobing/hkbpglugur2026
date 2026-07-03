@@ -12,6 +12,11 @@ export function localizeHref(href: string, locale: Locale): string {
   if (!href.startsWith("/")) return href; // eksternal, mailto:, tel:, #anchor
   if (locale === defaultLocale) return href;
   if (href === "/") return `/${locale}`;
+  // Anchor/query beranda: "/#tentang" -> "/en#tentang" (hindari "/en/#tentang"
+  // yang memicu redirect trailing-slash).
+  if (href.startsWith("/#") || href.startsWith("/?")) {
+    return `/${locale}${href.slice(1)}`;
+  }
   return `/${locale}${href}`;
 }
 
@@ -23,10 +28,13 @@ export function localeFromPathname(pathname: string): Locale {
     : defaultLocale;
 }
 
-/* Buang prefix locale dari pathname, hasilkan path dasar (selalu diawali "/"). */
+/* Buang prefix locale dari pathname, hasilkan path dasar (selalu diawali "/").
+   Membuang SEMUA prefix locale termasuk default "id". Ini penting karena
+   proxy me-rewrite path Indonesia ke /id secara internal, sehingga
+   usePathname() bisa mengembalikan "/id/..." pada halaman default. */
 export function stripLocale(pathname: string): string {
   const seg = pathname.split("/")[1];
-  if ((locales as readonly string[]).includes(seg) && seg !== defaultLocale) {
+  if ((locales as readonly string[]).includes(seg)) {
     const rest = pathname.slice(seg.length + 1);
     return rest === "" ? "/" : rest;
   }

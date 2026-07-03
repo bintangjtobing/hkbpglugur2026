@@ -12,11 +12,11 @@ function hasPrefix(pathname: string, loc: string) {
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Buang prefix default: /id dan /id/... dialihkan ke URL bersih.
+  // Buang prefix default: /id dan /id/... dialihkan permanen (301) ke URL bersih.
   if (hasPrefix(pathname, DEFAULT)) {
     const url = request.nextUrl.clone();
     url.pathname = pathname.slice(DEFAULT.length + 1) || "/";
-    return NextResponse.redirect(url);
+    return NextResponse.redirect(url, 301);
   }
 
   // Locale berprefix (en, bbc) ditangani apa adanya oleh segmen [lang].
