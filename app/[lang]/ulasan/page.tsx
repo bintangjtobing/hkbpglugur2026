@@ -74,10 +74,10 @@ export default async function UlasanPage({
           desc={t.banner.desc}
         />
 
-        <section className="mx-auto max-w-3xl px-5 py-16 md:py-20">
+        <section className="mx-auto max-w-5xl px-5 py-16 md:py-20">
           {/* Ringkasan */}
           {count > 0 ? (
-            <Reveal className="mb-10 flex items-center gap-5 rounded-[var(--radius-card)] border border-line bg-white p-6 shadow-[var(--shadow-soft)]">
+            <Reveal className="mx-auto mb-8 flex max-w-md items-center gap-5 rounded-[var(--radius-card)] border border-line bg-white p-6 shadow-[var(--shadow-soft)]">
               <div className="text-center">
                 <p className="font-display text-5xl font-semibold text-black">
                   {avg.toLocaleString(intlLocale[locale])}
@@ -92,36 +92,39 @@ export default async function UlasanPage({
             </Reveal>
           ) : null}
 
-          {/* Daftar ulasan */}
+          {/* Daftar ulasan, tata letak masonry */}
           {count > 0 ? (
-            <div className="space-y-4">
+            <div className="columns-1 gap-4 sm:columns-2 lg:columns-3">
               {reviews.map((r) => (
-                <Reveal key={r.id}>
-                  <article className="rounded-[var(--radius-card)] border border-line bg-white p-6 shadow-[var(--shadow-soft)]">
-                    <div className="flex items-center justify-between gap-3">
-                      <p className="font-semibold text-black">
-                        {r.anonymous || !r.name ? t.anon : r.name}
-                      </p>
+                <article
+                  key={r.id}
+                  className="mb-4 break-inside-avoid rounded-[var(--radius-card)] border border-line bg-white p-6 shadow-[var(--shadow-soft)]"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <p className="font-semibold text-black">
+                      {r.anonymous || !r.name ? t.anon : r.name}
+                    </p>
+                    <span className="shrink-0">
                       <Stars value={r.rating} />
-                    </div>
-                    <p className="mt-1 text-xs text-black/50">
-                      {df.format(new Date(r.createdAt))}
-                    </p>
-                    <p className="mt-3 text-[15px] leading-relaxed text-black/80">
-                      {r.text}
-                    </p>
-                  </article>
-                </Reveal>
+                    </span>
+                  </div>
+                  <p className="mt-1 text-xs text-black/50">
+                    {df.format(new Date(r.createdAt))}
+                  </p>
+                  <p className="mt-3 text-[15px] leading-relaxed text-black/80">
+                    {r.text}
+                  </p>
+                </article>
               ))}
             </div>
           ) : (
-            <p className="rounded-[var(--radius-card)] border border-dashed border-mist-200 bg-white/60 p-8 text-center text-black/60">
+            <p className="mx-auto max-w-2xl rounded-[var(--radius-card)] border border-dashed border-mist-200 bg-white/60 p-8 text-center text-black/60">
               {t.empty}
             </p>
           )}
 
           {/* Form kirim ulasan */}
-          <div className="mt-14">
+          <div className="mx-auto mt-14 max-w-3xl">
             <h2 className="text-2xl font-semibold text-black">{t.formTitle}</h2>
             <div className="mt-6">
               <ReviewForm />
