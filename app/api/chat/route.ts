@@ -1,4 +1,5 @@
 import { SYSTEM_PROMPT } from "@/lib/chatbot-knowledge";
+import { rateLimit, clientIp } from "@/lib/rate-limit";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -11,6 +12,14 @@ export async function POST(request: Request) {
     return Response.json(
       { error: "Layanan chatbot belum dikonfigurasi." },
       { status: 503 }
+    );
+  }
+
+  // Batasi pemakaian per IP untuk mencegah penyalahgunaan biaya OpenAI.
+  if (!rateLimit(`chat:${clientIp(request)}`, 25, 600000)) {
+    return Response.json(
+      { error: "Terlalu banyak permintaan. Coba lagi sebentar." },
+      { status: 429 }
     );
   }
 

@@ -4,6 +4,7 @@ import path from "path";
 import nodemailer from "nodemailer";
 import { renderEmail, infoRow, EMAIL_LOGO_CID } from "@/lib/email-template";
 import { serverMsg, fill } from "@/lib/i18n/server-messages";
+import { rateLimit, clientIp } from "@/lib/rate-limit";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 120;
@@ -35,6 +36,10 @@ export async function POST(request: Request) {
   }
 
   const m = serverMsg(String(form.get("locale") || "id"));
+
+  if (!rateLimit(`galeri:${clientIp(request)}`, 6, 600000)) {
+    return NextResponse.json({ error: m.tooMany }, { status: 429 });
+  }
 
   const nama = String(form.get("nama") || "").trim();
   const email = String(form.get("email") || "").trim();

@@ -9,6 +9,7 @@ import { fill } from "./fill";
 import { isLocale } from "./config";
 
 const id = {
+  tooMany: "Terlalu banyak permintaan. Mohon tunggu sebentar lalu coba lagi.",
   invalidFormat: "Format permintaan tidak valid.",
   emailInvalid: "Alamat email tidak valid.",
   smtpUnset: "Layanan email belum dikonfigurasi. Hubungi pengelola situs.",
@@ -50,6 +51,7 @@ const id = {
 type ServerMsg = typeof id;
 
 const en: ServerMsg = {
+  tooMany: "Too many requests. Please wait a moment and try again.",
   invalidFormat: "Invalid request format.",
   emailInvalid: "The email address is not valid.",
   smtpUnset: "The email service is not configured. Please contact the site manager.",
@@ -90,6 +92,7 @@ const en: ServerMsg = {
 
 // Batak Toba (draf, perlu review penutur asli).
 const bbc: ServerMsg = {
+  tooMany: "Lobi torop pangidoan. Paima jolo, ulangi muse.",
   invalidFormat: "Format pangidoan na so tama.",
   emailInvalid: "Alamat email na so tama.",
   smtpUnset: "Layanan email ndang dope dikonfigurasi. Hubungi ma pangelola situs.",

@@ -5,6 +5,7 @@ import nodemailer from "nodemailer";
 import { verifyCaptcha } from "@/lib/captcha";
 import { renderEmail, infoRow, EMAIL_LOGO_CID } from "@/lib/email-template";
 import { serverMsg, fill } from "@/lib/i18n/server-messages";
+import { rateLimit, clientIp } from "@/lib/rate-limit";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -40,6 +41,10 @@ export async function POST(request: Request) {
 
   const locale = String(form.get("locale") || "id");
   const m = serverMsg(locale);
+
+  if (!rateLimit(`permintaan:${clientIp(request)}`, 6, 600000)) {
+    return NextResponse.json({ error: m.tooMany }, { status: 429 });
+  }
 
   const nama = String(form.get("nama") || "").trim();
   const email = String(form.get("email") || "").trim();

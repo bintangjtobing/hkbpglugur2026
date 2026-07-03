@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/permintaan", "/en/permintaan", "/bbc/permintaan"],
+        disallow: ["/api/", "/permintaan", "/en/permintaan", "/bbc/permintaan", "/gallery-pending/"],
       },
     ],
     sitemap: `${SITE_URL}/sitemap.xml`,

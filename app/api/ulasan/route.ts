@@ -9,6 +9,8 @@ import { addReview } from "@/lib/reviews/store";
 import { signAction } from "@/lib/reviews/token";
 import { getDictionary } from "@/lib/i18n";
 import { isLocale } from "@/lib/i18n/config";
+import { serverMsg } from "@/lib/i18n/server-messages";
+import { rateLimit, clientIp } from "@/lib/rate-limit";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -35,6 +37,10 @@ export async function POST(request: Request) {
   const localeRaw = String(form.get("locale") || "id");
   const locale = isLocale(localeRaw) ? localeRaw : "id";
   const f = getDictionary(locale).reviews.form;
+
+  if (!rateLimit(`ulasan:${clientIp(request)}`, 8, 600000)) {
+    return NextResponse.json({ error: serverMsg(locale).tooMany }, { status: 429 });
+  }
 
   const anonymous = ["true", "on", "1"].includes(
     String(form.get("anonymous") || "").toLowerCase()
