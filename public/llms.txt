@@ -22,6 +22,11 @@
 - [Permintaan Perbaikan Konten](https://hkbpglugur.com/permintaan): Formulir kirim koreksi konten dengan lampiran.
 - [Tentang Pengembang](https://hkbpglugur.com/pengembang): Situs dibangun relawan Bintang Tobing.
 
+## Bantuan dan legal
+- [Tanya Jawab (FAQ)](https://hkbpglugur.com/faq): Pertanyaan yang sering diajukan seputar ibadah, lokasi, pelayanan, buku digital, dan fitur situs.
+- [Ketentuan Layanan](https://hkbpglugur.com/ketentuan): Aturan pemakaian situs, konten pengguna, chatbot, donasi, dan tanggung jawab.
+- [Kebijakan Privasi](https://hkbpglugur.com/kebijakan-privasi): Data yang dikumpulkan, cookie, analitik, berbagi data, dan hak Anda.
+
 ## Bahasa
 - Situs tersedia dalam tiga bahasa. Bahasa Indonesia di root (contoh https://hkbpglugur.com/informasi), Bahasa Inggris dengan prefix /en (https://hkbpglugur.com/en/informasi), dan Batak Toba dengan prefix /bbc (https://hkbpglugur.com/bbc/informasi).
 

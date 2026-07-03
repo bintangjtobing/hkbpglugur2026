@@ -18,6 +18,9 @@ const routes = [
   "/warta",
   "/sejarah-hkbp-glugur",
   "/ulasan",
+  "/faq",
+  "/ketentuan",
+  "/kebijakan-privasi",
 ];
 
 function abs(path: string, locale: (typeof locales)[number]) {

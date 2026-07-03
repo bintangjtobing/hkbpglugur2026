@@ -48,6 +48,9 @@
     "temaLink": "Lapatan Tema Transformasi HKBP 2024 sahat 2028",
     "permintaanLink": "Pangidoan Paurason Isi",
     "pengembangLink": "Taringot tu Pangembang",
+    "faqLink": "Sungkun dohot Alus",
+    "ketentuanLink": "Aturan Layanan",
+    "privasiLink": "Kebijakan Privasi",
     "temaBlurb": "Diusung HKBP do tema Transformasi, muba marhite paimbaruon ni roha (Roma 12:2), asa gabe pasupasu di portibi on.",
     "berkat": "Sai Tuhan i ma mangaramoti hita. Sai dipasupasu Tuhan i ma hita.",
     "relawanPre": "Dipauli songon prakarsa relawan sian",
@@ -587,6 +590,229 @@
       "reportSuccessBody": "Nunga hujalo hami laporan mu jala diteruskon tu tim laho ditinjau. Sai dipasupasu Tuhan Jesus i ma ho."
     }
   },
+  "legal": {
+    "updatedLabel": "Marlaku olat ni 3 Juli 2026",
+    "tocLabel": "Isi ni halaman"
+  },
+  "ketentuan": {
+    "banner": {
+      "eyebrow": "Legal",
+      "title": "Aturan Layanan",
+      "desc": "Aturan pamangkeon situs HKBP Glugur. Tapoma jaha andorang so mamangke situs on."
+    },
+    "intro": "Selamat ro tu situs HKBP Glugur. Marhite mangakses jala mamangke situs on, mangoloi ho tu aturan na di toru on. Molo ndang mangoloi ho, tapoma mansohot mamangke situs on.",
+    "sections": [
+      {
+        "heading": "Taringot tu situs on",
+        "body": [
+          "Situs on i ma situs resmi ni HKBP Glugur, huria di Glugur Darat, Medan. Marisi informasi ni huria do situs songon profil, tingki parmingguon, sejarah, parhaladoon, buku digital, warta, galeri, dohot dalan laho marhubungi hami.",
+          "Informasi di situs boi muba tingki dia pe. Diusahahon hami do manjaga informasi asa tongtong sintong, alai ndang dijamin tongtong lengkap manang na imbaru. Tu hal na ringkot, hubungi kantor ni huria."
+        ]
+      },
+      {
+        "heading": "Pamangkeon situs",
+        "body": ["Boi do dipangke ho situs on tu hobas pribadi dohot na so komersial. Tingki mamangke situs, mangoloi ho asa unang mangulahon hal na di toru on."],
+        "bullets": [
+          "Mamangke situs tu tujuan na mangalaosi hukum.",
+          "Mangganggu, mangarusak, manang mamboani sistem ni situs.",
+          "Mangirim spam, virus, manang kode na mara marhite formulir.",
+          "Mambuat data ni situs secara massal so marizin."
+        ]
+      },
+      {
+        "heading": "Isi na dikirim ho",
+        "body": [
+          "Disediahon situs do formulir laho mangirim ulasan, foto galeri, warta tata parmingguon, dohot pangidoan paurason. Tingki mangirim isi, dipaboa ho do na marhak ho di isi i jala pangirimonna ndang mangalaosi hak ni halak na asing.",
+          "Marhite mangirim isi, dilehon ho do izin tu HKBP Glugur laho maninjau, manyunting, mangalehon, manang mangasesa isi i di situs. Boi do tolakon manang sesaon hami isi na so sesuai so marpaboa jolo. Ulasan tampil publik dung ditinjau. Foto dohot warta dipatuduhon dung diverifikasi."
+        ],
+        "bullets": [
+          "Dilarang mangirim isi na kasar, mamfitnah, palilu, manang mangalaosi hukum.",
+          "Dilarang mangirim data pribadi ni halak na asing so marizin.",
+          "Dilarang mangirim materi na marhak cipta ni halak na asing so marhak."
+        ]
+      },
+      {
+        "heading": "Buku digital dohot isi ni pihak patoluhon",
+        "body": ["Teks Alkitab disediahon marhite API SABDA (alkitab.sabda.org). Buku Ende dohot Kidung Jemaat ro sian dataset publik. Hak cipta di ganup isi tong di nampunasa. Situs on patuduhonsa tu hobas parhaladoon ni ruas."]
+      },
+      {
+        "heading": "Parhalado Digital (chatbot)",
+        "body": ["Disediahon situs do chatbot na margoar Parhalado Digital na diurupi kecerdasan buatan. Alusna boi lilu manang ndang lengkap. Unang bahen gabe keputusan resmi. Tu hatiuron, hubungi huria pintor."]
+      },
+      {
+        "heading": "Donasi dohot pelean",
+        "body": [
+          "Tautan donasi Saweria di halaman Pangembang i ma panopangan sukarela tu pangembang relawan ni situs, ndada pelean ni huria.",
+          "Pelean resmi tu HKBP Glugur disalurhon marhite rekening ni huria na tarsurat di halaman Informasi. Situs on ndang mamroses pambayaran aha pe secara langsung."
+        ]
+      },
+      {
+        "heading": "Hak kekayaan intelektual",
+        "body": ["Goar, logo, dohot lambang HKBP i ma milik ni Huria Kristen Batak Protestan. Teks dohot tata letak ni situs on dibahen tu parhaladoon ni HKBP Glugur. Unang salin manang pangke muse tu tujuan komersial so marizin."]
+      },
+      {
+        "heading": "Tautan tu situs na asing",
+        "body": ["Marisi tautan do situs tu layanan ni pihak patoluhon songon Google Maps, YouTube, dohot Facebook. Ndang partanggungjawab hami di isi manang kebijakan ni situs pihak patoluhon i."]
+      },
+      {
+        "heading": "Panafian dohot batasan ni tanggung jawab",
+        "body": ["Situs on disediahon songon na adong. Saleleng diizinhon hukum, HKBP Glugur dohot pangembang ndang partanggungjawab di harugion na ro sian pamangkeon situs manang hasalaan ni informasi na di bagasan."]
+      },
+      {
+        "heading": "Privasi",
+        "body": ["Pamangkeon data pribadimu diatur di Kebijakan Privasi nami. Marhite mamangke situs on, mangoloi ho do nang kebijakan i."]
+      },
+      {
+        "heading": "Parubaon ni aturan",
+        "body": ["Boi do paimbaru hami aturan on tingki dia pe. Parubaon marlaku dung dimuat di halaman on. Tapoma periksa manang piga hali."]
+      },
+      {
+        "heading": "Hukum na marlaku",
+        "body": ["Aturan on tunduk tu hukum ni Republik Indonesia."]
+      },
+      {
+        "heading": "Hubungi hami",
+        "body": ["Tu sungkun taringot tu aturan on, hubungi hami di hkbpglugurmdn@gmail.com manang (061) 6611846."]
+      }
+    ]
+  },
+  "privasi": {
+    "banner": {
+      "eyebrow": "Legal",
+      "title": "Kebijakan Privasi",
+      "desc": "Songon dia hami manghumpulhon, mamangke, dohot mangaramoti data mu."
+    },
+    "intro": "Kebijakan Privasi on manjelashon data aha na hupungu hami tingki mamangke ho situs HKBP Glugur, songon dia hami mamangkena, dohot hak mu di data i.",
+    "sections": [
+      {
+        "heading": "Ise hami",
+        "body": ["Situs on dikelola ni HKBP Glugur, huria di Jl. Pembangunan III No.57A, Glugur Darat II, Medan. Tu urusan data pribadi, hubungi hami di hkbpglugurmdn@gmail.com."]
+      },
+      {
+        "heading": "Data na hupungu hami",
+        "body": ["Dua jenis data do hupungu hami."],
+        "bullets": [
+          "Data na dilehon ho marhite formulir: goar, email, nomor telepon, barita, ulasan, foto, berkas warta, dohot lampiran na asing na dikirim ho.",
+          "Isi ni panghataion na dituris ho tu chatbot Parhalado Digital.",
+          "Data otomatis tingki manjelajah ho: alamat IP, jenis perangkat dohot peramban, halaman na ditopot, dohot interaksimu songon parmaraon dohot klik marhite alat analitik."
+        ]
+      },
+      {
+        "heading": "Songon dia hami mamangke data",
+        "body": ["Dipangke hami data tu tujuan na di toru on."],
+        "bullets": [
+          "Mangalusi pangidoan, laporan, dohot sungkunmu.",
+          "Maninjau dohot mangalehon ulasan, foto, manang warta na dikirim ho.",
+          "Manjalanhon chatbot dohot mangalusi sungkunmu.",
+          "Mangantusi songon dia pangunjung mamangke situs asa boi paurason hami.",
+          "Manjaga hamaman ni situs sian pamangkeon na so tama."
+        ]
+      },
+      {
+        "heading": "Cookie dohot teknologi panlaluk",
+        "body": ["Dipangke situs do cookie dohot teknologi na tudos."],
+        "bullets": [
+          "Cookie pilihan hata laho maningoti hata na pinillitmu.",
+          "Google Analytics 4 tu statistik ni kunjungan.",
+          "Microsoft Clarity na marekam sesi ni kunjungan dohot heatmap ni parmaraon dohot klik secara anonim laho mangantusi pamangkeon ni halaman."
+        ]
+      },
+      {
+        "heading": "Mangelola cookie",
+        "body": ["Boi do diatur manang sesaon ho cookie marhite pengaturan ni peramban mu. Mamatihon cookie na tinodo boi mangkorhon deba fungsi ni situs."]
+      },
+      {
+        "heading": "Marbagi data dohot pihak patoluhon",
+        "body": ["Ndang hugadis hami data mu. Data dibagihon holan tu panyedia layanan na mambahen situs on mardalan."],
+        "bullets": [
+          "Email na dikirim ho marhite formulir diteruskon tu email ni pangelola huria dohot pangembang marhite layanan email Gmail.",
+          "Google tu analitik dohot peta, Microsoft tu Clarity, dohot OpenAI laho mamroses barita ni chatbot.",
+          "Isi na pinillitmu tu publik, songon ulasan na dioloi, tarida do di pangunjung na asing."
+        ]
+      },
+      {
+        "heading": "Panyimpanan dohot hamaman",
+        "body": ["Ulasan na dioloi dohot foto na diverifikasi disimpan di server ni situs. Email dohot lampiran tarsimpan di kotak masuk ni pangelola. Dijaga hami data marhite langkah hamaman na tama, alai ndang adong sistem na aman sae. Disimpan hami data saleleng diparluhon tu tujuan na di ginjang manang saleleng diwajibhon hukum."]
+      },
+      {
+        "heading": "Isi publik na dikirim ho",
+        "body": ["Ulasan na dikirim ho boi tampil publik rap dohot goar, manang songon anonim molo pinillitmu, dohot tanggal. Foto na dioloi boi tampil di galeri. Unang kirim informasi na so naeng patuduhononmu secara publik."]
+      },
+      {
+        "heading": "Hak mu",
+        "body": ["Marhak do ho mangido akses, paurason, manang panesaon data pribadimu na husimpan hami. Tu i, hubungi hami di hkbpglugurmdn@gmail.com. Boi do nang dipangido ho asa disesa ulasan mu."]
+      },
+      {
+        "heading": "Data ni dakdanak",
+        "body": ["Situs on ditujuhon tu ruas dohot masyarakat umum, ndada laho manghumpulhon data pribadi ni dakdanak secara khusus. Molo natuatua ho jala dapotanmu anakmu mangirim data, hubungi hami asa husesa hami."]
+      },
+      {
+        "heading": "Tautan tu situs na asing",
+        "body": ["Marisi tautan do situs tu layanan ni pihak patoluhon. Kebijakan privasi nasida marlaku tingki diungkap ho situs nasida. Hupasombahon hami manjaha kebijakan ni ganupna."]
+      },
+      {
+        "heading": "Parubaon ni kebijakan",
+        "body": ["Boi do paimbaru hami kebijakan on. Parubaon marlaku dung dimuat di halaman on rap dohot tanggal marlaku na diimbaru."]
+      },
+      {
+        "heading": "Hubungi hami",
+        "body": ["Tu sungkun taringot tu privasi, hubungi hkbpglugurmdn@gmail.com manang (061) 6611846."]
+      }
+    ]
+  },
+  "faq": {
+    "banner": {
+      "eyebrow": "Pangurupion",
+      "title": "Sungkun dohot Alus",
+      "desc": "Alus tu sungkun na jotjot disungkun taringot tu huria dohot situs."
+    },
+    "intro": "On do alus tu sungkun na jotjot disungkun taringot tu HKBP Glugur dohot situs on. Molo so taralusi dope sungkunmu, hubungi hami manang sungkun marhite chatbot Parhalado Digital.",
+    "groups": [
+      {
+        "title": "Parmingguon dohot ulaon",
+        "items": [
+          { "q": "Andigan tingki parmingguon Minggu?", "a": "Parmingguon Minggu pukul 07.45, 10.00, dohot 17.00 WIB. Adong do nang parmingguon sektor ganup Rabu dohot Kamis pukul 20.00 WIB na marganti di bagas ni ruas." },
+          { "q": "Boi do halak na ro marmingguon?", "a": "Boi tutu. Ungkap do pintu ni huria di ganup ruas dohot halak na ro. Parmingguon arian pukul 10.00 WIB i ma parmingguon keluarga na ungkap di sude." },
+          { "q": "Adong do parmingguon ari balga?", "a": "Adong. Dipatupa hami parmingguon Natal, Taon Baru, Jumat Agung, Paskah, Hananaek, Pentakosta, dohot parmingguon hamatean marguru tu hasuhaton. Tanggal ni ari balga na marganti mangihuthon kalender ni huria ganup taon." },
+          { "q": "Aha do angka parhaladoon tu ruas?", "a": "Adong Sikola Minggu, Naposobulung (NHKBP), Punguan Ina, Punguan Ama, koor, dohot diakonia sosial." }
+        ]
+      },
+      {
+        "title": "Inganan dohot kontak",
+        "items": [
+          { "q": "Didia inganan ni HKBP Glugur?", "a": "Jl. Pembangunan III No.57A, Glugur Darat II, Kec. Medan Timur, Huta Medan, Sumatera Utara 20238. Panuduan dalan tarsedia marhite tombol inganan di bagas." },
+          { "q": "Songon dia dalan marhubungi huria?", "a": "Telepon (061) 6611846 manang email hkbpglugurmdn@gmail.com. Adong do nang hami di Facebook dohot YouTube." },
+          { "q": "Aha bedana HKBP Glugur dohot HKBP Sei Glugur?", "a": "Marasing do. HKBP Glugur adong di Glugur Darat jala gabe pusat ni Ressort Medan Utara. HKBP Sei Glugur adong di Ressort Padang Bulan. Duansa i ma huria na marasing." }
+        ]
+      },
+      {
+        "title": "Administrasi dohot parhaladoon",
+        "items": [
+          { "q": "Songon dia syarat pamasumasuon di HKBP Glugur?", "a": "Ruas mamboan surat pengantar sintua rap dohot fotokopi Surat Pandidion dohot Surat Sidi. Na so ruas mamboan Surat Keterangan Ruas sian huria asalna. Boan pasfoto gandeng jala laporhon berkas sasada minggu andorang so ari H. Konseling dipatupa 2 sahat 3 ari andorang so i. Detail adong di halaman Informasi." },
+          { "q": "Tudia disalurhon pelean?", "a": "Tu rekening resmi ni huria Bank BNI 0292882601 margoar HKBP Glugur Resort Medan Utara. Detail adong di halaman Informasi." },
+          { "q": "Sadia tarif pangumban fasilitas ni huria?", "a": "Tarif aula dohot gedung serbaguna tarsurat di halaman Informasi, data olat ni Maret 2024. Tu hatiuron, hubungi kantor ni huria." }
+        ]
+      },
+      {
+        "title": "Situs dohot fitur",
+        "items": [
+          { "q": "Aha do angka buku digital na tarsedia?", "a": "Adong Alkitab di Terjemahan Baru, Terjemahan Lama, dohot Batak Toba, dung i Buku Ende dohot Kidung Jemaat. Sude boi dijaha gratis di halaman Buku." },
+          { "q": "Songon dia dalan manjaha dohot mangunduh warta?", "a": "Ungkap halaman Warta Tata Parmingguon. Warta tarsedia di bentuk PDF na boi dijaha dohot diunduh. Pangurus boi do nang mangirim warta marhite formulir di halaman i." },
+          { "q": "Songon dia dalan mangirim foto ulaon?", "a": "Ungkap halaman Galeri, dung i isi formulir kirim foto. Tim nami maninjau dung i mangalehon foto na sesuai." },
+          { "q": "Songon dia dalan mangalehon ulasan tu situs on?", "a": "Ungkap halaman Ulasan, lehon rating bintang jala surat ulasan mu. Boi do dipillit ho anonim. Ulasan tampil dung ditinjau." },
+          { "q": "Songon dia dalan mangganti hata ni situs?", "a": "Situs tarsedia di hata Indonesia, Inggris, dohot Batak Toba. Ganti marhite tombol hata di bagian ginjang ni halaman." },
+          { "q": "Aha do Parhalado Digital?", "a": "Parhalado Digital i ma chatbot na mangurupi mangalusi sungkun taringot tu huria dohot situs. Alusna diurupi kecerdasan buatan, jadi boi lilu. Tu hal na ringkot, hubungi huria pintor." }
+        ]
+      },
+      {
+        "title": "Data dohot privasi",
+        "items": [
+          { "q": "Disimpan situs do data hu?", "a": "Dipungu situs do data na dikirim ho marhite formulir dohot data analitik ni kunjungan. Rincianna adong di Kebijakan Privasi." },
+          { "q": "Songon dia dalan mangasesa ulasan manang data hu?", "a": "Hubungi hami di hkbpglugurmdn@gmail.com jala paboa pangidoanmu." }
+        ]
+      }
+    ]
+  },
   "meta": {
     "default": {
       "title": "HKBP Glugur, Huria Ressort Medan Utara di Medan",
@@ -652,6 +878,18 @@
     "ulasan": {
       "title": "Ulasan ni Situs HKBP Glugur",
       "description": "Jaha jala lehon ulasan tu situs HKBP Glugur. Bagihon pengalamanmu mamangke situs on."
+    },
+    "ketentuan": {
+      "title": "Aturan Layanan",
+      "description": "Aturan pamangkeon situs HKBP Glugur: pamangkeon situs, isi ni pangguna, chatbot, donasi, hak kekayaan intelektual, dohot tanggung jawab."
+    },
+    "privasi": {
+      "title": "Kebijakan ni Privasi",
+      "description": "Kebijakan privasi ni situs HKBP Glugur: data na dipungu, cookie, analitik, marbagi data dohot pihak patoluhon, dohot hak mu."
+    },
+    "faq": {
+      "title": "Sungkun dohot Alus (FAQ)",
+      "description": "Sungkun na jotjot disungkun taringot tu HKBP Glugur dohot situs: tingki parmingguon, inganan, parhaladoon, buku digital, dohot fitur ni situs."
     }
   }
 }

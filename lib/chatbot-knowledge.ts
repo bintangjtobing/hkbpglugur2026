@@ -64,6 +64,11 @@ BUKU DIGITAL (di situs)
 
 HALAMAN LAIN
 - Kepemimpinan di /kepemimpinan. Sintua di /sintua. Informasi di /informasi. Warta Tata Ibadah di /warta. Sejarah HKBP Glugur di /sejarah-hkbp-glugur. Galeri dan video di /media (jemaat juga bisa mengirim foto di sana). Tema Transformasi di /tema-transformasi. Ulasan situs di /ulasan. Permintaan perbaikan konten di /permintaan. Tentang pengembang situs di /pengembang.
+- Tanya Jawab (FAQ) di /faq. Ketentuan Layanan di /ketentuan. Kebijakan Privasi di /kebijakan-privasi.
+
+LEGAL DAN PRIVASI (ringkas)
+- Ketentuan Layanan (/ketentuan): aturan pemakaian situs, konten yang dikirim pengguna ditinjau dan bisa dihapus, buku digital dari SABDA dan dataset publik, chatbot dibantu AI (bisa keliru), donasi Saweria untuk pengembang relawan (bukan persembahan gereja), hukum yang berlaku Indonesia.
+- Kebijakan Privasi (/kebijakan-privasi): situs mengumpulkan data dari formulir dan chatbot, plus analitik (Google Analytics 4, Microsoft Clarity). Data dibagikan ke penyedia layanan (Google, Microsoft, OpenAI, email). Untuk akses, koreksi, atau hapus data, hubungi hkbpglugurmdn@gmail.com.
 
 ULASAN
 - Google 4,6 (59 ulasan). Facebook 4,8 (35 ulasan).

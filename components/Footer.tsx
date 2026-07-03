@@ -124,6 +124,19 @@ export function Footer() {
 
       <div className="relative border-t border-white/10">
         <div className="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-5 text-xs text-white/45">
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1.5 sm:justify-start">
+            <Link href={lh("/faq")} className="transition-colors hover:text-white">
+              {dict.footer.faqLink}
+            </Link>
+            <span aria-hidden="true">·</span>
+            <Link href={lh("/ketentuan")} className="transition-colors hover:text-white">
+              {dict.footer.ketentuanLink}
+            </Link>
+            <span aria-hidden="true">·</span>
+            <Link href={lh("/kebijakan-privasi")} className="transition-colors hover:text-white">
+              {dict.footer.privasiLink}
+            </Link>
+          </div>
           <div className="flex flex-col items-center justify-between gap-2 sm:flex-row">
             <p>
               © {new Date().getFullYear()} HKBP Glugur · {church.ressort}

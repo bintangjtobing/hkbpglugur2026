@@ -110,4 +110,14 @@ Situs ini dibangun sebagai inisiatif relawan oleh Bintang Tobing, Product dan Pr
 
 ## Bahasa
 
-Situs tersedia dalam tiga bahasa. Bahasa Indonesia di root (contoh https://hkbpglugur.com/informasi), Bahasa Inggris dengan prefix /en (https://hkbpglugur.com/en/informasi), dan Batak Toba dengan prefix /bbc (https://hkbpglugur.com/bbc/informasi). Setiap halaman memuat tautan alternatif hreflang untuk ketiga bahasa.
+Situs tersedia dalam tiga bahasa. Bahasa Indonesia di root (contoh https://hkbpglugur.com/informasi), Bahasa Inggris dengan prefix /en (https://hkbpglugur.com/en/informasi), dan Batak Toba dengan prefix /bbc (https://hkbpglugur.com/bbc/informasi). Setiap halaman memuat tautan alternatif hreflang untuk Indonesia dan Inggris.
+
+## Tanya Jawab (FAQ)
+
+Halaman /faq memuat pertanyaan yang sering diajukan, dikelompokkan: ibadah dan kegiatan, lokasi dan kontak, administrasi dan pelayanan, situs dan fitur, serta data dan privasi. Mencakup jadwal ibadah, kehadiran tamu, ibadah hari besar, syarat pernikahan, penyaluran persembahan, tarif fasilitas, buku digital, cara kirim warta dan foto, cara memberi ulasan, mengganti bahasa, chatbot Pelayan Digital, penyimpanan data, dan cara menghapus data.
+
+## Legal
+
+Halaman /ketentuan memuat Ketentuan Layanan: pemakaian situs, konten yang dikirim pengguna, buku digital dan konten pihak ketiga, chatbot, donasi (Saweria untuk pengembang relawan, persembahan gereja lewat rekening BNI), hak kekayaan intelektual, tautan pihak ketiga, penafian, dan hukum yang berlaku (Indonesia).
+
+Halaman /kebijakan-privasi memuat Kebijakan Privasi: data yang dikumpulkan lewat formulir dan chatbot, data otomatis (alamat IP, perangkat, analitik Google Analytics 4 dan Microsoft Clarity), cookie, berbagi data dengan penyedia layanan (Google, Microsoft, OpenAI, email), penyimpanan dan keamanan, konten publik, hak pengguna, dan kontak (hkbpglugurmdn@gmail.com).

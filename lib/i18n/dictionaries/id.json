@@ -48,6 +48,9 @@
     "temaLink": "Makna Tema Transformasi HKBP 2024 sampai 2028",
     "permintaanLink": "Permintaan Perbaikan Konten",
     "pengembangLink": "Tentang Pengembang",
+    "faqLink": "Tanya Jawab",
+    "ketentuanLink": "Ketentuan Layanan",
+    "privasiLink": "Kebijakan Privasi",
     "temaBlurb": "HKBP mengusung tema Transformasi, berubah oleh pembaruan budi (Roma 12:2), untuk menjadi berkat bagi dunia.",
     "berkat": "Sai Tuhan i ma mangaramoti hita. Tuhan memberkati.",
     "relawanPre": "Dibangun sebagai inisiatif relawan oleh",
@@ -587,6 +590,229 @@
       "reportSuccessBody": "Laporan Anda sudah kami terima dan diteruskan ke tim untuk ditinjau. Tuhan Yesus memberkati."
     }
   },
+  "legal": {
+    "updatedLabel": "Berlaku sejak 3 Juli 2026",
+    "tocLabel": "Isi halaman"
+  },
+  "ketentuan": {
+    "banner": {
+      "eyebrow": "Legal",
+      "title": "Ketentuan Layanan",
+      "desc": "Aturan pemakaian situs HKBP Glugur. Mohon baca sebelum memakai situs ini."
+    },
+    "intro": "Selamat datang di situs HKBP Glugur. Dengan mengakses dan memakai situs ini, Anda setuju pada ketentuan di bawah ini. Bila Anda tidak setuju, mohon berhenti memakai situs ini.",
+    "sections": [
+      {
+        "heading": "Tentang situs ini",
+        "body": [
+          "Situs ini adalah situs resmi HKBP Glugur, gereja di Glugur Darat, Medan. Situs memuat informasi gereja seperti profil, jadwal ibadah, sejarah, pelayanan, buku digital, warta, galeri, dan cara menghubungi kami.",
+          "Informasi di situs bisa berubah sewaktu-waktu. Kami berusaha menjaga informasi tetap akurat, tetapi tidak menjamin selalu lengkap atau terbaru. Untuk hal penting, hubungi kantor gereja."
+        ]
+      },
+      {
+        "heading": "Penggunaan situs",
+        "body": ["Anda boleh memakai situs ini untuk keperluan pribadi dan non-komersial. Saat memakai situs, Anda setuju untuk tidak melakukan hal berikut."],
+        "bullets": [
+          "Memakai situs untuk tujuan yang melanggar hukum.",
+          "Mengganggu, merusak, atau membebani sistem situs.",
+          "Mengirim spam, virus, atau kode berbahaya lewat formulir.",
+          "Mengambil data situs secara massal tanpa izin."
+        ]
+      },
+      {
+        "heading": "Konten yang Anda kirim",
+        "body": [
+          "Situs menyediakan formulir untuk mengirim ulasan, foto galeri, warta tata ibadah, dan permintaan perbaikan. Saat mengirim konten, Anda menyatakan bahwa Anda berhak atas konten itu dan pengirimannya tidak melanggar hak orang lain.",
+          "Dengan mengirim konten, Anda memberi izin kepada HKBP Glugur untuk meninjau, menyunting, menampilkan, atau menghapus konten itu di situs. Kami dapat menolak atau menghapus konten yang tidak sesuai tanpa pemberitahuan. Ulasan tampil publik setelah ditinjau. Foto dan warta ditampilkan setelah diverifikasi."
+        ],
+        "bullets": [
+          "Dilarang mengirim konten yang kasar, memfitnah, menyesatkan, atau melanggar hukum.",
+          "Dilarang mengirim data pribadi orang lain tanpa izin.",
+          "Dilarang mengirim materi berhak cipta milik orang lain tanpa hak."
+        ]
+      },
+      {
+        "heading": "Buku digital dan konten pihak ketiga",
+        "body": ["Teks Alkitab disediakan melalui API SABDA (alkitab.sabda.org). Buku Ende dan Kidung Jemaat berasal dari dataset publik. Hak cipta atas masing-masing konten tetap milik pemiliknya. Situs ini menampilkannya untuk keperluan pelayanan jemaat."]
+      },
+      {
+        "heading": "Pelayan Digital (chatbot)",
+        "body": ["Situs menyediakan chatbot bernama Pelayan Digital yang dibantu kecerdasan buatan. Jawabannya bisa keliru atau tidak lengkap. Jangan menjadikannya keputusan resmi. Untuk kepastian, hubungi gereja langsung."]
+      },
+      {
+        "heading": "Donasi dan persembahan",
+        "body": [
+          "Tautan donasi Saweria di halaman Pengembang adalah dukungan sukarela untuk pengembang relawan situs, bukan persembahan gereja.",
+          "Persembahan resmi untuk HKBP Glugur disalurkan melalui rekening gereja yang tertera di halaman Informasi. Situs ini tidak memproses pembayaran apa pun secara langsung."
+        ]
+      },
+      {
+        "heading": "Hak kekayaan intelektual",
+        "body": ["Nama, logo, dan lambang HKBP adalah milik Huria Kristen Batak Protestan. Teks dan tata letak situs ini dibuat untuk pelayanan HKBP Glugur. Jangan menyalin atau memakai ulang untuk tujuan komersial tanpa izin."]
+      },
+      {
+        "heading": "Tautan ke situs lain",
+        "body": ["Situs memuat tautan ke layanan pihak ketiga seperti Google Maps, YouTube, dan Facebook. Kami tidak bertanggung jawab atas isi atau kebijakan situs pihak ketiga tersebut."]
+      },
+      {
+        "heading": "Penafian dan batasan tanggung jawab",
+        "body": ["Situs ini disediakan sebagaimana adanya. Sejauh diizinkan hukum, HKBP Glugur dan pengembang tidak bertanggung jawab atas kerugian yang timbul dari pemakaian situs atau ketidakakuratan informasi di dalamnya."]
+      },
+      {
+        "heading": "Privasi",
+        "body": ["Pemakaian data pribadi Anda diatur dalam Kebijakan Privasi kami. Dengan memakai situs ini, Anda juga menyetujui kebijakan tersebut."]
+      },
+      {
+        "heading": "Perubahan ketentuan",
+        "body": ["Kami dapat memperbarui ketentuan ini sewaktu-waktu. Perubahan berlaku setelah dimuat di halaman ini. Mohon periksa sesekali."]
+      },
+      {
+        "heading": "Hukum yang berlaku",
+        "body": ["Ketentuan ini tunduk pada hukum Republik Indonesia."]
+      },
+      {
+        "heading": "Hubungi kami",
+        "body": ["Untuk pertanyaan tentang ketentuan ini, hubungi kami di hkbpglugurmdn@gmail.com atau (061) 6611846."]
+      }
+    ]
+  },
+  "privasi": {
+    "banner": {
+      "eyebrow": "Legal",
+      "title": "Kebijakan Privasi",
+      "desc": "Bagaimana kami mengumpulkan, memakai, dan melindungi data Anda."
+    },
+    "intro": "Kebijakan Privasi ini menjelaskan data apa yang kami kumpulkan saat Anda memakai situs HKBP Glugur, cara kami memakainya, dan hak Anda atas data itu.",
+    "sections": [
+      {
+        "heading": "Siapa kami",
+        "body": ["Situs ini dikelola oleh HKBP Glugur, gereja di Jl. Pembangunan III No.57A, Glugur Darat II, Medan. Untuk urusan data pribadi, hubungi kami di hkbpglugurmdn@gmail.com."]
+      },
+      {
+        "heading": "Data yang kami kumpulkan",
+        "body": ["Kami mengumpulkan dua jenis data."],
+        "bullets": [
+          "Data yang Anda berikan lewat formulir: nama, email, nomor telepon, pesan, ulasan, foto, berkas warta, dan lampiran lain yang Anda kirim.",
+          "Isi percakapan yang Anda ketik ke chatbot Pelayan Digital.",
+          "Data otomatis saat Anda menjelajah: alamat IP, jenis perangkat dan peramban, halaman yang dikunjungi, serta interaksi Anda seperti gerakan dan klik melalui alat analitik."
+        ]
+      },
+      {
+        "heading": "Cara kami memakai data",
+        "body": ["Kami memakai data untuk tujuan berikut."],
+        "bullets": [
+          "Menjawab permintaan, laporan, dan pertanyaan Anda.",
+          "Meninjau dan menampilkan ulasan, foto, atau warta yang Anda kirim.",
+          "Menjalankan chatbot dan menjawab pertanyaan Anda.",
+          "Memahami cara pengunjung memakai situs agar bisa kami perbaiki.",
+          "Menjaga keamanan situs dari penyalahgunaan."
+        ]
+      },
+      {
+        "heading": "Cookie dan teknologi pelacak",
+        "body": ["Situs memakai cookie dan teknologi serupa."],
+        "bullets": [
+          "Cookie pilihan bahasa untuk mengingat bahasa yang Anda pilih.",
+          "Google Analytics 4 untuk statistik kunjungan.",
+          "Microsoft Clarity yang merekam sesi kunjungan dan heatmap gerakan serta klik secara anonim untuk memahami pemakaian halaman."
+        ]
+      },
+      {
+        "heading": "Mengelola cookie",
+        "body": ["Anda dapat mengatur atau menghapus cookie lewat pengaturan peramban Anda. Menonaktifkan cookie tertentu dapat memengaruhi sebagian fungsi situs."]
+      },
+      {
+        "heading": "Berbagi data dengan pihak ketiga",
+        "body": ["Kami tidak menjual data Anda. Data dibagikan hanya kepada penyedia layanan yang membuat situs ini berjalan."],
+        "bullets": [
+          "Email yang Anda kirim lewat formulir diteruskan ke email pengelola gereja dan pengembang melalui layanan email Gmail.",
+          "Google untuk analitik dan peta, Microsoft untuk Clarity, dan OpenAI untuk memproses pesan chatbot.",
+          "Konten yang Anda pilih untuk publik, seperti ulasan yang disetujui, akan terlihat oleh pengunjung lain."
+        ]
+      },
+      {
+        "heading": "Penyimpanan dan keamanan",
+        "body": ["Ulasan yang disetujui dan foto yang diverifikasi disimpan di server situs. Email dan lampiran tersimpan di kotak masuk pengelola. Kami menjaga data dengan langkah keamanan yang wajar, tetapi tidak ada sistem yang sepenuhnya aman. Kami menyimpan data selama diperlukan untuk tujuan di atas atau selama diwajibkan hukum."]
+      },
+      {
+        "heading": "Konten publik yang Anda kirim",
+        "body": ["Ulasan yang Anda kirim dapat tampil publik beserta nama, atau sebagai anonim bila Anda memilihnya, dan tanggal. Foto yang disetujui dapat tampil di galeri. Jangan mengirim informasi yang tidak ingin Anda tampilkan secara publik."]
+      },
+      {
+        "heading": "Hak Anda",
+        "body": ["Anda berhak meminta akses, perbaikan, atau penghapusan data pribadi Anda yang kami simpan. Untuk itu, hubungi kami di hkbpglugurmdn@gmail.com. Anda juga dapat meminta ulasan Anda dihapus."]
+      },
+      {
+        "heading": "Data anak",
+        "body": ["Situs ini ditujukan untuk jemaat dan masyarakat umum, bukan untuk mengumpulkan data pribadi anak secara khusus. Bila Anda orang tua dan menemukan anak Anda mengirim data, hubungi kami agar kami hapus."]
+      },
+      {
+        "heading": "Tautan ke situs lain",
+        "body": ["Situs memuat tautan ke layanan pihak ketiga. Kebijakan privasi mereka berlaku saat Anda membuka situs mereka. Kami sarankan membaca kebijakan masing-masing."]
+      },
+      {
+        "heading": "Perubahan kebijakan",
+        "body": ["Kami dapat memperbarui kebijakan ini. Perubahan berlaku setelah dimuat di halaman ini dengan tanggal berlaku yang diperbarui."]
+      },
+      {
+        "heading": "Hubungi kami",
+        "body": ["Untuk pertanyaan tentang privasi, hubungi hkbpglugurmdn@gmail.com atau (061) 6611846."]
+      }
+    ]
+  },
+  "faq": {
+    "banner": {
+      "eyebrow": "Bantuan",
+      "title": "Tanya Jawab",
+      "desc": "Jawaban atas pertanyaan yang sering diajukan seputar gereja dan situs."
+    },
+    "intro": "Berikut jawaban atas pertanyaan yang sering diajukan seputar HKBP Glugur dan situs ini. Bila pertanyaan Anda belum terjawab, hubungi kami atau tanya lewat chatbot Pelayan Digital.",
+    "groups": [
+      {
+        "title": "Ibadah dan kegiatan",
+        "items": [
+          { "q": "Kapan jadwal ibadah Minggu?", "a": "Ibadah Minggu pukul 07.45, 10.00, dan 17.00 WIB. Ada juga ibadah sektor setiap Rabu dan Kamis pukul 20.00 WIB yang bergilir di rumah jemaat." },
+          { "q": "Apakah tamu boleh datang beribadah?", "a": "Tentu. Pintu gereja terbuka untuk setiap jemaat dan tamu. Ibadah siang pukul 10.00 WIB adalah ibadah keluarga yang terbuka untuk semua." },
+          { "q": "Apakah ada ibadah hari besar?", "a": "Ada. Kami mengadakan ibadah Natal, Tahun Baru, Jumat Agung, Paskah, Kenaikan, Pentakosta, dan ibadah kematian sesuai kebutuhan. Tanggal hari besar yang berpindah mengikuti kalender gerejawi tahunan." },
+          { "q": "Ada pelayanan apa saja untuk jemaat?", "a": "Ada Sekolah Minggu, Naposobulung (NHKBP), Punguan Ina, Punguan Ama, paduan suara, dan diakonia sosial." }
+        ]
+      },
+      {
+        "title": "Lokasi dan kontak",
+        "items": [
+          { "q": "Di mana lokasi HKBP Glugur?", "a": "Jl. Pembangunan III No.57A, Glugur Darat II, Kec. Medan Timur, Kota Medan, Sumatera Utara 20238. Petunjuk arah tersedia lewat tombol lokasi di beranda." },
+          { "q": "Bagaimana cara menghubungi gereja?", "a": "Telepon (061) 6611846 atau email hkbpglugurmdn@gmail.com. Kami juga ada di Facebook dan YouTube." },
+          { "q": "Apa bedanya HKBP Glugur dengan HKBP Sei Glugur?", "a": "Berbeda. HKBP Glugur ada di Glugur Darat dan menjadi pusat Ressort Medan Utara. HKBP Sei Glugur berada di Ressort Padang Bulan. Keduanya gereja yang berbeda." }
+        ]
+      },
+      {
+        "title": "Administrasi dan pelayanan",
+        "items": [
+          { "q": "Bagaimana syarat pernikahan di HKBP Glugur?", "a": "Anggota jemaat membawa surat pengantar sintua serta fotokopi Surat Baptis dan Surat Sidi. Bukan anggota membawa Surat Keterangan Anggota Jemaat dari gereja asal. Bawa pasfoto gandeng dan laporkan berkas seminggu sebelum hari H. Konseling dilakukan 2 sampai 3 hari sebelumnya. Detail ada di halaman Informasi." },
+          { "q": "Ke mana persembahan disalurkan?", "a": "Ke rekening resmi gereja Bank BNI 0292882601 atas nama HKBP Glugur Resort Medan Utara. Detail ada di halaman Informasi." },
+          { "q": "Berapa tarif pemakaian fasilitas gereja?", "a": "Tarif aula dan gedung serbaguna tercantum di halaman Informasi, data per Maret 2024. Untuk kepastian, hubungi kantor gereja." }
+        ]
+      },
+      {
+        "title": "Situs dan fitur",
+        "items": [
+          { "q": "Apa saja buku digital yang tersedia?", "a": "Ada Alkitab dalam Terjemahan Baru, Terjemahan Lama, dan Batak Toba, lalu Buku Ende dan Kidung Jemaat. Semua bisa dibaca gratis di halaman Buku." },
+          { "q": "Bagaimana cara membaca dan mengunduh warta?", "a": "Buka halaman Warta Tata Ibadah. Warta tersedia dalam bentuk PDF yang bisa dibaca dan diunduh. Pengurus juga dapat mengirim warta lewat formulir di halaman itu." },
+          { "q": "Bagaimana cara mengirim foto kegiatan?", "a": "Buka halaman Galeri, lalu isi formulir kirim foto. Tim kami meninjau lalu menampilkan foto yang sesuai." },
+          { "q": "Bagaimana cara memberi ulasan untuk situs ini?", "a": "Buka halaman Ulasan, beri rating bintang dan tulis ulasan Anda. Anda bisa memilih anonim. Ulasan tampil setelah ditinjau." },
+          { "q": "Bagaimana cara mengganti bahasa situs?", "a": "Situs tersedia dalam bahasa Indonesia, Inggris, dan Batak Toba. Ganti lewat tombol bahasa di bagian atas halaman." },
+          { "q": "Apa itu Pelayan Digital?", "a": "Pelayan Digital adalah chatbot yang membantu menjawab pertanyaan seputar gereja dan situs. Jawabannya dibantu kecerdasan buatan, jadi bisa keliru. Untuk hal penting, hubungi gereja langsung." }
+        ]
+      },
+      {
+        "title": "Data dan privasi",
+        "items": [
+          { "q": "Apakah situs menyimpan data saya?", "a": "Situs mengumpulkan data yang Anda kirim lewat formulir dan data analitik kunjungan. Rinciannya ada di Kebijakan Privasi." },
+          { "q": "Bagaimana cara menghapus ulasan atau data saya?", "a": "Hubungi kami di hkbpglugurmdn@gmail.com dan sebutkan permintaan Anda." }
+        ]
+      }
+    ]
+  },
   "meta": {
     "default": {
       "title": "HKBP Glugur, Gereja Ressort Medan Utara di Medan",
@@ -652,6 +878,18 @@
     "ulasan": {
       "title": "Ulasan Situs HKBP Glugur",
       "description": "Baca dan beri ulasan untuk situs HKBP Glugur. Bagikan pengalaman Anda memakai situs ini."
+    },
+    "ketentuan": {
+      "title": "Ketentuan Layanan",
+      "description": "Ketentuan penggunaan situs HKBP Glugur: pemakaian situs, konten pengguna, chatbot, donasi, hak kekayaan intelektual, dan tanggung jawab."
+    },
+    "privasi": {
+      "title": "Kebijakan Privasi",
+      "description": "Kebijakan privasi situs HKBP Glugur: data yang dikumpulkan, cookie, analitik, berbagi data dengan pihak ketiga, dan hak Anda."
+    },
+    "faq": {
+      "title": "Tanya Jawab (FAQ)",
+      "description": "Pertanyaan yang sering diajukan seputar HKBP Glugur dan situs: jadwal ibadah, lokasi, pelayanan, buku digital, dan fitur situs."
     }
   }
 }

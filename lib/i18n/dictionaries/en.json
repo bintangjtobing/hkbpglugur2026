@@ -48,6 +48,9 @@
     "temaLink": "Meaning of the HKBP Transformation Theme 2024 to 2028",
     "permintaanLink": "Content Correction Request",
     "pengembangLink": "About the Developer",
+    "faqLink": "FAQ",
+    "ketentuanLink": "Terms of Service",
+    "privasiLink": "Privacy Policy",
     "temaBlurb": "HKBP carries the Transformation theme, changed by the renewal of the mind (Roma 12:2), to become a blessing to the world.",
     "berkat": "Sai Tuhan i ma mangaramoti hita. God bless.",
     "relawanPre": "Built as a volunteer initiative by",
@@ -587,6 +590,229 @@
       "reportSuccessBody": "We have received your report and forwarded it to the team for review. May the Lord Jesus bless you."
     }
   },
+  "legal": {
+    "updatedLabel": "Effective 3 July 2026",
+    "tocLabel": "On this page"
+  },
+  "ketentuan": {
+    "banner": {
+      "eyebrow": "Legal",
+      "title": "Terms of Service",
+      "desc": "Rules for using the HKBP Glugur site. Please read before using this site."
+    },
+    "intro": "Welcome to the HKBP Glugur site. By accessing and using this site, you agree to the terms below. If you do not agree, please stop using this site.",
+    "sections": [
+      {
+        "heading": "About this site",
+        "body": [
+          "This is the official site of HKBP Glugur, a church in Glugur Darat, Medan. The site contains church information such as the profile, worship schedule, history, ministry, digital books, bulletin, gallery, and how to contact us.",
+          "Information on the site may change at any time. We try to keep the information accurate, but we do not guarantee it is always complete or current. For important matters, contact the church office."
+        ]
+      },
+      {
+        "heading": "Using the site",
+        "body": ["You may use this site for personal and non-commercial purposes. When using the site, you agree not to do the following."],
+        "bullets": [
+          "Use the site for unlawful purposes.",
+          "Disrupt, damage, or overload the site's system.",
+          "Send spam, viruses, or harmful code through the forms.",
+          "Harvest site data in bulk without permission."
+        ]
+      },
+      {
+        "heading": "Content you submit",
+        "body": [
+          "The site provides forms to submit reviews, gallery photos, worship bulletins, and correction requests. When you submit content, you confirm that you have the right to that content and that submitting it does not violate the rights of others.",
+          "By submitting content, you give HKBP Glugur permission to review, edit, display, or remove that content on the site. We may reject or remove unsuitable content without notice. Reviews appear publicly after review. Photos and bulletins are shown after verification."
+        ],
+        "bullets": [
+          "Do not submit content that is abusive, defamatory, misleading, or unlawful.",
+          "Do not submit other people's personal data without permission.",
+          "Do not submit copyrighted material belonging to others without the right to do so."
+        ]
+      },
+      {
+        "heading": "Digital books and third party content",
+        "body": ["The Alkitab text is provided through the SABDA API (alkitab.sabda.org). Buku Ende and Kidung Jemaat come from public datasets. The copyright to each piece of content stays with its owner. This site displays it to serve the congregation."]
+      },
+      {
+        "heading": "Digital Servant (chatbot)",
+        "body": ["The site provides a chatbot named Digital Servant that is supported by artificial intelligence. Its answers may be wrong or incomplete. Do not treat them as an official decision. For certainty, contact the church directly."]
+      },
+      {
+        "heading": "Donations and offerings",
+        "body": [
+          "The Saweria donation link on the Developer page is voluntary support for the volunteer developer of the site, not a church offering.",
+          "Official offerings for HKBP Glugur are sent through the church account listed on the Information page. This site does not process any payments directly."
+        ]
+      },
+      {
+        "heading": "Intellectual property rights",
+        "body": ["The name, logo, and emblem of HKBP belong to Huria Kristen Batak Protestan. The text and layout of this site were made for the ministry of HKBP Glugur. Do not copy or reuse them for commercial purposes without permission."]
+      },
+      {
+        "heading": "Links to other sites",
+        "body": ["The site contains links to third party services such as Google Maps, YouTube, and Facebook. We are not responsible for the content or policies of those third party sites."]
+      },
+      {
+        "heading": "Disclaimer and limitation of liability",
+        "body": ["This site is provided as is. To the extent permitted by law, HKBP Glugur and the developer are not responsible for any loss that arises from the use of the site or from inaccuracy of the information in it."]
+      },
+      {
+        "heading": "Privacy",
+        "body": ["The use of your personal data is governed by our Privacy Policy. By using this site, you also agree to that policy."]
+      },
+      {
+        "heading": "Changes to the terms",
+        "body": ["We may update these terms at any time. Changes take effect after they are posted on this page. Please check back from time to time."]
+      },
+      {
+        "heading": "Governing law",
+        "body": ["These terms are subject to the law of the Republic of Indonesia."]
+      },
+      {
+        "heading": "Contact us",
+        "body": ["For questions about these terms, contact us at hkbpglugurmdn@gmail.com or (061) 6611846."]
+      }
+    ]
+  },
+  "privasi": {
+    "banner": {
+      "eyebrow": "Legal",
+      "title": "Privacy Policy",
+      "desc": "How we collect, use, and protect your data."
+    },
+    "intro": "This Privacy Policy explains what data we collect when you use the HKBP Glugur site, how we use it, and your rights over that data.",
+    "sections": [
+      {
+        "heading": "Who we are",
+        "body": ["This site is managed by HKBP Glugur, a church at Jl. Pembangunan III No.57A, Glugur Darat II, Medan. For personal data matters, contact us at hkbpglugurmdn@gmail.com."]
+      },
+      {
+        "heading": "Data we collect",
+        "body": ["We collect two kinds of data."],
+        "bullets": [
+          "Data you provide through forms: name, email, phone number, message, review, photos, bulletin files, and other attachments you send.",
+          "The content of conversations you type into the Digital Servant chatbot.",
+          "Automatic data as you browse: IP address, device and browser type, pages visited, and your interactions such as movement and clicks through analytics tools."
+        ]
+      },
+      {
+        "heading": "How we use data",
+        "body": ["We use data for the following purposes."],
+        "bullets": [
+          "Answer your requests, reports, and questions.",
+          "Review and display the reviews, photos, or bulletins you submit.",
+          "Run the chatbot and answer your questions.",
+          "Understand how visitors use the site so we can improve it.",
+          "Keep the site secure from misuse."
+        ]
+      },
+      {
+        "heading": "Cookies and tracking technology",
+        "body": ["The site uses cookies and similar technology."],
+        "bullets": [
+          "A language preference cookie to remember the language you choose.",
+          "Google Analytics 4 for visit statistics.",
+          "Microsoft Clarity, which records visit sessions and heatmaps of movement and clicks anonymously to understand how pages are used."
+        ]
+      },
+      {
+        "heading": "Managing cookies",
+        "body": ["You can manage or delete cookies through your browser settings. Disabling certain cookies can affect some site functions."]
+      },
+      {
+        "heading": "Sharing data with third parties",
+        "body": ["We do not sell your data. Data is shared only with service providers that keep this site running."],
+        "bullets": [
+          "Emails you send through the forms are forwarded to the church administrator's and developer's email through the Gmail email service.",
+          "Google for analytics and maps, Microsoft for Clarity, and OpenAI to process chatbot messages.",
+          "Content you choose to make public, such as approved reviews, is visible to other visitors."
+        ]
+      },
+      {
+        "heading": "Storage and security",
+        "body": ["Approved reviews and verified photos are stored on the site's server. Emails and attachments are kept in the administrator's inbox. We protect the data with reasonable security measures, but no system is fully secure. We keep data as long as it is needed for the purposes above or as long as the law requires."]
+      },
+      {
+        "heading": "Public content you submit",
+        "body": ["The reviews you send may appear publicly along with your name, or as anonymous if you choose, and the date. Approved photos may appear in the gallery. Do not send information you do not want displayed publicly."]
+      },
+      {
+        "heading": "Your rights",
+        "body": ["You have the right to request access to, correction of, or deletion of the personal data we hold about you. To do so, contact us at hkbpglugurmdn@gmail.com. You can also ask us to delete your review."]
+      },
+      {
+        "heading": "Children's data",
+        "body": ["This site is meant for the congregation and the general public, not to collect children's personal data specifically. If you are a parent and find that your child has submitted data, contact us so we can delete it."]
+      },
+      {
+        "heading": "Links to other sites",
+        "body": ["The site contains links to third party services. Their privacy policies apply when you open their sites. We suggest reading each one's policy."]
+      },
+      {
+        "heading": "Changes to the policy",
+        "body": ["We may update this policy. Changes take effect after they are posted on this page with an updated effective date."]
+      },
+      {
+        "heading": "Contact us",
+        "body": ["For questions about privacy, contact hkbpglugurmdn@gmail.com or (061) 6611846."]
+      }
+    ]
+  },
+  "faq": {
+    "banner": {
+      "eyebrow": "Help",
+      "title": "FAQ",
+      "desc": "Answers to frequently asked questions about the church and the site."
+    },
+    "intro": "Here are the answers to frequently asked questions about HKBP Glugur and this site. If your question is not answered here, contact us or ask through the Digital Servant chatbot.",
+    "groups": [
+      {
+        "title": "Worship and activities",
+        "items": [
+          { "q": "When is the Sunday worship schedule?", "a": "Sunday worship is at 07.45, 10.00, and 17.00 WIB. There is also sector worship every Wednesday and Thursday at 20.00 WIB that rotates among members' homes." },
+          { "q": "May guests come to worship?", "a": "Of course. The church doors are open to every member and guest. The midday service at 10.00 WIB is a family service open to all." },
+          { "q": "Are there feast day services?", "a": "Yes. We hold Christmas, New Year, Good Friday, Easter, Ascension, Pentecost, and funeral services as needed. Feast day dates that move follow the yearly church calendar." },
+          { "q": "What ministries are there for the congregation?", "a": "There are Sunday School, Naposobulung (NHKBP), Punguan Ina, Punguan Ama, choir, and social diakonia." }
+        ]
+      },
+      {
+        "title": "Location and contact",
+        "items": [
+          { "q": "Where is HKBP Glugur located?", "a": "Jl. Pembangunan III No.57A, Glugur Darat II, Kec. Medan Timur, Kota Medan, Sumatera Utara 20238. Directions are available through the location button on the home page." },
+          { "q": "How do I contact the church?", "a": "Call (061) 6611846 or email hkbpglugurmdn@gmail.com. We are also on Facebook and YouTube." },
+          { "q": "What is the difference between HKBP Glugur and HKBP Sei Glugur?", "a": "They are different. HKBP Glugur is in Glugur Darat and is the center of Ressort Medan Utara. HKBP Sei Glugur is in Ressort Padang Bulan. They are two different churches." }
+        ]
+      },
+      {
+        "title": "Administration and ministry",
+        "items": [
+          { "q": "What are the wedding requirements at HKBP Glugur?", "a": "Members bring a letter of introduction from the sintua along with a copy of the Baptism Certificate and Confirmation Certificate. Non-members bring a Certificate of Congregation Membership from their home church. Bring paired passport photos and submit the documents a week before the day. Counseling is held 2 to 3 days beforehand. Details are on the Information page." },
+          { "q": "Where are offerings sent?", "a": "To the church's official account, Bank BNI 0292882601 in the name of HKBP Glugur Resort Medan Utara. Details are on the Information page." },
+          { "q": "How much are the church facility rental rates?", "a": "The hall and multipurpose building rates are listed on the Information page, as of Maret 2024. For certainty, contact the church office." }
+        ]
+      },
+      {
+        "title": "Site and features",
+        "items": [
+          { "q": "What digital books are available?", "a": "There is the Alkitab in Terjemahan Baru, Terjemahan Lama, and Batak Toba, then Buku Ende and Kidung Jemaat. All can be read for free on the Books page." },
+          { "q": "How do I read and download the bulletin?", "a": "Open the Worship Bulletin page. The bulletin is available in PDF form that you can read and download. Staff can also submit a bulletin through the form on that page." },
+          { "q": "How do I submit activity photos?", "a": "Open the Gallery page, then fill in the photo submission form. Our team reviews them and shows the suitable photos." },
+          { "q": "How do I leave a review for this site?", "a": "Open the Reviews page, give a star rating, and write your review. You can choose to be anonymous. Reviews appear after review." },
+          { "q": "How do I change the site language?", "a": "The site is available in Indonesian, English, and Batak Toba. Change it through the language button at the top of the page." },
+          { "q": "What is the Digital Servant?", "a": "The Digital Servant is a chatbot that helps answer questions about the church and the site. Its answers are supported by artificial intelligence, so they can be wrong. For important matters, contact the church directly." }
+        ]
+      },
+      {
+        "title": "Data and privacy",
+        "items": [
+          { "q": "Does the site store my data?", "a": "The site collects the data you send through forms and visit analytics data. The details are in the Privacy Policy." },
+          { "q": "How do I delete my review or data?", "a": "Contact us at hkbpglugurmdn@gmail.com and state your request." }
+        ]
+      }
+    ]
+  },
   "meta": {
     "default": {
       "title": "HKBP Glugur, Ressort Medan Utara Church in Medan",
@@ -652,6 +878,18 @@
     "ulasan": {
       "title": "HKBP Glugur Site Reviews",
       "description": "Read and give reviews for the HKBP Glugur site. Share your experience using this site."
+    },
+    "ketentuan": {
+      "title": "Terms of Service",
+      "description": "Terms for using the HKBP Glugur site: site usage, user content, chatbot, donations, intellectual property rights, and liability."
+    },
+    "privasi": {
+      "title": "Privacy Policy",
+      "description": "Privacy policy for the HKBP Glugur site: data collected, cookies, analytics, sharing data with third parties, and your rights."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions (FAQ)",
+      "description": "Frequently asked questions about HKBP Glugur and the site: worship schedule, location, ministry, digital books, and site features."
     }
   }
 }
