@@ -241,7 +241,7 @@ export function Header() {
             </div>
           ))}
           <div className="mt-3 border-t border-line px-4 pt-4">
-            <LanguageSwitcher />
+            <LanguageSwitcher inline />
           </div>
         </nav>
       </div>
