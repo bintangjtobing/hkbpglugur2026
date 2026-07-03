@@ -1,9 +1,18 @@
+"use client";
+
 import Image from "next/image";
+import Link from "next/link";
 import { church, nav } from "@/lib/content";
 import { withUtm } from "@/lib/utm";
+import { localizeHref } from "@/lib/i18n/href";
+import { useDict } from "./DictionaryProvider";
 import { Mark } from "./Mark";
 
 export function Footer() {
+  const { dict, locale } = useDict();
+  const navLabels = dict.nav as Record<string, string>;
+  const lh = (href: string) => localizeHref(href, locale);
+
   return (
     <footer className="relative overflow-hidden bg-navy text-white/70">
       <Mark className="pointer-events-none absolute -right-10 -top-16 h-72 w-72 text-white/[0.04]" />
@@ -13,7 +22,7 @@ export function Footer() {
           <div className="flex items-center gap-3">
             <Image
               src="/hkbp-logo.webp"
-              alt="Logo HKBP Glugur"
+              alt={dict.common.logoAlt}
               title="HKBP Glugur"
               width={36}
               height={50}
@@ -27,28 +36,36 @@ export function Footer() {
             </div>
           </div>
           <p className="mt-4 max-w-sm text-sm leading-relaxed">
-            {church.tagline}
+            {dict.common.tagline}
           </p>
         </div>
 
         <div>
-          <p className="eyebrow text-white/45">Navigasi</p>
+          <p className="eyebrow text-white/45">{dict.footer.navigasi}</p>
           <ul className="mt-4 space-y-2.5 text-sm">
             {nav.map((item) => (
               <li key={item.href}>
-                <a
-                  href={item.href}
+                <Link
+                  href={lh(item.href)}
                   className="transition-colors hover:text-white"
                 >
-                  {item.label}
-                </a>
+                  {navLabels[item.key]}
+                </Link>
               </li>
             ))}
+            <li>
+              <Link
+                href={lh("/ulasan")}
+                className="transition-colors hover:text-white"
+              >
+                {navLabels.ulasan}
+              </Link>
+            </li>
           </ul>
         </div>
 
         <div>
-          <p className="eyebrow text-white/45">Kontak</p>
+          <p className="eyebrow text-white/45">{dict.footer.kontak}</p>
           <address className="mt-4 space-y-3 text-sm not-italic leading-relaxed">
             <p>
               {church.address.street}
@@ -63,8 +80,8 @@ export function Footer() {
               href={withUtm(church.contact.facebook)}
               target="_blank"
               rel="noopener noreferrer"
-              title="Facebook HKBP Glugur"
-              aria-label="Facebook HKBP Glugur"
+              title={dict.footer.facebook}
+              aria-label={dict.footer.facebook}
               className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20"
             >
               <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V8.9c0-.9.25-1.5 1.55-1.5H17V4.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.5V14h2.8v8h3.2Z" /></svg>
@@ -73,35 +90,34 @@ export function Footer() {
               href={withUtm("https://www.youtube.com/@HKBPGLUGURRESSORTMEDANUTARA")}
               target="_blank"
               rel="noopener noreferrer"
-              title="YouTube HKBP Glugur"
-              aria-label="YouTube HKBP Glugur"
+              title={dict.footer.youtube}
+              aria-label={dict.footer.youtube}
               className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20"
             >
               <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.6 3.6 12 3.6 12 3.6s-7.6 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z" /></svg>
             </a>
             <a
               href={`mailto:${church.contact.email}`}
-              title="Email HKBP Glugur"
-              aria-label="Email HKBP Glugur"
+              title={dict.footer.email}
+              aria-label={dict.footer.email}
               className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20"
             >
               <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>
             </a>
           </div>
           <div className="mt-4 flex flex-col gap-2 text-sm">
-            <a href="/tema-transformasi" className="transition-colors hover:text-white">
-              Makna Tema Transformasi HKBP 2024 sampai 2028
-            </a>
-            <a href="/permintaan" className="transition-colors hover:text-white">
-              Permintaan Perbaikan Konten
-            </a>
-            <a href="/pengembang" className="transition-colors hover:text-white">
-              Tentang Pengembang
-            </a>
+            <Link href={lh("/tema-transformasi")} className="transition-colors hover:text-white">
+              {dict.footer.temaLink}
+            </Link>
+            <Link href={lh("/permintaan")} className="transition-colors hover:text-white">
+              {dict.footer.permintaanLink}
+            </Link>
+            <Link href={lh("/pengembang")} className="transition-colors hover:text-white">
+              {dict.footer.pengembangLink}
+            </Link>
           </div>
           <p className="mt-3 text-xs leading-relaxed text-white/45">
-            HKBP mengusung tema Transformasi, berubah oleh pembaruan budi
-            (Roma 12:2), untuk menjadi berkat bagi dunia.
+            {dict.footer.temaBlurb}
           </p>
         </div>
       </div>
@@ -112,14 +128,14 @@ export function Footer() {
             <p>
               © {new Date().getFullYear()} HKBP Glugur · {church.ressort}
             </p>
-            <p>Sai Tuhan i ma mangaramoti hita. Tuhan memberkati.</p>
+            <p>{dict.footer.berkat}</p>
           </div>
           <p className="text-center sm:text-left">
-            Dibangun sebagai inisiatif relawan oleh{" "}
-            <a href="/pengembang" className="font-medium text-white/70 hover:text-white">
+            {dict.footer.relawanPre}{" "}
+            <Link href={lh("/pengembang")} className="font-medium text-white/70 hover:text-white">
               Bintang Tobing
-            </a>
-            . Dukung lewat{" "}
+            </Link>
+            {dict.footer.relawanMid}{" "}
             <a
               href={withUtm("https://saweria.co/bintangtobing")}
               target="_blank"
@@ -128,7 +144,7 @@ export function Footer() {
             >
               Saweria
             </a>
-            .
+            {dict.footer.relawanPost}
           </p>
         </div>
       </div>

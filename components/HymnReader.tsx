@@ -2,6 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { track } from "@/lib/analytics";
+import { fill } from "@/lib/i18n/fill";
+import { useDict } from "./DictionaryProvider";
 
 type Verse = { bait: string | null; lines: string[] };
 type Song = { no: string; judul: string; nada?: string; verses: Verse[] };
@@ -13,6 +15,7 @@ export function HymnReader({
   dataUrl: string;
   prefix: string;
 }) {
+  const t = useDict().dict.ui.hymnReader;
   const [songs, setSongs] = useState<Song[]>([]);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [query, setQuery] = useState("");
@@ -52,14 +55,10 @@ export function HymnReader({
   const selected = songs[selectedIdx] ?? null;
 
   if (status === "loading") {
-    return <p className="text-black/60">Memuat data lagu...</p>;
+    return <p className="text-black/60">{t.loading}</p>;
   }
   if (status === "error") {
-    return (
-      <p className="text-black/70">
-        Gagal memuat data lagu. Muat ulang halaman untuk mencoba lagi.
-      </p>
-    );
+    return <p className="text-black/70">{t.error}</p>;
   }
 
   return (
@@ -67,19 +66,19 @@ export function HymnReader({
       {/* Daftar lagu */}
       <div className="lg:sticky lg:top-24 lg:self-start">
         <label className="relative block">
-          <span className="sr-only">Cari nomor atau judul lagu</span>
+          <span className="sr-only">{t.srSearch}</span>
           <input
             type="search"
             inputMode="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder={`Cari ${prefix} nomor atau judul`}
+            placeholder={fill(t.searchPlaceholder, { prefix })}
             className="w-full rounded-full border border-line bg-white px-5 py-3 text-sm text-black shadow-sm outline-none transition-colors focus:border-royal"
           />
         </label>
 
         <p className="mt-3 px-1 text-xs font-medium text-black/50">
-          {results.length} lagu
+          {results.length} {t.unit}
         </p>
 
         <ul className="mt-2 max-h-[60vh] space-y-1 overflow-y-auto rounded-2xl border border-line bg-white p-2 shadow-sm">
@@ -116,14 +115,10 @@ export function HymnReader({
             );
           })}
           {results.length > 300 ? (
-            <li className="px-3 py-2 text-xs text-black/50">
-              Ketik lebih spesifik untuk mempersempit hasil.
-            </li>
+            <li className="px-3 py-2 text-xs text-black/50">{t.tooMany}</li>
           ) : null}
           {results.length === 0 ? (
-            <li className="px-3 py-2 text-sm text-black/50">
-              Tidak ada lagu yang cocok.
-            </li>
+            <li className="px-3 py-2 text-sm text-black/50">{t.noMatch}</li>
           ) : null}
         </ul>
       </div>
@@ -160,7 +155,7 @@ export function HymnReader({
             </div>
           </>
         ) : (
-          <p className="text-black/60">Pilih lagu dari daftar.</p>
+          <p className="text-black/60">{t.selectPrompt}</p>
         )}
       </article>
     </div>

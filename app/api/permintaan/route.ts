@@ -4,6 +4,7 @@ import path from "path";
 import nodemailer from "nodemailer";
 import { verifyCaptcha } from "@/lib/captcha";
 import { renderEmail, infoRow, EMAIL_LOGO_CID } from "@/lib/email-template";
+import { serverMsg, fill } from "@/lib/i18n/server-messages";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -34,8 +35,11 @@ export async function POST(request: Request) {
   try {
     form = await request.formData();
   } catch {
-    return NextResponse.json({ error: "Format permintaan tidak valid." }, { status: 400 });
+    return NextResponse.json({ error: serverMsg("id").invalidFormat }, { status: 400 });
   }
+
+  const locale = String(form.get("locale") || "id");
+  const m = serverMsg(locale);
 
   const nama = String(form.get("nama") || "").trim();
   const email = String(form.get("email") || "").trim();
@@ -46,33 +50,33 @@ export async function POST(request: Request) {
 
   // Validasi field
   if (!nama || !email || !pesan) {
-    return NextResponse.json({ error: "Nama, email, dan pesan wajib diisi." }, { status: 400 });
+    return NextResponse.json({ error: m.reqNamaEmailPesan }, { status: 400 });
   }
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    return NextResponse.json({ error: "Alamat email tidak valid." }, { status: 400 });
+    return NextResponse.json({ error: m.emailInvalid }, { status: 400 });
   }
   if (!verifyCaptcha(captchaToken, captchaAnswer)) {
-    return NextResponse.json({ error: "Jawaban verifikasi salah. Coba lagi." }, { status: 400 });
+    return NextResponse.json({ error: m.captchaWrong }, { status: 400 });
   }
 
   // Validasi file
   const files = form.getAll("files").filter((f): f is File => f instanceof File && f.size > 0);
   if (files.length > MAX_FILES) {
-    return NextResponse.json({ error: `Maksimal ${MAX_FILES} file.` }, { status: 400 });
+    return NextResponse.json({ error: fill(m.maxFiles, { n: MAX_FILES }) }, { status: 400 });
   }
   let total = 0;
   const attachments: { filename: string; content: Buffer }[] = [];
   for (const f of files) {
     if (!ALLOWED_EXT.includes(ext(f.name))) {
       return NextResponse.json(
-        { error: `Tipe file ${f.name} tidak didukung.` },
+        { error: fill(m.fileType, { name: f.name }) },
         { status: 400 }
       );
     }
     total += f.size;
     if (total > MAX_TOTAL_BYTES) {
       return NextResponse.json(
-        { error: "Total ukuran file melebihi 20 MB." },
+        { error: m.fileTotal20 },
         { status: 400 }
       );
     }
@@ -88,10 +92,7 @@ export async function POST(request: Request) {
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_PASS;
   if (!user || !pass) {
-    return NextResponse.json(
-      { error: "Layanan email belum dikonfigurasi. Hubungi pengelola situs." },
-      { status: 503 }
-    );
+    return NextResponse.json({ error: m.smtpUnset }, { status: 503 });
   }
 
   const transport = nodemailer.createTransport({
@@ -130,33 +131,31 @@ export async function POST(request: Request) {
       attachments: [...logo, ...attachments],
     });
   } catch {
-    return NextResponse.json(
-      { error: "Gagal mengirim pesan. Coba lagi nanti." },
-      { status: 502 }
-    );
+    return NextResponse.json({ error: m.sendFailPesan }, { status: 502 });
   }
 
-  // Email konfirmasi ke pemohon. Kegagalannya tidak membatalkan proses.
+  // Email konfirmasi ke pemohon (ikut bahasa pengirim). Kegagalannya tidak membatalkan proses.
+  const ackAttachment = fill(m.permintaanAckAttachment, { n: attachments.length });
   const ackBody = `
-    <p style="margin:0 0 14px 0;">Salam sejahtera, <strong>${escapeHtml(nama)}</strong>.</p>
-    <p style="margin:0 0 14px 0;">Terima kasih. Permintaan Anda sudah kami terima. Tim HKBP Glugur akan meninjaunya dan menghubungi Anda bila diperlukan.</p>
+    <p style="margin:0 0 14px 0;">${m.greeting}, <strong>${escapeHtml(nama)}</strong>.</p>
+    <p style="margin:0 0 14px 0;">${m.permintaanAckIntro}</p>
     <div style="background:#eef1ff;border-radius:12px;padding:16px 18px;margin:0 0 14px 0;">
-      <div style="font-size:12px;font-weight:600;color:#5b6486;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:6px;">Ringkasan pesan Anda</div>
+      <div style="font-size:12px;font-weight:600;color:#5b6486;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:6px;">${m.permintaanAckSummary}</div>
       <div style="color:#12183A;">${escapeHtml(pesan).replace(/\n/g, "<br>")}</div>
-      <div style="color:#5b6486;font-size:13px;margin-top:10px;">Lampiran terkirim: ${attachments.length} file.</div>
+      <div style="color:#5b6486;font-size:13px;margin-top:10px;">${ackAttachment}</div>
     </div>
-    <p style="margin:0;color:#5b6486;font-size:13px;">Email ini dikirim otomatis. Anda tidak perlu membalasnya.</p>
+    <p style="margin:0;color:#5b6486;font-size:13px;">${m.autoNote}</p>
   `;
   const ackHtml = renderEmail({
-    title: "Permintaan Anda telah kami terima",
+    title: m.permintaanAckTitle,
     bodyHtml: ackBody,
   });
   try {
     await transport.sendMail({
       from: `"HKBP Glugur" <${user}>`,
       to: email,
-      subject: "Permintaan Anda telah kami terima - HKBP Glugur",
-      text: `Salam sejahtera, ${nama}.\n\nTerima kasih. Permintaan Anda sudah kami terima. Tim HKBP Glugur akan meninjaunya dan menghubungi Anda bila diperlukan.\n\nRingkasan pesan Anda:\n${pesan}\n\nLampiran terkirim: ${attachments.length} file.\n\nEmail ini dikirim otomatis. Anda tidak perlu membalasnya.`,
+      subject: `${m.permintaanAckTitle} - HKBP Glugur`,
+      text: `${m.greeting}, ${nama}.\n\n${m.permintaanAckIntro}\n\n${m.permintaanAckSummary}:\n${pesan}\n\n${ackAttachment}\n\n${m.autoNote}`,
       html: ackHtml,
       attachments: logo,
     });

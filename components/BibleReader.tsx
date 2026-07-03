@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { bibleBooks, bibleVersions } from "@/lib/bible-books";
 import { track } from "@/lib/analytics";
+import { useDict } from "./DictionaryProvider";
 
 type Passage = {
   book: string;
@@ -46,6 +47,7 @@ function parseQuery(q: string): Suggestion[] {
 }
 
 export function BibleReader() {
+  const t = useDict().dict.ui.bibleReader;
   const [version, setVersion] = useState("tb");
   const [bookName, setBookName] = useState("Kejadian");
   const [chapter, setChapter] = useState(1);
@@ -113,7 +115,7 @@ export function BibleReader() {
       {/* Pencarian referensi */}
       <div ref={boxRef} className="relative mb-4">
         <label className="relative block">
-          <span className="sr-only">Cari kitab, pasal, atau ayat</span>
+          <span className="sr-only">{t.srSearch}</span>
           <input
             type="search"
             value={query}
@@ -128,7 +130,7 @@ export function BibleReader() {
                 goTo(suggestions[0]);
               }
             }}
-            placeholder="Cari ayat, misalnya Yohanes 3:16 atau Kejadian 1"
+            placeholder={t.searchPlaceholder}
             className="w-full rounded-full border border-line bg-white px-5 py-3 text-sm text-black shadow-sm outline-none transition-colors focus:border-royal"
           />
         </label>
@@ -156,7 +158,7 @@ export function BibleReader() {
       <div className="flex flex-col gap-4 rounded-[var(--radius-card)] border border-line bg-white p-5 shadow-sm sm:flex-row sm:items-end">
         <label className="flex-1">
           <span className="mb-1.5 block text-xs font-semibold uppercase tracking-widest text-black/50">
-            Versi
+            {t.versi}
           </span>
           <select
             value={version}
@@ -172,7 +174,7 @@ export function BibleReader() {
         </label>
         <label className="flex-1">
           <span className="mb-1.5 block text-xs font-semibold uppercase tracking-widest text-black/50">
-            Kitab
+            {t.kitab}
           </span>
           <select
             value={bookName}
@@ -183,12 +185,12 @@ export function BibleReader() {
             }}
             className="w-full rounded-xl border border-line bg-paper px-4 py-2.5 text-sm font-medium text-black outline-none focus:border-royal"
           >
-            <optgroup label="Perjanjian Lama">
+            <optgroup label={t.plLabel}>
               {bibleBooks.filter((b) => b.testament === "PL").map((b) => (
                 <option key={b.id} value={b.name}>{b.name}</option>
               ))}
             </optgroup>
-            <optgroup label="Perjanjian Baru">
+            <optgroup label={t.pbLabel}>
               {bibleBooks.filter((b) => b.testament === "PB").map((b) => (
                 <option key={b.id} value={b.name}>{b.name}</option>
               ))}
@@ -197,7 +199,7 @@ export function BibleReader() {
         </label>
         <label className="sm:w-32">
           <span className="mb-1.5 block text-xs font-semibold uppercase tracking-widest text-black/50">
-            Pasal
+            {t.pasal}
           </span>
           <select
             value={chapter}
@@ -224,11 +226,9 @@ export function BibleReader() {
         </p>
 
         {status === "loading" ? (
-          <p className="mt-8 text-black/60">Memuat teks...</p>
+          <p className="mt-8 text-black/60">{t.loading}</p>
         ) : status === "error" ? (
-          <p className="mt-8 text-black/70">
-            Gagal memuat teks. Periksa koneksi lalu coba pasal lain.
-          </p>
+          <p className="mt-8 text-black/70">{t.error}</p>
         ) : (
           <div className="mt-8 space-y-3">
             {data?.verses.map((v) => {
@@ -262,7 +262,7 @@ export function BibleReader() {
             }}
             className="rounded-full border border-line px-5 py-2.5 text-sm font-semibold text-black transition-colors hover:bg-mist disabled:cursor-not-allowed disabled:opacity-40"
           >
-            Pasal sebelumnya
+            {t.prev}
           </button>
           <span className="text-sm font-medium text-black/50">
             {chapter} / {book.chapters}
@@ -276,7 +276,7 @@ export function BibleReader() {
             }}
             className="rounded-full border border-line px-5 py-2.5 text-sm font-semibold text-black transition-colors hover:bg-mist disabled:cursor-not-allowed disabled:opacity-40"
           >
-            Pasal berikutnya
+            {t.next}
           </button>
         </div>
       </article>

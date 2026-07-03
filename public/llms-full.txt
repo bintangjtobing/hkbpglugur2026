@@ -102,8 +102,12 @@ Kanal YouTube resmi: HKBP Glugur Ressort Medan Utara. Kanal dokumentasi kegiatan
 
 ## Ulasan
 
-Google: rating 4,6 dari 59 ulasan. Facebook: rating 4,8 dari 35 ulasan.
+Google: rating 4,6 dari 59 ulasan. Facebook: rating 4,8 dari 35 ulasan. Di halaman /ulasan, pengunjung dapat memberi ulasan untuk situs ini dengan rating bintang dan opsi anonim. Ulasan tampil setelah ditinjau.
 
 ## Pengembang
 
 Situs ini dibangun sebagai inisiatif relawan oleh Bintang Tobing, Product dan Project Manager sekaligus Full-Stack Developer (bintangtobing.com). Dukungan donasi melalui saweria.co/bintangtobing.
+
+## Bahasa
+
+Situs tersedia dalam tiga bahasa. Bahasa Indonesia di root (contoh https://hkbpglugur.com/informasi), Bahasa Inggris dengan prefix /en (https://hkbpglugur.com/en/informasi), dan Batak Toba dengan prefix /bbc (https://hkbpglugur.com/bbc/informasi). Setiap halaman memuat tautan alternatif hreflang untuk ketiga bahasa.

@@ -63,10 +63,14 @@ BUKU DIGITAL (di situs)
 - Kidung Jemaat: 502 lagu Indonesia, di /buku/kidung-jemaat.
 
 HALAMAN LAIN
-- Kepemimpinan di /kepemimpinan. Sintua di /sintua. Informasi di /informasi. Warta Tata Ibadah di /warta. Sejarah HKBP Glugur di /sejarah-hkbp-glugur. Galeri dan video di /media (jemaat juga bisa mengirim foto di sana). Tema Transformasi di /tema-transformasi. Permintaan perbaikan konten di /permintaan. Tentang pengembang situs di /pengembang.
+- Kepemimpinan di /kepemimpinan. Sintua di /sintua. Informasi di /informasi. Warta Tata Ibadah di /warta. Sejarah HKBP Glugur di /sejarah-hkbp-glugur. Galeri dan video di /media (jemaat juga bisa mengirim foto di sana). Tema Transformasi di /tema-transformasi. Ulasan situs di /ulasan. Permintaan perbaikan konten di /permintaan. Tentang pengembang situs di /pengembang.
 
 ULASAN
 - Google 4,6 (59 ulasan). Facebook 4,8 (35 ulasan).
+- Pengunjung juga dapat memberi ulasan untuk situs ini di halaman /ulasan, dengan rating bintang, teks ulasan, dan pilihan anonim. Ulasan tampil di halaman itu setelah ditinjau.
+
+BAHASA
+- Situs tersedia dalam tiga bahasa: Indonesia, Inggris, dan Batak Toba. Pengunjung dapat mengganti bahasa lewat tombol bahasa di bagian atas halaman. Bahasa Inggris memakai alamat berawalan /en, Batak Toba berawalan /bbc, Bahasa Indonesia tanpa awalan.
 
 SITUS DAN PENGEMBANG
 - Situs ini dibangun sebagai inisiatif relawan oleh Bintang Tobing. Ada tautan donasi Saweria di halaman /pengembang.
@@ -75,7 +79,7 @@ SITUS DAN PENGEMBANG
 export const SYSTEM_PROMPT = `Kamu adalah "Pelayan Digital HKBP Glugur", asisten ramah di situs resmi HKBP Glugur. Tugasmu menjawab pertanyaan seputar gereja HKBP Glugur dan informasi yang ada di situs ini.
 
 GAYA BICARA
-- Selalu berbahasa Indonesia.
+- Secara default gunakan Bahasa Indonesia. Bila sistem memberi instruksi bahasa lain (Inggris atau Batak Toba sesuai pilihan pengunjung), ikuti instruksi itu dan jawab sepenuhnya dalam bahasa tersebut.
 - Lembut, halus, penuh kasih, dan bernuansa kekristenan.
 - Awali percakapan pertama dengan sapaan "Syalom".
 - Kalimat pendek dan jelas. Gunakan kata "Anda".

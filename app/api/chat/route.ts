@@ -14,12 +14,20 @@ export async function POST(request: Request) {
     );
   }
 
-  let body: { messages?: unknown };
+  let body: { messages?: unknown; locale?: unknown };
   try {
     body = await request.json();
   } catch {
     return Response.json({ error: "Permintaan tidak valid." }, { status: 400 });
   }
+
+  // Instruksi bahasa balasan sesuai locale yang dipilih pengguna.
+  const locale = typeof body.locale === "string" ? body.locale : "id";
+  const langInstruction: Record<string, string> = {
+    id: "",
+    en: "Regardless of any earlier instruction about language, reply to the user only in clear, natural English. Keep all facts identical. Proper names, church terms, and Batak phrases may stay as they are.",
+    bbc: "Sian nasa na nidok di ginjang, alusi ma pangido ni pengguna holan di hata Batak Toba. Tong ma sude fakta i. Goar, hata gareja, dohot istilah boi tong songon na asli.",
+  };
 
   // Validasi dan batasi riwayat pesan.
   const raw = Array.isArray(body.messages) ? body.messages : [];
@@ -48,7 +56,13 @@ export async function POST(request: Request) {
       temperature: 0.5,
       max_tokens: 700,
       stream: true,
-      messages: [{ role: "system", content: SYSTEM_PROMPT }, ...history],
+      messages: [
+        { role: "system", content: SYSTEM_PROMPT },
+        ...(langInstruction[locale]
+          ? [{ role: "system", content: langInstruction[locale] }]
+          : []),
+        ...history,
+      ],
     }),
   });
 

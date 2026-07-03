@@ -48,3 +48,6 @@ KNOWLEDGE.md
 
 # Foto kiriman jemaat menunggu verifikasi (runtime)
 public/gallery-pending/
+
+# Data ulasan situs (runtime, tanpa database)
+/data/

@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import nodemailer from "nodemailer";
 import { renderEmail, infoRow, EMAIL_LOGO_CID } from "@/lib/email-template";
+import { serverMsg, fill } from "@/lib/i18n/server-messages";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -27,7 +28,7 @@ export async function POST(request: Request) {
   try {
     form = await request.formData();
   } catch {
-    return NextResponse.json({ error: "Format permintaan tidak valid." }, { status: 400 });
+    return NextResponse.json({ error: serverMsg("id").invalidFormat }, { status: 400 });
   }
 
   // Honeypot: bot biasanya mengisi field tersembunyi ini.
@@ -35,31 +36,33 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true });
   }
 
+  const m = serverMsg(String(form.get("locale") || "id"));
+
   const nama = String(form.get("nama") || "").trim();
   const email = String(form.get("email") || "").trim();
   const telepon = String(form.get("telepon") || "").trim();
   const pesan = String(form.get("pesan") || "").trim();
 
   if (!nama || !email || !pesan) {
-    return NextResponse.json({ error: "Nama, email, dan pesan wajib diisi." }, { status: 400 });
+    return NextResponse.json({ error: m.reqNamaEmailPesan }, { status: 400 });
   }
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    return NextResponse.json({ error: "Alamat email tidak valid." }, { status: 400 });
+    return NextResponse.json({ error: m.emailInvalid }, { status: 400 });
   }
 
   const files = form.getAll("files").filter((f): f is File => f instanceof File && f.size > 0);
   if (files.length > MAX_FILES) {
-    return NextResponse.json({ error: `Maksimal ${MAX_FILES} file.` }, { status: 400 });
+    return NextResponse.json({ error: fill(m.maxFiles, { n: MAX_FILES }) }, { status: 400 });
   }
   let total = 0;
   const fileAttachments: { filename: string; content: Buffer }[] = [];
   for (const f of files) {
     if (!ALLOWED_EXT.includes(ext(f.name))) {
-      return NextResponse.json({ error: `Tipe file ${f.name} tidak didukung.` }, { status: 400 });
+      return NextResponse.json({ error: fill(m.fileType, { name: f.name }) }, { status: 400 });
     }
     total += f.size;
     if (total > MAX_TOTAL_BYTES) {
-      return NextResponse.json({ error: "Total ukuran file melebihi 20 MB." }, { status: 400 });
+      return NextResponse.json({ error: m.fileTotal20 }, { status: 400 });
     }
     fileAttachments.push({ filename: f.name, content: Buffer.from(await f.arrayBuffer()) });
   }
@@ -67,10 +70,7 @@ export async function POST(request: Request) {
   const user = process.env.SMTP_USER;
   const pass = process.env.SMTP_PASS;
   if (!user || !pass) {
-    return NextResponse.json(
-      { error: "Layanan email belum dikonfigurasi." },
-      { status: 503 }
-    );
+    return NextResponse.json({ error: m.smtpUnset }, { status: 503 });
   }
 
   let logo: { filename: string; content: Buffer; cid: string }[] = [];
@@ -108,7 +108,7 @@ export async function POST(request: Request) {
       attachments: [...logo, ...fileAttachments],
     });
   } catch {
-    return NextResponse.json({ error: "Gagal mengirim laporan. Coba lagi nanti." }, { status: 502 });
+    return NextResponse.json({ error: m.sendFailLaporan }, { status: 502 });
   }
 
   return NextResponse.json({ ok: true });

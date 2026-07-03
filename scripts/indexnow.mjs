@@ -6,6 +6,7 @@ const HOST = "hkbpglugur.com";
 const KEY = "9ec125c8cdc64ea294a36aabdea151e0";
 const BASE = `https://${HOST}`;
 
+// Rute dasar (sama dengan sitemap). /permintaan sengaja tidak disertakan (noindex).
 const paths = [
   "/",
   "/tema-transformasi",
@@ -14,17 +15,30 @@ const paths = [
   "/informasi",
   "/media",
   "/pengembang",
+  "/warta",
+  "/sejarah-hkbp-glugur",
+  "/ulasan",
   "/buku",
   "/buku/alkitab",
   "/buku/buku-ende",
   "/buku/kidung-jemaat",
 ];
 
+// Indonesia di root, Inggris /en, Batak /bbc.
+const localePrefix = { id: "", en: "/en", bbc: "/bbc" };
+const urlList = [];
+for (const p of paths) {
+  for (const prefix of Object.values(localePrefix)) {
+    const rel = `${prefix}${p === "/" ? "" : p}`;
+    urlList.push(`${BASE}${rel === "" ? "" : rel}`);
+  }
+}
+
 const body = {
   host: HOST,
   key: KEY,
   keyLocation: `${BASE}/${KEY}.txt`,
-  urlList: paths.map((p) => `${BASE}${p === "/" ? "" : p}`),
+  urlList,
 };
 
 const res = await fetch("https://api.indexnow.org/IndexNow", {

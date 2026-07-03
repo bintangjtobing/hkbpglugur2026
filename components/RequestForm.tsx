@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import { track } from "@/lib/analytics";
+import { fill } from "@/lib/i18n/fill";
+import { useDict } from "./DictionaryProvider";
 
 const MAX_FILES = 10;
 const MAX_TOTAL = 20 * 1024 * 1024;
@@ -14,6 +16,9 @@ function fmtSize(n: number) {
 }
 
 export function RequestForm() {
+  const { dict, locale } = useDict();
+  const c = dict.ui.common;
+  const t = dict.ui.requestForm;
   const [captcha, setCaptcha] = useState<{ question: string; token: string } | null>(null);
   const [answer, setAnswer] = useState("");
   const [files, setFiles] = useState<File[]>([]);
@@ -41,18 +46,18 @@ export function RequestForm() {
     for (const f of incoming) {
       const ext = f.name.split(".").pop()?.toLowerCase() || "";
       if (!ALLOWED.includes(ext)) {
-        setFileError(`Tipe file ${f.name} tidak didukung.`);
+        setFileError(fill(t.fileTipe, { name: f.name }));
         continue;
       }
       if (merged.some((m) => m.name === f.name && m.size === f.size)) continue;
       merged.push(f);
     }
     if (merged.length > MAX_FILES) {
-      setFileError(`Maksimal ${MAX_FILES} file.`);
+      setFileError(fill(t.fileMax, { n: MAX_FILES }));
       return;
     }
     if (merged.reduce((s, f) => s + f.size, 0) > MAX_TOTAL) {
-      setFileError("Total ukuran file melebihi 20 MB.");
+      setFileError(t.fileTotal);
       return;
     }
     setFiles(merged);
@@ -73,13 +78,14 @@ export function RequestForm() {
     fd.delete("files");
     files.forEach((f) => fd.append("files", f));
     fd.append("captchaToken", captcha.token);
+    fd.append("locale", locale);
 
     try {
       const res = await fetch("/api/permintaan", { method: "POST", body: fd });
       const data = await res.json();
       if (res.ok) {
         setStatus("ok");
-        setMessage("Pesan Anda terkirim. Terima kasih, tim kami akan meninjau.");
+        setMessage(t.successBody);
         track("kirim_permintaan_sukses", { jumlah_lampiran: files.length });
         setFiles([]);
         setAnswer("");
@@ -87,14 +93,14 @@ export function RequestForm() {
         loadCaptcha();
       } else {
         setStatus("error");
-        setMessage(data.error || "Gagal mengirim pesan.");
+        setMessage(data.error || t.errGeneric);
         track("kirim_permintaan_gagal", { alasan: data.error || "tidak diketahui" });
         loadCaptcha();
         setAnswer("");
       }
     } catch {
       setStatus("error");
-      setMessage("Gagal terhubung ke server. Coba lagi.");
+      setMessage(c.gagalServer);
     }
   }
 
@@ -109,7 +115,7 @@ export function RequestForm() {
           <svg viewBox="0 0 24 24" className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
         </div>
         <h2 className="mt-5 font-display text-2xl font-semibold text-black">
-          Pesan terkirim
+          {t.successTitle}
         </h2>
         <p className="mt-3 text-black/70">{message}</p>
         <button
@@ -117,7 +123,7 @@ export function RequestForm() {
           onClick={() => setStatus("idle")}
           className="mt-6 rounded-full bg-royal px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-royal-600"
         >
-          Kirim permintaan lain
+          {t.another}
         </button>
       </div>
     );
@@ -130,38 +136,36 @@ export function RequestForm() {
     >
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
-          <label htmlFor="nama" className={label}>Nama</label>
-          <input id="nama" name="nama" required className={field} placeholder="Nama lengkap" />
+          <label htmlFor="nama" className={label}>{c.nama}</label>
+          <input id="nama" name="nama" required className={field} placeholder={c.namaLengkap} />
         </div>
         <div>
-          <label htmlFor="telepon" className={label}>Nomor telepon</label>
-          <input id="telepon" name="telepon" inputMode="tel" className={field} placeholder="Opsional" />
+          <label htmlFor="telepon" className={label}>{c.telepon}</label>
+          <input id="telepon" name="telepon" inputMode="tel" className={field} placeholder={c.opsional} />
         </div>
       </div>
 
       <div className="mt-5">
-        <label htmlFor="email" className={label}>Email</label>
-        <input id="email" name="email" type="email" required className={field} placeholder="nama@email.com" />
+        <label htmlFor="email" className={label}>{c.email}</label>
+        <input id="email" name="email" type="email" required className={field} placeholder={c.emailPlaceholder} />
       </div>
 
       <div className="mt-5">
-        <label htmlFor="pesan" className={label}>Pesan</label>
+        <label htmlFor="pesan" className={label}>{c.pesan}</label>
         <textarea
           id="pesan"
           name="pesan"
           required
           rows={5}
           className={`${field} resize-y`}
-          placeholder="Jelaskan konten, artikel, atau informasi yang perlu diperbaiki atau ditambahkan."
+          placeholder={t.pesanPlaceholder}
         />
       </div>
 
       {/* File */}
       <div className="mt-5">
-        <label className={label}>Lampiran</label>
-        <p className="mb-2 text-xs text-black/55">
-          Excel, Word, PDF, atau gambar. Maksimal 10 file, total 20 MB.
-        </p>
+        <label className={label}>{t.lampiran}</label>
+        <p className="mb-2 text-xs text-black/55">{t.lampiranHint}</p>
         <input
           ref={fileRef}
           type="file"
@@ -186,7 +190,7 @@ export function RequestForm() {
                     type="button"
                     onClick={() => removeFile(i)}
                     className="text-black/40 hover:text-red-600"
-                    aria-label={`Hapus ${f.name}`}
+                    aria-label={`${c.hapus} ${f.name}`}
                   >
                     <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18M6 6l12 12" /></svg>
                   </button>
@@ -194,7 +198,7 @@ export function RequestForm() {
               </li>
             ))}
             <li className="px-1 text-xs text-black/50">
-              {files.length} file, {fmtSize(totalSize)} dari 20 MB
+              {fill(t.fileSummary, { n: files.length, size: fmtSize(totalSize) })}
             </li>
           </ul>
         ) : null}
@@ -204,7 +208,7 @@ export function RequestForm() {
       <div className="mt-6 flex flex-wrap items-end gap-4 rounded-xl border border-line bg-mist p-4">
         <div>
           <label htmlFor="captchaAnswer" className={label}>
-            Verifikasi: berapa hasil {captcha ? captcha.question : "..."} ?
+            {c.captchaLabel} {captcha ? captcha.question : "..."} ?
           </label>
           <input
             id="captchaAnswer"
@@ -214,7 +218,7 @@ export function RequestForm() {
             value={answer}
             onChange={(e) => setAnswer(e.target.value)}
             className={`${field} max-w-40`}
-            placeholder="Jawaban"
+            placeholder={c.jawaban}
           />
         </div>
         <button
@@ -222,7 +226,7 @@ export function RequestForm() {
           onClick={loadCaptcha}
           className="mb-0.5 rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-black/70 hover:bg-white"
         >
-          Ganti soal
+          {c.gantiSoal}
         </button>
       </div>
 
@@ -235,7 +239,7 @@ export function RequestForm() {
         disabled={status === "sending" || !captcha}
         className="mt-6 w-full rounded-full bg-royal px-6 py-3.5 text-sm font-semibold text-white shadow-[0_12px_28px_-12px_rgba(33,56,224,0.8)] transition-colors hover:bg-royal-600 disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
       >
-        {status === "sending" ? "Mengirim..." : "Kirim Permintaan"}
+        {status === "sending" ? c.mengirim : t.submit}
       </button>
     </form>
   );

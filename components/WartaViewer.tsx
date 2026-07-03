@@ -3,8 +3,10 @@
 import { useMemo, useState } from "react";
 import { wartaList } from "@/lib/warta";
 import { track } from "@/lib/analytics";
+import { useDict } from "./DictionaryProvider";
 
 export function WartaViewer() {
+  const t = useDict().dict.ui.wartaViewer;
   const [active, setActive] = useState(wartaList[0]?.file ?? "");
   const [query, setQuery] = useState("");
   const [terbaru, setTerbaru] = useState(true);
@@ -24,7 +26,7 @@ export function WartaViewer() {
   }, [query, terbaru]);
 
   if (wartaList.length === 0) {
-    return <p className="text-black/60">Belum ada warta tata ibadah.</p>;
+    return <p className="text-black/60">{t.empty}</p>;
   }
 
   return (
@@ -32,25 +34,27 @@ export function WartaViewer() {
       {/* Daftar warta */}
       <div className="lg:sticky lg:top-24 lg:self-start">
         <label className="relative block">
-          <span className="sr-only">Cari warta berdasarkan tanggal atau bulan</span>
+          <span className="sr-only">{t.srSearch}</span>
           <input
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Cari bulan atau tanggal, misalnya Februari"
+            placeholder={t.searchPlaceholder}
             className="w-full rounded-full border border-line bg-white px-5 py-2.5 text-sm text-black shadow-sm outline-none focus:border-royal"
           />
         </label>
 
         <div className="mt-3 flex items-center justify-between px-1">
-          <span className="text-xs font-medium text-black/50">{results.length} warta</span>
+          <span className="text-xs font-medium text-black/50">
+            {results.length} {t.unit}
+          </span>
           <button
             type="button"
             onClick={() => setTerbaru((v) => !v)}
             className="inline-flex items-center gap-1.5 rounded-full border border-line px-3 py-1 text-xs font-semibold text-black/70 hover:bg-mist"
           >
             <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 6h18M6 12h12M10 18h4" /></svg>
-            {terbaru ? "Terbaru" : "Terlama"}
+            {terbaru ? t.terbaru : t.terlama}
           </button>
         </div>
 
@@ -79,7 +83,7 @@ export function WartaViewer() {
             );
           })}
           {results.length === 0 ? (
-            <li className="px-3 py-2 text-sm text-black/50">Tidak ada warta yang cocok.</li>
+            <li className="px-3 py-2 text-sm text-black/50">{t.noMatch}</li>
           ) : null}
         </ul>
       </div>
@@ -87,31 +91,31 @@ export function WartaViewer() {
       {/* Preview PDF */}
       <div>
         <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
-          <p className="text-sm font-semibold text-black">Pratinjau</p>
+          <p className="text-sm font-semibold text-black">{t.pratinjau}</p>
           <div className="flex gap-2">
             <a
               href={active}
               target="_blank"
               rel="noopener noreferrer"
-              title="Buka warta di tab baru"
+              title={t.bukaTabTitle}
               className="rounded-full border border-line px-4 py-1.5 text-xs font-semibold text-black hover:bg-mist"
             >
-              Buka di tab baru
+              {t.bukaTab}
             </a>
             <a
               href={active}
               download
-              title="Unduh warta"
+              title={t.unduhTitle}
               className="rounded-full bg-royal px-4 py-1.5 text-xs font-semibold text-white hover:bg-royal-600"
             >
-              Unduh
+              {t.unduh}
             </a>
           </div>
         </div>
         <div className="overflow-hidden rounded-[var(--radius-card)] border border-line bg-white shadow-[var(--shadow-soft)]">
           <iframe
             src={`${active}#view=FitH`}
-            title="Pratinjau Warta Tata Ibadah"
+            title={t.iframeTitle}
             className="h-[72vh] w-full"
           />
         </div>

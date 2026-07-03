@@ -1,0 +1,657 @@
+{
+  "common": {
+    "siteName": "HKBP Glugur",
+    "ressortShort": "Ressort Medan Utara",
+    "tagline": "Rumah untuk bertumbuh dalam iman, kasih, dan pelayanan di Kota Medan.",
+    "language": "Bahasa",
+    "chooseLanguage": "Pilih bahasa",
+    "openMenu": "Buka menu navigasi",
+    "homeAria": "HKBP Glugur, Beranda",
+    "logoAlt": "Logo HKBP Glugur",
+    "themeBadgeTitle": "Tema HKBP 2024 sampai 2028: Transformasi, Roma 12:2",
+    "themeBadgeAria": "Tema Transformasi HKBP 2024 sampai 2028",
+    "themeBadgeLogoAlt": "Logo Tema Transformasi HKBP 2024 sampai 2028"
+  },
+  "nav": {
+    "beranda": "Beranda",
+    "tentang": "Tentang",
+    "profil": "Profil Gereja",
+    "sejarahGlugur": "Sejarah HKBP Glugur",
+    "sejarahHkbp": "Sejarah HKBP",
+    "pagaran": "Huria Pagaran",
+    "pimpinan": "Pimpinan Gereja",
+    "ibadah": "Ibadah",
+    "jadwal": "Jadwal Ibadah",
+    "warta": "Warta Tata Ibadah",
+    "pelayanan": "Pelayanan",
+    "bidang": "Bidang Pelayanan",
+    "sintua": "Majelis Sintua",
+    "bukuDigital": "Buku",
+    "alkitab": "Alkitab",
+    "bukuEnde": "Buku Ende",
+    "kidungJemaat": "Kidung Jemaat",
+    "galeri": "Galeri",
+    "galeriFoto": "Galeri Foto dan Video",
+    "informasi": "Informasi",
+    "persembahan": "Persembahan",
+    "tarif": "Tarif Fasilitas",
+    "pernikahan": "Administrasi Pernikahan",
+    "ulasan": "Ulasan",
+    "lokasi": "Lokasi"
+  },
+  "footer": {
+    "navigasi": "Navigasi",
+    "kontak": "Kontak",
+    "facebook": "Facebook HKBP Glugur",
+    "youtube": "YouTube HKBP Glugur",
+    "email": "Email HKBP Glugur",
+    "temaLink": "Makna Tema Transformasi HKBP 2024 sampai 2028",
+    "permintaanLink": "Permintaan Perbaikan Konten",
+    "pengembangLink": "Tentang Pengembang",
+    "temaBlurb": "HKBP mengusung tema Transformasi, berubah oleh pembaruan budi (Roma 12:2), untuk menjadi berkat bagi dunia.",
+    "berkat": "Sai Tuhan i ma mangaramoti hita. Tuhan memberkati.",
+    "relawanPre": "Dibangun sebagai inisiatif relawan oleh",
+    "relawanMid": ". Dukung lewat",
+    "relawanPost": "."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Distrik X Medan Aceh · Kota Medan",
+      "line1": "Selamat datang",
+      "line2Prefix": "di",
+      "tagline": "Rumah untuk bertumbuh dalam iman, kasih, dan pelayanan di Kota Medan. Kami bagian dari Huria Kristen Batak Protestan, gereja Protestan terbesar di Asia Tenggara sejak 1861.",
+      "ctaJadwal": "Lihat Jadwal Ibadah",
+      "ctaLokasi": "Petunjuk Lokasi",
+      "verseRef": "Galatia 6:2. Bertolong-tolonganlah kamu menanggung bebanmu.",
+      "ibadahMinggu": "Ibadah Minggu",
+      "ibadahMingguTimes": "07.45, 10.00, dan 17.00 WIB"
+    },
+    "stats": [
+      { "label": "Lingkungan", "sub": "Wijk pelayanan jemaat" },
+      { "label": "Sintua", "sub": "Penatua yang melayani" },
+      { "label": "Warisan HKBP", "sub": "Tahun berdirinya HKBP" },
+      { "label": "Huria Pagaran", "sub": "Gereja di bawah Ressort" }
+    ],
+    "shortcuts": [
+      { "title": "Alkitab", "desc": "TB, TL, Batak Toba" },
+      { "title": "Buku Ende", "desc": "Nyanyian Batak Toba" },
+      { "title": "Kidung Jemaat", "desc": "Lagu pujian Indonesia" },
+      { "title": "Tata Ibadah", "desc": "Warta ibadah mingguan" },
+      { "title": "Informasi", "desc": "Persembahan dan layanan" }
+    ],
+    "tentang": {
+      "eyebrow": "Tentang Kami",
+      "heading": "Gereja Batak yang berakar pada Injil",
+      "p1": "Huria Kristen Batak Protestan (HKBP) berdiri pada 7 Oktober 1861 di Pearaja, Tarutung. Dari Tanah Batak, gereja ini tumbuh menjadi gereja Kristen Protestan terbesar di Asia Tenggara.",
+      "p2": "HKBP Glugur melayani jemaat di Glugur Darat, Medan. Gereja ini menjadi pusat Ressort Medan Utara, Distrik X Medan Aceh.",
+      "logoAlt": "Logo resmi HKBP dengan salib, lingkaran Trinitas, dan tulisan HKBP"
+    },
+    "logo": {
+      "eyebrow": "Makna Lambang",
+      "heading": "Setiap garis menuturkan iman",
+      "intro": "Lambang HKBP merangkum inti keyakinan gereja. Kristus adalah Kepala Gereja yang berkuasa atas dunia.",
+      "items": [
+        { "title": "Salib", "body": "Melambangkan pengorbanan Yesus Kristus. Iman kepada Kristus menjadi dasar gereja dalam memberitakan Injil dan melayani sesama." },
+        { "title": "Lingkaran Trinitas", "body": "Menggambarkan Allah yang esa dalam tiga pribadi, yaitu Bapa, Anak, dan Roh Kudus. Inilah pusat keyakinan HKBP." },
+        { "title": "Tulisan HKBP", "body": "Singkatan dari Huria Kristen Batak Protestan. Menegaskan identitas gereja Protestan yang lahir dari masyarakat Batak." }
+      ]
+    },
+    "ibadah": {
+      "eyebrow": "Jadwal Kebaktian",
+      "heading": "Mari beribadah bersama",
+      "intro": "Pintu gereja terbuka untuk setiap jemaat dan tamu. Berikut jadwal ibadah rutin sepanjang pekan.",
+      "services": [
+        { "day": "Minggu", "title": "Kebaktian Pagi", "note": "Ibadah utama pembuka hari Tuhan." },
+        { "day": "Minggu", "title": "Kebaktian Siang", "note": "Ibadah keluarga terbuka untuk semua jemaat dan tamu." },
+        { "day": "Minggu", "title": "Kebaktian Sore", "note": "Ibadah penutup hari Minggu." },
+        { "day": "Rabu & Kamis", "title": "Ibadah Sektor", "note": "Partangiangan yang bergilir di rumah jemaat tiap lingkungan." }
+      ],
+      "specialHeading": "Ibadah Raya dan Hari Besar Gerejawi",
+      "specialIntro": "Kami juga menyelenggarakan ibadah pada perayaan besar Kristen Protestan sepanjang tahun.",
+      "special": [
+        "Ibadah Natal",
+        "Ibadah Tahun Baru",
+        "Ibadah Jumat Agung",
+        "Ibadah Kebangkitan (Paskah)",
+        "Ibadah Kenaikan Yesus Kristus",
+        "Ibadah Pentakosta",
+        "Ibadah Kematian"
+      ],
+      "sesuaiKebutuhan": "Sesuai kebutuhan",
+      "specialNote": "Tanggal hari besar yang berpindah mengikuti kalender gerejawi tahunan."
+    },
+    "pelayanan": {
+      "eyebrow": "Pelayanan dan Kategorial",
+      "heading": "Bertumbuh dalam persekutuan",
+      "intro": "Setiap wadah pelayanan menemani jemaat di tiap tahap kehidupan, dari anak sampai orang tua.",
+      "items": [
+        { "name": "Sekolah Minggu", "desc": "Anak belajar iman lewat cerita Alkitab, nyanyian, dan kasih." },
+        { "name": "Naposobulung (NHKBP)", "desc": "Wadah pemuda dan pemudi bertumbuh dalam iman, talenta, dan kebersamaan." },
+        { "name": "Punguan Ina", "desc": "Persekutuan kaum ibu dalam doa, diakonia, dan pelayanan sosial." },
+        { "name": "Punguan Ama", "desc": "Persekutuan kaum bapak yang menopang pelayanan dan pembangunan gereja." },
+        { "name": "Paduan Suara", "desc": "Koor jemaat yang memuji Tuhan lewat marende dan musik gerejawi." },
+        { "name": "Diakonia Sosial", "desc": "Pelayanan kasih untuk jemaat yang sakit, lansia, dan yang membutuhkan." }
+      ]
+    },
+    "pagaran": {
+      "eyebrow": "Ressort Medan Utara",
+      "heading": "Satu ressort, satu keluarga",
+      "note": "HKBP Glugur menjadi pusat Ressort Medan Utara. Tiga huria pagaran melayani di bawah naungan yang sama.",
+      "pusatBadge": "Gereja Pusat",
+      "pusatDesc": "Pusat pelayanan Ressort Medan Utara di bawah Distrik X Medan Aceh.",
+      "role": "Huria Pagaran",
+      "desc": [
+        "Melayani jemaat di kawasan Pulo Brayan, Medan.",
+        "Melayani jemaat di kawasan Tanjung Mulia, Medan Deli.",
+        "Melayani jemaat di kawasan Titi Papan, Medan Deli."
+      ]
+    },
+    "sejarah": {
+      "eyebrow": "Warisan Iman",
+      "heading": "Jejak perjalanan HKBP",
+      "intro": "Perjalanan iman ini dimulai dari pekabaran Injil di Tanah Batak sampai HKBP hadir di Kota Medan.",
+      "items": [
+        { "title": "Awal Pekabaran Injil", "body": "Pada 7 Oktober 1861 para misionaris membuka misi di Tanah Batak. Tanggal ini menjadi hari lahir HKBP." },
+        { "title": "Nommensen Datang", "body": "Ingwer Ludwig Nommensen tiba sebagai utusan RMG. Dia mulai dari Padang, lalu Barus, menuju Silindung." },
+        { "title": "Masuk Lembah Silindung", "body": "Nommensen menetap di Huta Dame, Silindung. Dari sini Injil menyebar ke seluruh Tanah Batak." },
+        { "title": "Baptisan Pertama", "body": "Pada 27 Agustus 1865 Nommensen membaptis empat pasangan suami istri di Silindung." },
+        { "title": "Ephorus Pertama", "body": "Nommensen terpilih menjadi Ephorus pertama yang memimpin pelayanan HKBP." },
+        { "title": "Nommensen Wafat", "body": "Nommensen meninggal di Sigumpar. Jemaat mengenangnya sebagai Apostel Batak." },
+        { "title": "HKBP Mandiri", "body": "Pada Sinode Godang 1940, Pdt. K. Sirait menjadi Ephorus Batak pertama. HKBP berdiri sebagai gereja mandiri." },
+        { "title": "Gereja Lutheran Dunia", "body": "HKBP bergabung dengan Lutheran World Federation dan diakui secara internasional." },
+        { "title": "Terbesar di Asia Tenggara", "body": "HKBP tumbuh menjadi gereja Kristen Protestan terbesar di Asia Tenggara dengan jutaan warga jemaat." },
+        { "title": "Melayani Kota Medan", "body": "HKBP Glugur berdiri di Glugur Darat sebagai pusat Ressort Medan Utara, Distrik X Medan Aceh." }
+      ]
+    },
+    "ulasan": {
+      "eyebrow": "Ulasan Jemaat",
+      "heading": "Dipercaya jemaat dan tamu",
+      "intro": "Terima kasih atas dukungan Anda. Bagikan pengalaman Anda beribadah di HKBP Glugur.",
+      "count": "ulasan",
+      "ctaGoogle": "Ulas di Google",
+      "ctaFacebook": "Ulas di Facebook",
+      "ctaSuffix": "untuk HKBP Glugur"
+    },
+    "lokasi": {
+      "eyebrow": "Lokasi dan Kontak",
+      "heading": "Kunjungi rumah kami",
+      "intro": "Kami menyambut kedatangan Anda untuk beribadah dan bersekutu bersama.",
+      "alamat": "Alamat",
+      "telepon": "Telepon",
+      "emailSosial": "Email dan Media Sosial",
+      "bukaMaps": "Buka di Google Maps",
+      "mapsTitle": "Lokasi HKBP Glugur di Google Maps",
+      "mapsAria": "Buka lokasi HKBP Glugur di Google Maps",
+      "mapTitle": "Peta lokasi HKBP Glugur"
+    }
+  },
+  "kepemimpinan": {
+    "banner": {
+      "eyebrow": "Tentang Kami",
+      "title": "Pimpinan Gereja",
+      "desc": "HKBP Glugur melayani dalam naungan HKBP dan Distrik X Medan Aceh. Berikut para pemimpin untuk periode 2024 sampai 2028."
+    },
+    "periode": "Periode 2024 sampai 2028",
+    "intro1": "HKBP Glugur melayani dalam naungan Huria Kristen Batak Protestan dan Distrik X Medan Aceh. Para pemimpin gereja menggembalakan jemaat, mengarahkan pelayanan, dan menjaga ajaran tetap setia pada firman Tuhan.",
+    "intro2": "Berikut susunan pimpinan HKBP di tingkat pusat dan pimpinan Distrik X Medan Aceh untuk periode pelayanan 2024 sampai 2028.",
+    "tableHKBP": "Pimpinan HKBP",
+    "tableDistrik": "Pimpinan Distrik X Medan Aceh"
+  },
+  "informasi": {
+    "banner": {
+      "eyebrow": "Informasi Jemaat",
+      "title": "Layanan dan ketentuan jemaat",
+      "desc": "Panduan persembahan, tarif pemakaian fasilitas, dan syarat administrasi pernikahan di HKBP Glugur."
+    },
+    "persembahan": {
+      "eyebrow": "Persembahan",
+      "heading": "Dukung pelayanan gereja",
+      "note": "Salurkan persembahan dan dukungan Anda melalui rekening resmi gereja.",
+      "bankLabel": "Bank",
+      "rekeningLabel": "Nomor Rekening",
+      "atasNamaLabel": "Atas Nama",
+      "bungaTitle": "Sumbangan Bunga Hidup untuk Altar",
+      "bunga": "Bagi jemaat yang ingin memberi sumbangan berupa bunga hidup untuk altar, mohon menghubungi pihak gereja paling lambat 3 hari sebelum hari Minggu.",
+      "telepon": "Telepon"
+    },
+    "tarif": {
+      "eyebrow": "Tarif Fasilitas",
+      "heading": "Tarif pemakaian fasilitas gereja",
+      "introPre": "Tarif berlaku untuk ruas dan umum. Data ketentuan per ",
+      "colFasilitas": "Fasilitas",
+      "colRuas": "Ruas",
+      "colUmum": "Umum",
+      "items": [
+        "Aula untuk acara na monding",
+        "Aula untuk acara selain na monding",
+        "Gedung Serbaguna (GSG)"
+      ],
+      "ketentuanTitle": "Ketentuan tambahan",
+      "ketentuan": [
+        "Setelah acara adat selesai, peti jenazah segera dipindahkan dari aula.",
+        "Pemakaian gereja untuk Natal Rp1.500.000 dan sudah termasuk AC.",
+        "Ibadah martumpol atau pamasumasuon yang bukan ruas dikenakan Rp500.000. Kolekte dibagi 50 persen untuk huria. Instrumen musik yang disediakan hanya keyboard.",
+        "Penambahan perangkat di gereja, aula, atau GSG: AC, sound system, atau lighting Rp300.000 per unit. Video Rp100.000.",
+        "Retribusi bunga dekorasi dari luar untuk gereja, aula, atau GSG Rp100.000 per gedung dan dibebankan kepada vendor.",
+        "Alat musik dan sound system gereja tidak dipakai jika jemaat membawa instrumen dari luar.",
+        "GSG, aula, atau ruang kelas untuk partangiangan sektor dan punguan koor hanya untuk ruas yang rumahnya tidak memadai."
+      ]
+    },
+    "pernikahan": {
+      "eyebrow": "Administrasi Pernikahan",
+      "heading": "Pertunangan dan pernikahan",
+      "intro": "Syarat kelengkapan untuk martumpol dan tarpasupasu di HKBP Glugur.",
+      "steps": [
+        "Anggota jemaat HKBP Glugur membawa surat pengantar dari sintua atau penatua sektor. Lampirkan fotokopi Surat Baptis dan Surat Sidi.",
+        "Bukan anggota jemaat HKBP Glugur membawa Surat Keterangan Anggota Jemaat dari gereja asal.",
+        "Bawa pasfoto gandeng 2 lembar ukuran 6x4. Semua berkas dilaporkan seminggu sebelum hari H.",
+        "Percakapan atau konseling pernikahan dilakukan 2 sampai 3 hari sebelum hari H oleh pendeta yang memberkati.",
+        "Acara martumpol dan tarpasupasu sudah disediakan oleh huria."
+      ],
+      "konselingTitle": "Penjadwalan konseling pernikahan",
+      "konselingDesc": "Hubungi kantor gereja untuk mengatur jadwal dengan pendeta.",
+      "telepon": "Telepon"
+    }
+  },
+  "sintua": {
+    "banner": {
+      "eyebrow": "Pelayanan",
+      "title": "Majelis Sintua",
+      "desc": "Para Sintua menggembalakan dan melayani jemaat di setiap lingkungan HKBP Glugur."
+    },
+    "daftar": "Daftar Sintua",
+    "colNama": "Nama",
+    "colJabatan": "Jabatan",
+    "colTahbis": "Tanggal Tahbis",
+    "tahbisPrefix": "Tahbis",
+    "footnote": "Sumber data hkbp.or.id. Titik netral menandai data yang belum tersedia."
+  },
+  "buku": {
+    "banner": {
+      "eyebrow": "Buku Digital",
+      "title": "Firman dan pujian dalam genggaman",
+      "desc": "Baca Alkitab dan nyanyikan pujian langsung dari situs. Terbuka untuk semua jemaat, kapan saja."
+    },
+    "buka": "Buka",
+    "items": [
+      { "name": "Alkitab", "desc": "Baca firman Tuhan dalam Terjemahan Baru, Terjemahan Lama, dan Batak Toba.", "meta": "66 kitab, 3 versi" },
+      { "name": "Buku Ende", "desc": "Kumpulan nyanyian jemaat berbahasa Batak Toba untuk ibadah dan doa.", "meta": "535 lagu" },
+      { "name": "Kidung Jemaat", "desc": "Himpunan lagu pujian berbahasa Indonesia yang biasa dipakai dalam ibadah.", "meta": "502 lagu" }
+    ],
+    "alkitab": {
+      "banner": { "eyebrow": "Buku Digital", "title": "Alkitab", "desc": "Pilih versi, kitab, dan pasal untuk membaca firman Tuhan." },
+      "p1": "Baca Alkitab lengkap langsung di situs HKBP Glugur. Tersedia tiga versi, yaitu Terjemahan Baru (TB), Terjemahan Lama (TL), dan Alkitab Batak Toba. Pilih versi sesuai kebutuhan Anda.",
+      "p2": "Anda bisa memilih kitab dan pasal dari daftar, atau mengetik referensi seperti Yohanes 3:16 pada kotak pencarian untuk langsung menuju ayat. Seluruh 66 kitab Perjanjian Lama dan Perjanjian Baru dapat dibaca gratis. Cocok untuk persiapan ibadah, saat teduh pribadi, ibadah keluarga, dan pendalaman Alkitab bersama.",
+      "sumber": "Sumber teks: API Alkitab SABDA (alkitab.sabda.org)."
+    },
+    "bukuEnde": {
+      "banner": { "eyebrow": "Buku Digital", "title": "Buku Ende", "desc": "Nyanyian jemaat berbahasa Batak Toba. Cari berdasarkan nomor atau judul." },
+      "p1": "Buku Ende adalah kumpulan nyanyian jemaat HKBP berbahasa Batak Toba yang dipakai dalam ibadah dan persekutuan. Di halaman ini tersedia 535 lagu yang bisa Anda cari berdasarkan nomor atau judul.",
+      "p2": "Pilih sebuah lagu untuk membaca liriknya bait demi bait. Berguna untuk mengiringi kebaktian Minggu, partangiangan sektor, latihan paduan suara, dan ibadah keluarga di rumah.",
+      "sumber": "Sumber lirik: dataset publik Buku Ende HKBP."
+    },
+    "kidungJemaat": {
+      "banner": { "eyebrow": "Buku Digital", "title": "Kidung Jemaat", "desc": "Lagu pujian berbahasa Indonesia. Cari berdasarkan nomor atau judul." },
+      "p1": "Kidung Jemaat adalah himpunan lagu pujian berbahasa Indonesia yang umum dipakai dalam ibadah gereja. Di halaman ini tersedia 502 lagu yang bisa Anda cari berdasarkan nomor atau judul.",
+      "p2": "Pilih sebuah lagu untuk membaca liriknya bait demi bait. Cocok untuk ibadah Minggu, sekolah minggu, ibadah keluarga, dan latihan paduan suara.",
+      "sumber": "Sumber lirik: dataset publik Kidung Jemaat."
+    }
+  },
+  "warta": {
+    "banner": {
+      "eyebrow": "Ibadah",
+      "title": "Warta Tata Ibadah",
+      "desc": "Baca dan unduh warta serta tata ibadah HKBP Glugur setiap minggu dalam bentuk PDF."
+    },
+    "kirimEyebrow": "Kirim Warta",
+    "kirimHeading": "Kirim warta untuk dipublikasikan",
+    "kirimIntro": "Pengurus gereja atau jemaat dapat mengirim warta tata ibadah di sini. Tim kami akan memverifikasi, lalu mengunggah versi rapinya ke halaman ini."
+  },
+  "media": {
+    "banner": {
+      "eyebrow": "Galeri dan Media",
+      "title": "Rekam jejak sukacita jemaat",
+      "desc": "Tonton kegiatan dan ibadah HKBP Glugur, serta jelajahi album foto gereja."
+    },
+    "videoEyebrow": "Video YouTube",
+    "videoHeading": "Video terbaru",
+    "channelTitle": "Kanal YouTube",
+    "channelAria": "Buka kanal YouTube",
+    "channelRoles": ["Kanal Resmi", "Dokumentasi Kegiatan"],
+    "watchAria": "Tonton video:",
+    "thumbAlt": "Thumbnail video",
+    "emptyVideo": "Video belum dapat dimuat saat ini. Kunjungi kanal YouTube kami langsung melalui tombol di atas.",
+    "albumEyebrow": "Album Foto",
+    "albumHeading": "Galeri foto gereja",
+    "albumIntro": "Kumpulan foto gedung dan kegiatan tersimpan di Google Maps dan Facebook resmi. Buka album lengkapnya di sana.",
+    "albums": [
+      { "label": "Foto Google Business", "desc": "Foto profil, gedung, dan kegiatan gereja di Google Maps." },
+      { "label": "Foto Facebook", "desc": "Album foto kegiatan di halaman Facebook resmi." }
+    ],
+    "kirimEyebrow": "Kirim Foto",
+    "kirimHeading": "Bagikan foto kegiatan Anda",
+    "kirimIntro": "Punya foto ibadah atau kegiatan gereja? Kirimkan di sini. Tim kami akan meninjau lalu menampilkan yang sesuai di galeri."
+  },
+  "pengembang": {
+    "banner": {
+      "eyebrow": "Tentang Situs",
+      "title": "Dibangun oleh inisiatif relawan",
+      "desc": "Situs ini hadir dari niat baik untuk melayani jemaat dan memudahkan informasi HKBP Glugur."
+    },
+    "relawan": "Relawan",
+    "role": "Product & Project Manager, Full-Stack Developer",
+    "p1": "Situs HKBP Glugur dikembangkan secara sukarela oleh Bintang Tobing. Ia bekerja di sisi manajemen produk dan proyek sekaligus pengembangan perangkat lunak, dari sisi tampilan sampai server.",
+    "p2": "Tujuannya sederhana. Membuat informasi gereja mudah diakses, rapi, dan bermanfaat bagi seluruh jemaat.",
+    "profilLink": "Profil bintangtobing.com",
+    "dukungSaweria": "Dukung lewat Saweria",
+    "donasiPre": "Ingin mendukung kelangsungan situs ini? Donasi apa pun sangat berarti melalui",
+    "donasiPost": "."
+  },
+  "permintaan": {
+    "banner": {
+      "eyebrow": "Permintaan Perbaikan",
+      "title": "Bantu kami menjaga informasi tetap akurat",
+      "desc": "Ada konten, artikel, atau data yang perlu diperbaiki atau ditambah? Kirim lewat formulir ini. Tim kami akan meninjaunya."
+    },
+    "footnote": "Pesan Anda dikirim ke pengelola situs untuk ditinjau. Kami dapat menghubungi Anda kembali melalui email atau telepon yang diisi."
+  },
+  "tema": {
+    "heroEyebrow": "Tema HKBP 2024 sampai 2028",
+    "heroTitle": "Tahun Transformasi HKBP",
+    "heroIntro": "Berubahlah oleh pembaruan budimu. Sebuah panggilan untuk bertumbuh, diperbarui, dan menjadi berkat bagi dunia.",
+    "logoAlt": "Logo Tahun Transformasi HKBP 2024 sampai 2028, Roma 12:2",
+    "ayat": "Janganlah kamu menjadi serupa dengan dunia ini, tetapi berubahlah oleh pembaruan budimu.",
+    "ayatRef": "Roma 12:2",
+    "apaHeading": "Apa itu Tahun Transformasi",
+    "apaP1": "Tahun Transformasi adalah keputusan Sinode Godang 2024 dalam Rencana Strategis HKBP 2024 sampai 2028. Temanya diambil dari Roma 12:2, yaitu ajakan untuk berubah oleh pembaruan budi.",
+    "apaP2": "Kata transformasi berasal dari bahasa Yunani metamorphoo, yang berarti metamorfosis. Transformasi rohani bukan sekadar perubahan perilaku. Ini pembaruan cara berpikir agar kita mengerti kehendak Allah yang baik dan sempurna.",
+    "apaP3": "Melalui transformasi, HKBP mau menjadi gereja yang lebih berenergi, bergerak lebih lincah, lebih baik, lebih indah, dan menjadi berkat bagi dunia.",
+    "logoEyebrow": "Makna Logo",
+    "logoHeading": "Filosofi di balik lambang",
+    "logoMakna": [
+      { "title": "Infinity Loop", "body": "Putaran tak berhingga menandai semangat Ekklesia Reformata Semper Reformanda. Gereja terus diperbarui tanpa henti." },
+      { "title": "Kupu-Kupu", "body": "Metamorfosis kupu-kupu menggambarkan perjalanan transformasi. Perubahan yang mendasar dan bertumbuh." },
+      { "title": "Empat Lingkaran", "body": "Empat elemen dasar pembentuk logo mewakili empat elemen perubahan: karakter, janji, kultur, dan kemampuan." },
+      { "title": "Salib di Pusat", "body": "Salib menjadi pengunci. Transformasi tidak menyimpang dari ajaran Kristus dalam setiap pelayanan HKBP." },
+      { "title": "Tiga Garis Penopang", "body": "Tiga tugas panggilan gereja: bersekutu (koinonia), bersaksi (marturia), dan melayani (diakonia)." },
+      { "title": "Warna Ungu dan Biru", "body": "Ungu melambangkan pertobatan, transformasi, kehormatan, dan kemuliaan. Biru menegaskan identitas HKBP." }
+    ],
+    "pendekatanEyebrow": "Tiga Pendekatan",
+    "pendekatanHeading": "Jalan menuju transformasi",
+    "pendekatan": [
+      { "title": "Disiplin Rohani", "body": "Landasan bagi setiap orang untuk memahami dengan jernih kehendak Tuhan." },
+      { "title": "Kesatuan Pelayan", "body": "Semangat kesatuan di antara para pelayan HKBP menjadi kunci transformasi." },
+      { "title": "Jemaat Visioner", "body": "Jemaat bukan hanya objek pelayanan, tetapi subjek yang aktif melayani." }
+    ],
+    "visiLabel": "Visi HKBP",
+    "visi": "Menjadi berkat bagi dunia.",
+    "misiLabel": "Misi HKBP",
+    "misi": "Menjadikan murid Kristus pelaku Firman.",
+    "sumber": "Sumber: portal resmi HKBP (hkbp.or.id) dan Buku Panduan Tahun Transformasi HKBP 2025."
+  },
+  "sejarah": {
+    "eyebrow": "Sejarah",
+    "title": "Sejarah HKBP Glugur",
+    "heroIntro": "Perjalanan sebuah huria di Glugur Darat, dari akar iman di Tanah Batak sampai menjadi pusat pelayanan Ressort Medan Utara.",
+    "byline": "Redaksi HKBP Glugur",
+    "readTime": "Bacaan sekitar 5 menit",
+    "lead": "HKBP Glugur berdiri di Glugur Darat, salah satu kawasan tua Kota Medan. Gereja ini bukan sekadar tempat ibadah. Ia adalah rumah bagi ribuan jemaat Batak yang tumbuh bersama di tengah kota, dan menjadi pusat pelayanan Ressort Medan Utara, Distrik X Medan Aceh.",
+    "s1Heading": "Akar dari Tanah Batak",
+    "s1p1": "Kisah HKBP Glugur tidak bisa dilepaskan dari akar besar Huria Kristen Batak Protestan. HKBP lahir pada 7 Oktober 1861 di Pearaja, Tarutung. Dari sana, lewat pelayanan Ingwer Ludwig Nommensen yang dikenang sebagai Apostel Batak, Injil menyebar ke seluruh Tanah Batak. HKBP kemudian tumbuh menjadi gereja Kristen Protestan terbesar di Asia Tenggara.",
+    "s1p2": "Seiring perpindahan masyarakat Batak ke kota, iman itu ikut bergerak. Medan menjadi salah satu pusat pertumbuhan jemaat HKBP di perantauan, dan Glugur Darat menjadi salah satu titik penting persekutuan itu.",
+    "quote": "Marsiurupan ma hamu di na porsuk. Bertolong-tolonganlah kamu menanggung bebanmu.",
+    "quoteRef": "Galatia 6:2",
+    "s2Heading": "Bertumbuh di Glugur Darat",
+    "s2p1": "HKBP Glugur berdiri di Jl. Pembangunan III No.57A, Glugur Darat II, Kecamatan Medan Timur. Dari tahun ke tahun jemaatnya bertambah seiring berkembangnya kawasan ini. Gereja tumbuh menjadi huria yang matang dan mapan, dengan pelayanan yang menjangkau banyak keluarga.",
+    "s2p2": "Hari ini HKBP Glugur menaungi 16 lingkungan dengan 47 Sintua yang melayani. Angka ini menunjukkan sebuah persekutuan yang besar dan tertata, tempat ibadah, pembinaan, dan diakonia berjalan berdampingan.",
+    "s3Heading": "Menjadi Pusat Ressort Medan Utara",
+    "s3p1": "HKBP Glugur dipercaya menjadi pusat Ressort Medan Utara. Di bawah naungan yang sama, tiga huria pagaran ikut melayani, yaitu HKBP Pulo Brayan di kawasan Pulo Brayan, HKBP Marturia di Tanjung Mulia, dan HKBP Pardomuan Nauli di Titi Papan. Bersama gereja induk, mereka membentuk satu keluarga pelayanan di Distrik X Medan Aceh.",
+    "s4Heading": "Pelayanan dan Kepemimpinan Hari Ini",
+    "s4p1": "Pelayanan jemaat dipimpin oleh Pimpinan Jemaat Ronni E. Silitonga bersama Pendeta Fungsional Rosnila Nellawaty Sihombing. Kehidupan gereja ditopang oleh para Sintua dan beragam wadah pelayanan, dari Sekolah Minggu, Naposobulung, Punguan Ina dan Ama, paduan suara, sampai diakonia sosial.",
+    "s5Heading": "Jemaat yang Hidup",
+    "s5p1": "Semangat kebersamaan jemaat terlihat jelas pada Minggu, 9 Juni 2024. HKBP Glugur menggelar pesta penggalangan dana untuk renovasi aula dan gereja, sekaligus turut merayakan ulang tahun ke-68 HKBP di Medan. Ribuan jemaat hadir. Acara ditutup dengan pemberian ulos, makan bersama, dan lelang donasi untuk pembangunan fasilitas gereja.",
+    "s5p2": "Momen seperti ini menunjukkan bahwa HKBP Glugur bukan sekadar bangunan, melainkan persekutuan yang bergerak, bergotong royong, dan menjaga warisan iman.",
+    "s6Heading": "Melangkah ke Masa Depan",
+    "s6p1": "Selaras dengan tema HKBP 2024 sampai 2028, yaitu Transformasi berdasarkan Roma 12:2, HKBP Glugur terus memperbarui diri. Kehadiran situs ini menjadi salah satu langkah kecil itu, supaya informasi, jadwal ibadah, warta, dan pelayanan mudah dijangkau siapa saja.",
+    "s6note": "Catatan: sebagian catatan sejarah awal jemaat masih tersimpan dalam ingatan dan dokumen gereja. Untuk data pendirian yang rinci, kami sarankan menghubungi kantor gereja di (061) 6611846.",
+    "refHeading": "Sumber dan Referensi"
+  },
+  "reviews": {
+    "banner": {
+      "eyebrow": "Ulasan",
+      "title": "Ulasan untuk situs ini",
+      "desc": "Bagaimana pengalaman Anda memakai situs HKBP Glugur? Beri rating dan ceritakan."
+    },
+    "summaryCount": "ulasan",
+    "summaryOf": "dari",
+    "empty": "Belum ada ulasan yang tayang. Jadilah yang pertama memberi ulasan.",
+    "anon": "Anonim",
+    "formTitle": "Beri ulasan Anda",
+    "form": {
+      "rating": "Rating",
+      "name": "Nama",
+      "namePlaceholder": "Nama Anda",
+      "email": "Email (opsional)",
+      "emailHint": "Diisi bila Anda ingin kami hubungi. Tidak ditampilkan.",
+      "text": "Ulasan",
+      "textPlaceholder": "Ceritakan pengalaman Anda memakai situs ini.",
+      "anonymous": "Kirim sebagai anonim, nama disembunyikan",
+      "captchaLabel": "Verifikasi, berapa hasil",
+      "captchaAnswer": "Jawaban",
+      "captchaChange": "Ganti soal",
+      "submit": "Kirim Ulasan",
+      "sending": "Mengirim...",
+      "ratingRequired": "Pilih rating bintang.",
+      "nameRequired": "Nama wajib diisi, atau centang anonim.",
+      "textRequired": "Ulasan wajib diisi.",
+      "emailInvalid": "Alamat email tidak valid.",
+      "captchaWrong": "Jawaban verifikasi salah. Coba lagi.",
+      "successTitle": "Terima kasih",
+      "successBody": "Ulasan Anda kami terima dan akan tayang setelah ditinjau.",
+      "another": "Kirim ulasan lain",
+      "error": "Gagal mengirim ulasan. Coba lagi.",
+      "errorConn": "Gagal terhubung ke server. Coba lagi."
+    },
+    "cta": {
+      "title": "Sudah memakai situs ini?",
+      "desc": "Beri tahu kami pengalaman Anda. Ulasan Anda membantu kami memperbaiki layanan.",
+      "button": "Beri Ulasan"
+    },
+    "email": {
+      "ackTitle": "Terima kasih atas ulasan Anda",
+      "ackBody": "Kami sudah menerima ulasan Anda untuk situs HKBP Glugur. Ulasan akan tayang setelah ditinjau tim kami. Tuhan memberkati."
+    }
+  },
+  "ui": {
+    "common": {
+      "nama": "Nama",
+      "namaLengkap": "Nama lengkap",
+      "namaAnda": "Nama Anda",
+      "telepon": "Nomor telepon",
+      "teleponOpsional": "Nomor telepon (opsional)",
+      "opsional": "Opsional",
+      "email": "Email",
+      "emailPlaceholder": "nama@email.com",
+      "pesan": "Pesan",
+      "keterangan": "Keterangan",
+      "mengirim": "Mengirim...",
+      "gagalKirim": "Gagal mengirim.",
+      "gagalTerhubung": "Gagal terhubung. Coba lagi.",
+      "gagalServer": "Gagal terhubung ke server. Coba lagi.",
+      "hapus": "Hapus",
+      "captchaLabel": "Verifikasi: berapa hasil",
+      "jawaban": "Jawaban",
+      "gantiSoal": "Ganti soal",
+      "terimaKasih": "Terima kasih"
+    },
+    "mark": {
+      "aria": "Lambang HKBP: salib di atas lingkaran"
+    },
+    "photoGallery": {
+      "empty": "Foto galeri akan tampil di sini. Album lengkap tersedia di Google Maps dan Facebook melalui tautan di bawah.",
+      "close": "Tutup"
+    },
+    "requestForm": {
+      "pesanPlaceholder": "Jelaskan konten, artikel, atau informasi yang perlu diperbaiki atau ditambahkan.",
+      "lampiran": "Lampiran",
+      "lampiranHint": "Excel, Word, PDF, atau gambar. Maksimal 10 file, total 20 MB.",
+      "fileTipe": "Tipe file {name} tidak didukung.",
+      "fileMax": "Maksimal {n} file.",
+      "fileTotal": "Total ukuran file melebihi 20 MB.",
+      "fileSummary": "{n} file, {size} dari 20 MB",
+      "successTitle": "Pesan terkirim",
+      "successBody": "Pesan Anda terkirim. Terima kasih, tim kami akan meninjau.",
+      "another": "Kirim permintaan lain",
+      "submit": "Kirim Permintaan",
+      "errGeneric": "Gagal mengirim pesan."
+    },
+    "galleryForm": {
+      "foto": "Foto",
+      "keteranganPlaceholder": "Opsional, misalnya acara atau tanggal foto",
+      "fotoHint": "Format JPG atau PNG. Maksimal 15 foto, ukuran per foto sampai 15 MB.",
+      "onlyJpgPng": "Hanya JPG atau PNG. File {name} dilewati.",
+      "sizeExceed": "Ukuran {name} melebihi 15 MB.",
+      "maxFotos": "Maksimal {n} foto sekali kirim.",
+      "fotoSelected": "{n} foto dipilih",
+      "required": "Nama, email, dan minimal satu foto wajib diisi.",
+      "successBody": "Foto Anda sudah kami terima. Tim kami akan meninjau lalu menampilkan yang sesuai di galeri. Tuhan Yesus memberkati.",
+      "submit": "Kirim Foto untuk Diverifikasi"
+    },
+    "wartaForm": {
+      "berkas": "Berkas warta",
+      "keteranganPlaceholder": "Contoh: Warta ibadah Minggu tanggal sekian",
+      "fileSelected": "{n} file dipilih",
+      "advice": "Disarankan mengirim warta dalam bentuk PDF. Berkas hasil scan atau dokumen Word (docx) sebaiknya dikonversi lebih dulu ke PDF agar tampil rapi. Biasanya pengurus gereja yang menyiapkan berkas ini.",
+      "required": "Nama, email, dan berkas warta wajib diisi.",
+      "successBody": "Warta Anda sudah kami terima. Tim akan memverifikasi lalu mengunggahnya ke halaman ini. Tuhan Yesus memberkati.",
+      "submit": "Kirim Warta untuk Diverifikasi"
+    },
+    "wartaViewer": {
+      "srSearch": "Cari warta berdasarkan tanggal atau bulan",
+      "searchPlaceholder": "Cari bulan atau tanggal, misalnya Februari",
+      "unit": "warta",
+      "terbaru": "Terbaru",
+      "terlama": "Terlama",
+      "empty": "Belum ada warta tata ibadah.",
+      "noMatch": "Tidak ada warta yang cocok.",
+      "pratinjau": "Pratinjau",
+      "bukaTab": "Buka di tab baru",
+      "bukaTabTitle": "Buka warta di tab baru",
+      "unduh": "Unduh",
+      "unduhTitle": "Unduh warta",
+      "iframeTitle": "Pratinjau Warta Tata Ibadah"
+    },
+    "hymnReader": {
+      "srSearch": "Cari nomor atau judul lagu",
+      "searchPlaceholder": "Cari {prefix} nomor atau judul",
+      "unit": "lagu",
+      "loading": "Memuat data lagu...",
+      "error": "Gagal memuat data lagu. Muat ulang halaman untuk mencoba lagi.",
+      "tooMany": "Ketik lebih spesifik untuk mempersempit hasil.",
+      "noMatch": "Tidak ada lagu yang cocok.",
+      "selectPrompt": "Pilih lagu dari daftar."
+    },
+    "bibleReader": {
+      "srSearch": "Cari kitab, pasal, atau ayat",
+      "searchPlaceholder": "Cari ayat, misalnya Yohanes 3:16 atau Kejadian 1",
+      "versi": "Versi",
+      "kitab": "Kitab",
+      "pasal": "Pasal",
+      "plLabel": "Perjanjian Lama",
+      "pbLabel": "Perjanjian Baru",
+      "loading": "Memuat teks...",
+      "error": "Gagal memuat teks. Periksa koneksi lalu coba pasal lain.",
+      "prev": "Pasal sebelumnya",
+      "next": "Pasal berikutnya"
+    },
+    "chat": {
+      "greeting": "Syalom. Saya Pelayan Digital HKBP Glugur. Dengan senang hati saya bantu Anda seputar jadwal ibadah, sejarah, pelayanan, dan informasi gereja kita. Ada yang ingin Anda tanyakan?",
+      "error": "Mohon maaf, layanan sedang terganggu. Silakan coba lagi, atau hubungi gereja di (061) 6611846.",
+      "headerTitle": "Pelayan Digital HKBP Glugur",
+      "headerSub": "Siap membantu Anda",
+      "closeAria": "Tutup obrolan",
+      "inputPlaceholder": "Tulis pertanyaan Anda...",
+      "sendAria": "Kirim pesan",
+      "reportLink": "Ada informasi yang keliru? Laporkan di sini",
+      "openAria": "Buka obrolan dengan Pelayan Digital",
+      "reportIntro": "Ada informasi yang keliru? Sampaikan di sini. Laporan diteruskan ke tim kami.",
+      "reportPesanPlaceholder": "Jelaskan informasi yang perlu diperbaiki",
+      "reportLampiranHint": "Lampiran gambar, Excel, Word, atau PDF. Maks 10 file, 20 MB.",
+      "fileSelected": "{n} file dipilih",
+      "required": "Nama, email, dan pesan wajib diisi.",
+      "errGeneric": "Gagal mengirim laporan.",
+      "sending": "Mengirim...",
+      "kirimLaporan": "Kirim Laporan",
+      "batal": "Batal",
+      "kembali": "Kembali",
+      "reportSuccessBody": "Laporan Anda sudah kami terima dan diteruskan ke tim untuk ditinjau. Tuhan Yesus memberkati."
+    }
+  },
+  "meta": {
+    "default": {
+      "title": "HKBP Glugur, Gereja Ressort Medan Utara di Medan",
+      "description": "HKBP Glugur (Huria Kristen Batak Protestan) di Jl. Pembangunan III No.57A, Glugur Darat, Medan. Lihat jadwal ibadah Minggu, sejarah HKBP, pelayanan jemaat, dan lokasi gereja pusat Ressort Medan Utara, Distrik X Medan Aceh.",
+      "ogTitle": "HKBP Glugur, Gereja HKBP Ressort Medan Utara, Medan",
+      "ogDescription": "Rumah untuk bertumbuh dalam iman, kasih, dan pelayanan di Glugur Darat, Medan. Lihat jadwal ibadah, sejarah, dan pelayanan HKBP Glugur.",
+      "twitterTitle": "HKBP Glugur, Gereja HKBP Medan",
+      "twitterDescription": "Jadwal ibadah, sejarah, dan pelayanan HKBP Glugur di Glugur Darat, Medan.",
+      "ogImageAlt": "HKBP Glugur, gereja HKBP Ressort Medan Utara di Glugur Darat, Medan"
+    },
+    "kepemimpinan": {
+      "title": "Pimpinan HKBP dan Distrik X Medan Aceh",
+      "description": "Daftar pimpinan HKBP dan pimpinan Distrik X Medan Aceh periode 2024 sampai 2028, naungan pelayanan HKBP Glugur."
+    },
+    "informasi": {
+      "title": "Informasi Jemaat: Layanan dan Tarif",
+      "description": "Rekening persembahan HKBP Glugur, tarif pemakaian fasilitas gereja, serta syarat administrasi pertunangan dan pernikahan."
+    },
+    "sintua": {
+      "title": "Majelis Sintua",
+      "description": "Daftar Sintua atau penatua yang melayani jemaat HKBP Glugur, Ressort Medan Utara, Distrik X Medan Aceh."
+    },
+    "buku": {
+      "title": "Buku Digital: Alkitab dan Nyanyian",
+      "description": "Baca Alkitab (Terjemahan Baru, Terjemahan Lama, Batak Toba), Buku Ende, dan Kidung Jemaat langsung dari situs HKBP Glugur."
+    },
+    "alkitab": {
+      "title": "Baca Alkitab: TB, TL, Batak Toba",
+      "description": "Baca Alkitab online dalam Terjemahan Baru, Terjemahan Lama, dan Batak Toba. Pilih kitab dan pasal langsung di situs HKBP Glugur."
+    },
+    "bukuEnde": {
+      "title": "Buku Ende HKBP Online",
+      "description": "Baca lirik Buku Ende HKBP berbahasa Batak Toba. Cari lagu berdasarkan nomor atau judul di situs HKBP Glugur."
+    },
+    "kidungJemaat": {
+      "title": "Kidung Jemaat Online",
+      "description": "Baca lirik Kidung Jemaat berbahasa Indonesia. Cari lagu berdasarkan nomor atau judul di situs HKBP Glugur."
+    },
+    "warta": {
+      "title": "Warta Tata Ibadah",
+      "description": "Baca dan unduh Warta Tata Ibadah HKBP Glugur dalam bentuk PDF. Pengurus gereja dapat mengirim warta untuk diverifikasi dan dipublikasikan."
+    },
+    "media": {
+      "title": "Galeri Foto dan Video",
+      "description": "Tonton video kegiatan dan ibadah HKBP Glugur di YouTube, serta lihat album foto gereja di Google Maps dan Facebook."
+    },
+    "pengembang": {
+      "title": "Tentang Pengembang Situs",
+      "description": "Situs HKBP Glugur dibangun sebagai inisiatif relawan oleh Bintang Tobing, Product dan Project Manager sekaligus Full-Stack Developer."
+    },
+    "permintaan": {
+      "title": "Permintaan Perbaikan Konten",
+      "description": "Kirim permintaan perbaikan atau penambahan konten, artikel, dan informasi di situs HKBP Glugur. Sertakan lampiran bila perlu."
+    },
+    "tema": {
+      "title": "Tahun Transformasi HKBP 2024 sampai 2028",
+      "description": "Makna tema Transformasi HKBP 2024 sampai 2028, berdasarkan Roma 12:2, beserta visi dan misi pelayanan."
+    },
+    "sejarah": {
+      "title": "Sejarah HKBP Glugur",
+      "description": "Kisah perjalanan HKBP Glugur di Glugur Darat, Medan, dari akar HKBP di Tanah Batak sampai menjadi pusat Ressort Medan Utara, Distrik X Medan Aceh."
+    },
+    "ulasan": {
+      "title": "Ulasan Situs HKBP Glugur",
+      "description": "Baca dan beri ulasan untuk situs HKBP Glugur. Bagikan pengalaman Anda memakai situs ini."
+    }
+  }
+}

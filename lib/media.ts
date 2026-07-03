@@ -2,11 +2,11 @@
    Media HKBP Glugur: kanal YouTube dan album foto.
    ============================================================ */
 
+/* Kanal (proper noun). Teks peran tombol (role) ada di kamus, per-indeks. */
 export const youtubeChannels = [
   {
     key: "official",
     label: "HKBP Glugur Ressort Medan Utara",
-    role: "Kanal Resmi",
     handle: "@HKBPGLUGURRESSORTMEDANUTARA",
     channelId: "UCvUPSIf5It2MS7qsgZZ2oPA",
     url: "https://www.youtube.com/@HKBPGLUGURRESSORTMEDANUTARA",
@@ -14,24 +14,16 @@ export const youtubeChannels = [
   {
     key: "aktivitas",
     label: "Aktivitas HKBP Glugur",
-    role: "Dokumentasi Kegiatan",
     handle: "@rosintasitumeang3045",
     channelId: "UCi9d8lSPmYa3Em-Q9oGqp-Q",
     url: "https://www.youtube.com/@rosintasitumeang3045",
   },
 ] as const;
 
+/* Album foto: hanya URL. Label dan deskripsi ada di kamus, per-indeks. */
 export const photoAlbums = [
-  {
-    label: "Foto Google Business",
-    desc: "Foto profil, gedung, dan kegiatan gereja di Google Maps.",
-    url: "https://www.google.com/maps/search/HKBP+Glugur+Medan",
-  },
-  {
-    label: "Foto Facebook",
-    desc: "Album foto kegiatan di halaman Facebook resmi.",
-    url: "https://www.facebook.com/hkbpglugurofficial/photos",
-  },
+  { url: "https://www.google.com/maps/search/HKBP+Glugur+Medan" },
+  { url: "https://www.facebook.com/hkbpglugurofficial/photos" },
 ] as const;
 
 export type YoutubeVideo = {

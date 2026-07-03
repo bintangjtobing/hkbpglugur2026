@@ -1,0 +1,657 @@
+{
+  "common": {
+    "siteName": "HKBP Glugur",
+    "ressortShort": "Ressort Medan Utara",
+    "tagline": "Bagas laho martumbur di haporseaon, holong, dohot parhaladoon di Huta Medan.",
+    "language": "Hata",
+    "chooseLanguage": "Pillit hata",
+    "openMenu": "Ungkap menu navigasi",
+    "homeAria": "HKBP Glugur, Bagas",
+    "logoAlt": "Logo HKBP Glugur",
+    "themeBadgeTitle": "Tema HKBP 2024 sahat 2028: Transformasi, Roma 12:2",
+    "themeBadgeAria": "Tema Transformasi HKBP 2024 sahat 2028",
+    "themeBadgeLogoAlt": "Logo Tema Transformasi HKBP 2024 sahat 2028"
+  },
+  "nav": {
+    "beranda": "Bagas",
+    "tentang": "Taringot",
+    "profil": "Profil Huria",
+    "sejarahGlugur": "Sejarah HKBP Glugur",
+    "sejarahHkbp": "Sejarah HKBP",
+    "pagaran": "Huria Pagaran",
+    "pimpinan": "Pimpinan Huria",
+    "ibadah": "Parmingguon",
+    "jadwal": "Tingki Parmingguon",
+    "warta": "Warta Tata Parmingguon",
+    "pelayanan": "Parhaladoon",
+    "bidang": "Bidang Parhaladoon",
+    "sintua": "Parhalado Sintua",
+    "bukuDigital": "Buku",
+    "alkitab": "Alkitab",
+    "bukuEnde": "Buku Ende",
+    "kidungJemaat": "Kidung Jemaat",
+    "galeri": "Galeri",
+    "galeriFoto": "Galeri Foto dohot Video",
+    "informasi": "Informasi",
+    "persembahan": "Pelean",
+    "tarif": "Tarif Fasilitas",
+    "pernikahan": "Administrasi Pamasumasuon",
+    "ulasan": "Ulasan",
+    "lokasi": "Ingananna"
+  },
+  "footer": {
+    "navigasi": "Navigasi",
+    "kontak": "Kontak",
+    "facebook": "Facebook HKBP Glugur",
+    "youtube": "YouTube HKBP Glugur",
+    "email": "Email HKBP Glugur",
+    "temaLink": "Lapatan Tema Transformasi HKBP 2024 sahat 2028",
+    "permintaanLink": "Pangidoan Paurason Isi",
+    "pengembangLink": "Taringot tu Pangembang",
+    "temaBlurb": "Diusung HKBP do tema Transformasi, muba marhite paimbaruon ni roha (Roma 12:2), asa gabe pasupasu di portibi on.",
+    "berkat": "Sai Tuhan i ma mangaramoti hita. Sai dipasupasu Tuhan i ma hita.",
+    "relawanPre": "Dipauli songon prakarsa relawan sian",
+    "relawanMid": ". Urupi marhite",
+    "relawanPost": "."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Distrik X Medan Aceh · Huta Medan",
+      "line1": "Selamat ro",
+      "line2Prefix": "tu",
+      "tagline": "Bagas laho martumbur di haporseaon, holong, dohot parhaladoon di Huta Medan. Bagian ni Huria Kristen Batak Protestan do hami, huria Protestan na balgana di Asia Tenggara olat ni 1861.",
+      "ctaJadwal": "Ida Tingki Parmingguon",
+      "ctaLokasi": "Panuduan Inganan",
+      "verseRef": "Galatia 6:2. Masiurupan ma hamu mangusung dokdok na dihamu.",
+      "ibadahMinggu": "Parmingguon Minggu",
+      "ibadahMingguTimes": "07.45, 10.00, dohot 17.00 WIB"
+    },
+    "stats": [
+      { "label": "Lingkungan", "sub": "Wijk parhaladoon ni ruas" },
+      { "label": "Sintua", "sub": "Sintua na marhalado" },
+      { "label": "Tading-tadingan HKBP", "sub": "Taon hajongjongan ni HKBP" },
+      { "label": "Huria Pagaran", "sub": "Huria di toru ni Ressort" }
+    ],
+    "shortcuts": [
+      { "title": "Alkitab", "desc": "TB, TL, Batak Toba" },
+      { "title": "Buku Ende", "desc": "Ende Batak Toba" },
+      { "title": "Kidung Jemaat", "desc": "Ende puji-pujian Indonesia" },
+      { "title": "Tata Parmingguon", "desc": "Warta parmingguon ganup minggu" },
+      { "title": "Informasi", "desc": "Pelean dohot parhaladoon" }
+    ],
+    "tentang": {
+      "eyebrow": "Taringot tu Hami",
+      "heading": "Huria Batak na marbona di Barita na Uli",
+      "p1": "Huria Kristen Batak Protestan (HKBP) hehe ma di 7 Oktober 1861 di Pearaja, Tarutung. Sian Tano Batak, martumbur ma huria on gabe huria Kristen Protestan na balgana di Asia Tenggara.",
+      "p2": "HKBP Glugur marhalado tu ruas di Glugur Darat, Medan. Huria on gabe pusat ni Ressort Medan Utara, Distrik X Medan Aceh.",
+      "logoAlt": "Logo resmi HKBP marhite silang, lingkaran Trinitas, dohot surat HKBP"
+    },
+    "logo": {
+      "eyebrow": "Lapatan ni Lambang",
+      "heading": "Ganup garis manghatahon haporseaon",
+      "intro": "Lambang HKBP marangkum inti ni haporseaon ni huria. Kristus do Ulu ni Huria na marhuaso di portibi on.",
+      "items": [
+        { "title": "Silang", "body": "Gombaran ni pelean ni Jesus Kristus. Haporseaon tu Kristus do ojahan ni huria laho mamaritahon Barita na Uli dohot marhalado tu dongan." },
+        { "title": "Lingkaran Trinitas", "body": "Manggombarhon Debata na sasada di tolu pribadi, i ma Ama, Anak, dohot Tondi Parbadia. On do pusat ni haporseaon ni HKBP." },
+        { "title": "Surat HKBP", "body": "Singkatan ni Huria Kristen Batak Protestan. Patoguhon jati diri ni huria Protestan na tubu sian bangso Batak." }
+      ]
+    },
+    "ibadah": {
+      "eyebrow": "Tingki Parmingguon",
+      "heading": "Beta marmingguon rap",
+      "intro": "Ungkap do pintu ni huria di ganup ruas dohot halak na ro. On do tingki parmingguon na rutin saleleng minggu.",
+      "services": [
+        { "day": "Minggu", "title": "Parmingguon Sogot", "note": "Parmingguon parjolo na mangungkap ari ni Tuhan." },
+        { "day": "Minggu", "title": "Parmingguon Arian", "note": "Parmingguon keluarga na ungkap di sude ruas dohot halak na ro." },
+        { "day": "Minggu", "title": "Parmingguon Bot", "note": "Parmingguon pangujungi ari Minggu." },
+        { "day": "Rabu & Kamis", "title": "Parmingguon Sektor", "note": "Partangiangan na marganti di bagas ni ruas di ganup lingkungan." }
+      ],
+      "specialHeading": "Parmingguon Balga dohot Ari Balga ni Huria",
+      "specialIntro": "Dipatupa hami do nang parmingguon di ari balga Kristen Protestan saleleng sataon.",
+      "special": [
+        "Parmingguon Natal",
+        "Parmingguon Taon Baru",
+        "Parmingguon Jumat Agung",
+        "Parmingguon Haheheon (Paskah)",
+        "Parmingguon Hananaek ni Jesus Kristus",
+        "Parmingguon Pentakosta",
+        "Parmingguon Hamatean"
+      ],
+      "sesuaiKebutuhan": "Marguru tu hasuhaton",
+      "specialNote": "Tanggal ni ari balga na marganti mangihuthon kalender ni huria ganup taon."
+    },
+    "pelayanan": {
+      "eyebrow": "Parhaladoon dohot Kategorial",
+      "heading": "Martumbur di parsaoran",
+      "intro": "Ganup wadah parhaladoon mandongani ruas di ganup tahap ni ngolu, sian dakdanak sahat tu na tuatua.",
+      "items": [
+        { "name": "Sikola Minggu", "desc": "Dakdanak marguru haporseaon marhite barita ni Alkitab, ende, dohot holong." },
+        { "name": "Naposobulung (NHKBP)", "desc": "Wadah ni naposo baoa dohot naposo boru laho martumbur di haporseaon, talenta, dohot hasadaon." },
+        { "name": "Punguan Ina", "desc": "Parsaoran ni angka ina di tangiang, diakonia, dohot parhaladoon sosial." },
+        { "name": "Punguan Ama", "desc": "Parsaoran ni angka ama na manopang parhaladoon dohot pambangunan ni huria." },
+        { "name": "Koor", "desc": "Koor ni ruas na mamuji Tuhan marhite marende dohot musik ni huria." },
+        { "name": "Diakonia Sosial", "desc": "Parhaladoon holong tu ruas na marsahit, na tuatua, dohot na parlu diurupi." }
+      ]
+    },
+    "pagaran": {
+      "eyebrow": "Ressort Medan Utara",
+      "heading": "Sada ressort, sada keluarga",
+      "note": "HKBP Glugur gabe pusat ni Ressort Medan Utara. Tolu huria pagaran marhalado di toru ni linggoman na sasada.",
+      "pusatBadge": "Huria Pusat",
+      "pusatDesc": "Pusat parhaladoon ni Ressort Medan Utara di toru ni Distrik X Medan Aceh.",
+      "role": "Huria Pagaran",
+      "desc": [
+        "Marhalado tu ruas di kawasan Pulo Brayan, Medan.",
+        "Marhalado tu ruas di kawasan Tanjung Mulia, Medan Deli.",
+        "Marhalado tu ruas di kawasan Titi Papan, Medan Deli."
+      ]
+    },
+    "sejarah": {
+      "eyebrow": "Tading-tadingan Haporseaon",
+      "heading": "Bogas ni pardalanan ni HKBP",
+      "intro": "Pardalanan haporseaon on mula sian pamaritahon Barita na Uli di Tano Batak sahat ro HKBP di Huta Medan.",
+      "items": [
+        { "title": "Mula ni Pamaritahon Barita na Uli", "body": "Di 7 Oktober 1861 diungkap angka misionaris misi di Tano Batak. Tanggal on gabe ari hatutubu ni HKBP." },
+        { "title": "Ro Nommensen", "body": "Ingwer Ludwig Nommensen ro songon suruan ni RMG. Mulai ma ibana sian Padang, dung i Barus, tu Silindung." },
+        { "title": "Bongot tu Rura Silindung", "body": "Maringan Nommensen di Huta Dame, Silindung. Sian on manerbar Barita na Uli tu sandok Tano Batak." },
+        { "title": "Pandidion Parjolo", "body": "Di 27 Agustus 1865 didida Nommensen opat pasang na marhasohotan di Silindung." },
+        { "title": "Ephorus Parjolo", "body": "Nommensen dipillit gabe Ephorus parjolo na manggomgom parhaladoon ni HKBP." },
+        { "title": "Monding Nommensen", "body": "Monding Nommensen di Sigumpar. Diingot ruas ibana songon Apostel Batak." },
+        { "title": "HKBP Mandiri", "body": "Di Sinode Godang 1940, Pdt. K. Sirait gabe Ephorus Batak parjolo. Hehe ma HKBP songon huria na mandiri." },
+        { "title": "Huria Lutheran Portibi", "body": "Masuk HKBP tu Lutheran World Federation jala dihaporseai secara internasional." },
+        { "title": "Na Balgana di Asia Tenggara", "body": "Martumbur ma HKBP gabe huria Kristen Protestan na balgana di Asia Tenggara marisi jutaan ruas." },
+        { "title": "Marhalado di Huta Medan", "body": "HKBP Glugur hehe di Glugur Darat gabe pusat ni Ressort Medan Utara, Distrik X Medan Aceh." }
+      ]
+    },
+    "ulasan": {
+      "eyebrow": "Ulasan ni Ruas",
+      "heading": "Dihaporseai ruas dohot halak na ro",
+      "intro": "Mauliate ma di panopanganmu. Bagihon ma pengalamanmu marmingguon di HKBP Glugur.",
+      "count": "ulasan",
+      "ctaGoogle": "Ulas di Google",
+      "ctaFacebook": "Ulas di Facebook",
+      "ctaSuffix": "tu HKBP Glugur"
+    },
+    "lokasi": {
+      "eyebrow": "Inganan dohot Kontak",
+      "heading": "Ro ma tu bagas nami",
+      "intro": "Ditalu hami do haroromu laho marmingguon dohot marsaor rap.",
+      "alamat": "Alamat",
+      "telepon": "Telepon",
+      "emailSosial": "Email dohot Media Sosial",
+      "bukaMaps": "Ungkap di Google Maps",
+      "mapsTitle": "Inganan ni HKBP Glugur di Google Maps",
+      "mapsAria": "Ungkap inganan ni HKBP Glugur di Google Maps",
+      "mapTitle": "Peta inganan ni HKBP Glugur"
+    }
+  },
+  "kepemimpinan": {
+    "banner": {
+      "eyebrow": "Taringot tu Hami",
+      "title": "Pimpinan Huria",
+      "desc": "HKBP Glugur marhalado di linggoman ni HKBP dohot Distrik X Medan Aceh. On do angka pimpinan tu periode 2024 sahat 2028."
+    },
+    "periode": "Periode 2024 sahat 2028",
+    "intro1": "HKBP Glugur marhalado di linggoman ni Huria Kristen Batak Protestan dohot Distrik X Medan Aceh. Angka pimpinan ni huria manggomgom ruas, mangarahon parhaladoon, dohot manjaga poda asa tongtong hot di hata ni Tuhan.",
+    "intro2": "On do susunan ni pimpinan HKBP di tingkat pusat dohot pimpinan Distrik X Medan Aceh tu periode parhaladoon 2024 sahat 2028.",
+    "tableHKBP": "Pimpinan HKBP",
+    "tableDistrik": "Pimpinan Distrik X Medan Aceh"
+  },
+  "informasi": {
+    "banner": {
+      "eyebrow": "Informasi ni Ruas",
+      "title": "Parhaladoon dohot aturan ni ruas",
+      "desc": "Panuduan pelean, tarif pangumban fasilitas, dohot syarat administrasi pamasumasuon di HKBP Glugur."
+    },
+    "persembahan": {
+      "eyebrow": "Pelean",
+      "heading": "Topang parhaladoon ni huria",
+      "note": "Salurhon pelean dohot panopanganmu marhite rekening resmi ni huria.",
+      "bankLabel": "Bank",
+      "rekeningLabel": "Nomor Rekening",
+      "atasNamaLabel": "Margoar",
+      "bungaTitle": "Sumbangan Bunga Mangolu tu Altar",
+      "bunga": "Di ruas na naeng mangalehon sumbangan berupa bunga mangolu tu altar, tapoma marhubungi tu pihak ni huria paling leleng 3 ari andorang so ari Minggu.",
+      "telepon": "Telepon"
+    },
+    "tarif": {
+      "eyebrow": "Tarif Fasilitas",
+      "heading": "Tarif pangumban fasilitas ni huria",
+      "introPre": "Tarif berlaku tu ruas dohot umum. Data aturan olat ni ",
+      "colFasilitas": "Fasilitas",
+      "colRuas": "Ruas",
+      "colUmum": "Umum",
+      "items": [
+        "Aula tu ulaon na monding",
+        "Aula tu ulaon dungkon ni na monding",
+        "Gedung Serbaguna (GSG)"
+      ],
+      "ketentuanTitle": "Aturan tambahan",
+      "ketentuan": [
+        "Dung sae ulaon adat, hombang jenazah pintor dipindahon sian aula.",
+        "Pangumban huria tu Natal Rp1.500.000 jala nunga masuk AC.",
+        "Parmingguon martumpol manang pamasumasuon na so ruas dikonon Rp500.000. Kolekte dibagi 50 persen tu huria. Instrumen musik na disediahon holan keyboard.",
+        "Panambaon perangkat di huria, aula, manang GSG: AC, sound system, manang lighting Rp300.000 per unit. Video Rp100.000.",
+        "Retribusi bunga dekorasi sian balian tu huria, aula, manang GSG Rp100.000 per gedung jala dibebanhon tu vendor.",
+        "Alat musik dohot sound system ni huria ndang dipangke molo diboan ruas instrumen sian balian.",
+        "GSG, aula, manang ruang kelas tu partangiangan sektor dohot punguan koor holan tu ruas na so sanga bagasna."
+      ]
+    },
+    "pernikahan": {
+      "eyebrow": "Administrasi Pamasumasuon",
+      "heading": "Martumpol dohot pamasumasuon",
+      "intro": "Syarat halengkapan tu martumpol dohot tarpasupasu di HKBP Glugur.",
+      "steps": [
+        "Ruas ni HKBP Glugur mamboan surat pengantar sian sintua manang parhalado sektor. Lampirhon fotokopi Surat Pandidion dohot Surat Sidi.",
+        "Na so ruas ni HKBP Glugur mamboan Surat Keterangan Ruas sian huria asalna.",
+        "Boan pasfoto gandeng 2 lambar ukuran 6x4. Sude berkas dilaporhon sasada minggu andorang so ari H.",
+        "Panghataion manang konseling pamasumasuon dipatupa 2 sahat 3 ari andorang so ari H sian pandita na pasupasu.",
+        "Ulaon martumpol dohot tarpasupasu nunga disediahon huria."
+      ],
+      "konselingTitle": "Panjadwalan konseling pamasumasuon",
+      "konselingDesc": "Hubungi kantor huria laho mangatur tingki dohot pandita.",
+      "telepon": "Telepon"
+    }
+  },
+  "sintua": {
+    "banner": {
+      "eyebrow": "Parhaladoon",
+      "title": "Parhalado Sintua",
+      "desc": "Angka Sintua manggomgom dohot marhalado tu ruas di ganup lingkungan ni HKBP Glugur."
+    },
+    "daftar": "Daftar Sintua",
+    "colNama": "Goar",
+    "colJabatan": "Jabatan",
+    "colTahbis": "Tanggal Tahbis",
+    "tahbisPrefix": "Tahbis",
+    "footnote": "Sumber data hkbp.or.id. Titik netral manandai data na so adong dope."
+  },
+  "buku": {
+    "banner": {
+      "eyebrow": "Buku Digital",
+      "title": "Hata dohot puji-pujian di tangan",
+      "desc": "Jaha Alkitab jala endehon puji-pujian pintor sian situs. Ungkap di sude ruas, tingki dia pe."
+    },
+    "buka": "Ungkap",
+    "items": [
+      { "name": "Alkitab", "desc": "Jaha hata ni Tuhan di Terjemahan Baru, Terjemahan Lama, dohot Batak Toba.", "meta": "66 buku, 3 versi" },
+      { "name": "Buku Ende", "desc": "Punguan ende ni ruas marhata Batak Toba tu parmingguon dohot tangiang.", "meta": "535 ende" },
+      { "name": "Kidung Jemaat", "desc": "Punguan ende puji-pujian marhata Indonesia na somal dipangke di parmingguon.", "meta": "502 ende" }
+    ],
+    "alkitab": {
+      "banner": { "eyebrow": "Buku Digital", "title": "Alkitab", "desc": "Pillit versi, buku, dohot pasal laho manjaha hata ni Tuhan." },
+      "p1": "Jaha Alkitab lengkap pintor di situs HKBP Glugur. Tarsedia tolu versi, i ma Terjemahan Baru (TB), Terjemahan Lama (TL), dohot Alkitab Batak Toba. Pillit versi marguru tu hasuhatonmu.",
+      "p2": "Boi ho mamillit buku dohot pasal sian daftar, manang manuris referensi songon Johannes 3:16 di kotak pandiligan laho pintor tu ayat. Sude 66 buku Padan na Robi dohot Padan na Imbaru boi dijaha gratis. Sesuai tu hobas ni parmingguon, saat teduh pribadi, parmingguon keluarga, dohot pandalaman Alkitab rap.",
+      "sumber": "Sumber teks: API Alkitab SABDA (alkitab.sabda.org)."
+    },
+    "bukuEnde": {
+      "banner": { "eyebrow": "Buku Digital", "title": "Buku Ende", "desc": "Ende ni ruas marhata Batak Toba. Diligi marhite nomor manang judul." },
+      "p1": "Buku Ende i ma punguan ende ni ruas HKBP marhata Batak Toba na dipangke di parmingguon dohot parsaoran. Di halaman on tarsedia 535 ende na boi didiligi ho marhite nomor manang judul.",
+      "p2": "Pillit sada ende laho manjaha lirikna bait dumbait. Marguna laho mangiring parmingguon Minggu, partangiangan sektor, latihan koor, dohot parmingguon keluarga di bagas.",
+      "sumber": "Sumber lirik: dataset publik Buku Ende HKBP."
+    },
+    "kidungJemaat": {
+      "banner": { "eyebrow": "Buku Digital", "title": "Kidung Jemaat", "desc": "Ende puji-pujian marhata Indonesia. Diligi marhite nomor manang judul." },
+      "p1": "Kidung Jemaat i ma punguan ende puji-pujian marhata Indonesia na somal dipangke di parmingguon ni huria. Di halaman on tarsedia 502 ende na boi didiligi ho marhite nomor manang judul.",
+      "p2": "Pillit sada ende laho manjaha lirikna bait dumbait. Sesuai tu parmingguon Minggu, sikola minggu, parmingguon keluarga, dohot latihan koor.",
+      "sumber": "Sumber lirik: dataset publik Kidung Jemaat."
+    }
+  },
+  "warta": {
+    "banner": {
+      "eyebrow": "Parmingguon",
+      "title": "Warta Tata Parmingguon",
+      "desc": "Jaha jala unduh warta dohot tata parmingguon HKBP Glugur ganup minggu di bentuk PDF."
+    },
+    "kirimEyebrow": "Kirim Warta",
+    "kirimHeading": "Kirim warta laho dipublikasihon",
+    "kirimIntro": "Pangurus ni huria manang ruas boi mangirim warta tata parmingguon dison. Tim nami paverifikasi, dung i mangunggah versi na rapina tu halaman on."
+  },
+  "media": {
+    "banner": {
+      "eyebrow": "Galeri dohot Media",
+      "title": "Rekam bogas ni las ni roha ni ruas",
+      "desc": "Ida ulaon dohot parmingguon HKBP Glugur, jala jelajahi album foto ni huria."
+    },
+    "videoEyebrow": "Video YouTube",
+    "videoHeading": "Video na imbaru",
+    "channelTitle": "Kanal YouTube",
+    "channelAria": "Ungkap kanal YouTube",
+    "channelRoles": ["Kanal Resmi", "Dokumentasi Ulaon"],
+    "watchAria": "Ida video:",
+    "thumbAlt": "Thumbnail video",
+    "emptyVideo": "Video ndang boi dope dimuat saonari. Topot kanal YouTube nami pintor marhite tombol di ginjang.",
+    "albumEyebrow": "Album Foto",
+    "albumHeading": "Galeri foto ni huria",
+    "albumIntro": "Punguan foto ni gedung dohot ulaon disimpan di Google Maps dohot Facebook resmi. Ungkap album lengkapna disi.",
+    "albums": [
+      { "label": "Foto Google Business", "desc": "Foto profil, gedung, dohot ulaon ni huria di Google Maps." },
+      { "label": "Foto Facebook", "desc": "Album foto ulaon di halaman Facebook resmi." }
+    ],
+    "kirimEyebrow": "Kirim Foto",
+    "kirimHeading": "Bagihon foto ni ulaonmu",
+    "kirimIntro": "Adong foto parmingguon manang ulaon ni huria? Kirimhon dison. Tim nami maninjau dung i mangalehon na sesuai di galeri."
+  },
+  "pengembang": {
+    "banner": {
+      "eyebrow": "Taringot tu Situs",
+      "title": "Dipauli marhite prakarsa relawan",
+      "desc": "Situs on ro sian niat na denggan laho marhalado tu ruas dohot pature informasi ni HKBP Glugur."
+    },
+    "relawan": "Relawan",
+    "role": "Product & Project Manager, Full-Stack Developer",
+    "p1": "Situs HKBP Glugur dipauli marhite sukarela sian Bintang Tobing. Karejo ibana di manajemen produk dohot proyek rap dohot pambangunan software, sian tampilan sahat tu server.",
+    "p2": "Tujuanna sederhana. Mambahen informasi ni huria mura diakses, rapi, jala marguna di sude ruas.",
+    "profilLink": "Profil bintangtobing.com",
+    "dukungSaweria": "Urupi marhite Saweria",
+    "donasiPre": "Naeng manopang halanjaran ni situs on? Donasi aha pe balga do lapatanna marhite",
+    "donasiPost": "."
+  },
+  "permintaan": {
+    "banner": {
+      "eyebrow": "Pangidoan Paurason",
+      "title": "Urupi hami manjaga informasi asa tongtong sintong",
+      "desc": "Adong isi, artikel, manang data na ingkon paurason manang tambaon? Kirim marhite formulir on. Tim nami maninjau."
+    },
+    "footnote": "Barita mu dikirim tu pangelola ni situs laho ditinjau. Boi do hubungi hami ho muse marhite email manang telepon na diisi."
+  },
+  "tema": {
+    "heroEyebrow": "Tema HKBP 2024 sahat 2028",
+    "heroTitle": "Taon Transformasi HKBP",
+    "heroIntro": "Muba ma ho marhite paimbaruon ni roham. Sada joujou laho martumbur, diimbaru, jala gabe pasupasu di portibi on.",
+    "logoAlt": "Logo Taon Transformasi HKBP 2024 sahat 2028, Roma 12:2",
+    "ayat": "Unang ma hamu tudos tu portibi on, alai muba ma hamu marhite paimbaruon ni roha muna.",
+    "ayatRef": "Roma 12:2",
+    "apaHeading": "Aha do Taon Transformasi",
+    "apaP1": "Taon Transformasi i ma keputusan ni Sinode Godang 2024 di Rencana Strategis HKBP 2024 sahat 2028. Temana dibuat sian Roma 12:2, i ma joujou laho muba marhite paimbaruon ni roha.",
+    "apaP2": "Hata transformasi ro sian hata Junani metamorphoo, na marlapatan metamorfosis. Transformasi partondion ndang holan parubaon ni parange. On paimbaruon ni cara marpingkir asa taantusi rohana Debata na denggan dohot na sun.",
+    "apaP3": "Marhite transformasi, naeng do HKBP gabe huria na lam marenergi, mardalan lam lincah, lam denggan, lam uli, jala gabe pasupasu di portibi on.",
+    "logoEyebrow": "Lapatan ni Logo",
+    "logoHeading": "Filosofi di pudi ni lambang",
+    "logoMakna": [
+      { "title": "Infinity Loop", "body": "Putaran na so marujung manandai semangat Ekklesia Reformata Semper Reformanda. Tongtong diimbaru huria so mansohot." },
+      { "title": "Kupu-Kupu", "body": "Metamorfosis ni kupu-kupu manggombarhon pardalanan ni transformasi. Parubaon na mardasar jala martumbur." },
+      { "title": "Opat Lingkaran", "body": "Opat elemen dasar na mambahen logo mangondolhon opat elemen ni parubaon: karakter, padan, kultur, dohot hagogoon." },
+      { "title": "Silang di Pusat", "body": "Silang gabe pangunci. Transformasi ndang manimpang sian poda ni Kristus di ganup parhaladoon ni HKBP." },
+      { "title": "Tolu Garis Panopang", "body": "Tolu ulaon ni panjouon ni huria: marsaor (koinonia), marsaksi (marturia), dohot marhalado (diakonia)." },
+      { "title": "Warna Ungu dohot Biru", "body": "Ungu gombaran ni hamubaon ni roha, transformasi, hamuliaon, dohot hasangapon. Biru patoguhon jati diri ni HKBP." }
+    ],
+    "pendekatanEyebrow": "Tolu Pendekatan",
+    "pendekatanHeading": "Dalan tu transformasi",
+    "pendekatan": [
+      { "title": "Disiplin Partondion", "body": "Ojahan di ganup halak laho mangantusi tio rohana Tuhan." },
+      { "title": "Hasadaon ni Parhalado", "body": "Semangat hasadaon di tongatonga ni angka parhalado HKBP gabe hunci ni transformasi." },
+      { "title": "Ruas Visioner", "body": "Ruas ndang holan objek ni parhaladoon, alai subjek na aktif marhalado." }
+    ],
+    "visiLabel": "Visi HKBP",
+    "visi": "Gabe pasupasu di portibi on.",
+    "misiLabel": "Misi HKBP",
+    "misi": "Mambahen sisean ni Kristus siula Hata.",
+    "sumber": "Sumber: portal resmi HKBP (hkbp.or.id) dohot Buku Panduan Taon Transformasi HKBP 2025."
+  },
+  "sejarah": {
+    "eyebrow": "Sejarah",
+    "title": "Sejarah HKBP Glugur",
+    "heroIntro": "Pardalanan ni sada huria di Glugur Darat, sian bona ni haporseaon di Tano Batak sahat gabe pusat parhaladoon ni Ressort Medan Utara.",
+    "byline": "Redaksi HKBP Glugur",
+    "readTime": "Bacaan hira-hira 5 menit",
+    "lead": "HKBP Glugur hehe di Glugur Darat, sada kawasan na matua di Huta Medan. Huria on ndang holan inganan parmingguon. Ibana i ma bagas di ribuan ruas Batak na martumbur rap di tongatonga ni huta, jala gabe pusat parhaladoon ni Ressort Medan Utara, Distrik X Medan Aceh.",
+    "s1Heading": "Bona sian Tano Batak",
+    "s1p1": "Barita ni HKBP Glugur ndang boi sirang sian bona na balga ni Huria Kristen Batak Protestan. Tubu HKBP di 7 Oktober 1861 di Pearaja, Tarutung. Sian i, marhite parhaladoon ni Ingwer Ludwig Nommensen na diingot songon Apostel Batak, manerbar Barita na Uli tu sandok Tano Batak. Dung i martumbur ma HKBP gabe huria Kristen Protestan na balgana di Asia Tenggara.",
+    "s1p2": "Rap dohot pardalanan ni bangso Batak tu huta, mangihut do haporseaon i. Medan gabe sada pusat partumburon ni ruas HKBP di parserahan, jala Glugur Darat gabe sada titik na ringkot ni parsaoran i.",
+    "quote": "Marsiurupan ma hamu di na porsuk. Masiurupan ma hamu mangusung dokdok na dihamu.",
+    "quoteRef": "Galatia 6:2",
+    "s2Heading": "Martumbur di Glugur Darat",
+    "s2p1": "HKBP Glugur hehe di Jl. Pembangunan III No.57A, Glugur Darat II, Kecamatan Medan Timur. Sian taon tu taon lam torop ma ruasna rap dohot partumburon ni kawasan on. Martumbur ma huria gabe huria na matang jala mapan, marhite parhaladoon na sahat tu godang keluarga.",
+    "s2p2": "Sadari on HKBP Glugur mangkolkolhon 16 lingkungan marhite 47 Sintua na marhalado. Angka on manuduhon sada parsaoran na balga jala taratur, inganan ni parmingguon, pambinaan, dohot diakonia mardalan marsiap.",
+    "s3Heading": "Gabe Pusat ni Ressort Medan Utara",
+    "s3p1": "HKBP Glugur dihaporseai gabe pusat ni Ressort Medan Utara. Di toru ni linggoman na sasada, tolu huria pagaran mangihut marhalado, i ma HKBP Pulo Brayan di kawasan Pulo Brayan, HKBP Marturia di Tanjung Mulia, dohot HKBP Pardomuan Nauli di Titi Papan. Rap dohot huria induk, dibahen nasida sada keluarga parhaladoon di Distrik X Medan Aceh.",
+    "s4Heading": "Parhaladoon dohot Kepemimpinan Sadari On",
+    "s4p1": "Parhaladoon ni ruas dipimpin ni Pimpinan Jemaat Ronni E. Silitonga rap dohot Pandita Fungsional Rosnila Nellawaty Sihombing. Ngolu ni huria ditopang ni angka Sintua dohot ragam wadah parhaladoon, sian Sikola Minggu, Naposobulung, Punguan Ina dohot Ama, koor, sahat tu diakonia sosial.",
+    "s5Heading": "Ruas na Mangolu",
+    "s5p1": "Semangat hasadaon ni ruas patar diida di Minggu, 9 Juni 2024. Dipatupa HKBP Glugur pesta panggalangan dana laho renovasi aula dohot huria, rap dohot mangaradoti ari hatutubu paduahonhu-68 ni HKBP di Medan. Ribuan ruas ro. Ulaon ditutup marhite pangalehon ulos, mangan rap, dohot lelang donasi laho pambangunan fasilitas ni huria.",
+    "s5p2": "Momen songon on manuduhon na HKBP Glugur ndang holan bangunan, alai parsaoran na mardalan, marsiurupan, jala manjaga tading-tadingan ni haporseaon.",
+    "s6Heading": "Mardalan tu Ari na Naeng Ro",
+    "s6p1": "Sarolo dohot tema HKBP 2024 sahat 2028, i ma Transformasi mardasarhon Roma 12:2, tongtong do HKBP Glugur paimbaru diri. Haroro ni situs on gabe sada langkah na metmet i, asa informasi, tingki parmingguon, warta, dohot parhaladoon mura sahat tu ganup halak.",
+    "s6note": "Catatan: deba catatan sejarah mula ni ruas tading dope di ingotan dohot dokumen ni huria. Tu data hajongjongan na rinci, hupasombahon hami marhubungi kantor ni huria di (061) 6611846.",
+    "refHeading": "Sumber dohot Referensi"
+  },
+  "reviews": {
+    "banner": {
+      "eyebrow": "Ulasan",
+      "title": "Ulasan tu situs on",
+      "desc": "Songon dia pengalamanmu mamangke situs HKBP Glugur? Lehon rating jala baritahon."
+    },
+    "summaryCount": "ulasan",
+    "summaryOf": "sian",
+    "empty": "Ndang adong dope ulasan na tayang. Gabe ma ho na parjolo mangalehon ulasan.",
+    "anon": "Anonim",
+    "formTitle": "Lehon ulasanmu",
+    "form": {
+      "rating": "Rating",
+      "name": "Goar",
+      "namePlaceholder": "Goarmu",
+      "email": "Email (opsional)",
+      "emailHint": "Diisi molo naeng hubungi hami ho. Ndang dipatuduhon.",
+      "text": "Ulasan",
+      "textPlaceholder": "Baritahon pengalamanmu mamangke situs on.",
+      "anonymous": "Kirim songon anonim, goar disombunihon",
+      "captchaLabel": "Verifikasi, sadia hasilna",
+      "captchaAnswer": "Aloi",
+      "captchaChange": "Ganti soal",
+      "submit": "Kirim Ulasan",
+      "sending": "Mangirim...",
+      "ratingRequired": "Pillit rating bintang.",
+      "nameRequired": "Ingkon diisi goar, manang centang anonim.",
+      "textRequired": "Ingkon diisi ulasan.",
+      "emailInvalid": "Alamat email ndang valid.",
+      "captchaWrong": "Aloi verifikasi sala. Ulahi.",
+      "successTitle": "Mauliate",
+      "successBody": "Nunga hujalo hami ulasanmu jala tayang dung ditinjau.",
+      "another": "Kirim ulasan na asing",
+      "error": "Gagal mangirim ulasan. Ulahi.",
+      "errorConn": "Gagal tarhubung tu server. Ulahi."
+    },
+    "cta": {
+      "title": "Nunga dipangke situs on?",
+      "desc": "Paboa tu hami pengalamanmu. Ulasanmu mangurupi hami paurus parhaladoon.",
+      "button": "Lehon Ulasan"
+    },
+    "email": {
+      "ackTitle": "Mauliate di ulasanmu",
+      "ackBody": "Nunga hujalo hami ulasanmu tu situs HKBP Glugur. Ulasan tayang dung ditinjau tim nami. Sai dipasupasu Tuhan i ma ho."
+    }
+  },
+  "ui": {
+    "common": {
+      "nama": "Goar",
+      "namaLengkap": "Goar lengkap",
+      "namaAnda": "Goarmu",
+      "telepon": "Nomor telepon",
+      "teleponOpsional": "Nomor telepon (opsional)",
+      "opsional": "Opsional",
+      "email": "Email",
+      "emailPlaceholder": "goar@email.com",
+      "pesan": "Barita",
+      "keterangan": "Keterangan",
+      "mengirim": "Mangirim...",
+      "gagalKirim": "Gagal mangirim.",
+      "gagalTerhubung": "Gagal tarhubung. Ulahi.",
+      "gagalServer": "Gagal tarhubung tu server. Ulahi.",
+      "hapus": "Sesa",
+      "captchaLabel": "Verifikasi: sadia hasilna",
+      "jawaban": "Aloi",
+      "gantiSoal": "Ganti soal",
+      "terimaKasih": "Mauliate"
+    },
+    "mark": {
+      "aria": "Lambang HKBP: silang di ginjang ni lingkaran"
+    },
+    "photoGallery": {
+      "empty": "Foto galeri tampil dison. Album lengkap tarsedia di Google Maps dohot Facebook marhite tautan di toru.",
+      "close": "Tutup"
+    },
+    "requestForm": {
+      "pesanPlaceholder": "Jelashon isi, artikel, manang informasi na ingkon paurason manang tambaon.",
+      "lampiran": "Lampiran",
+      "lampiranHint": "Excel, Word, PDF, manang gambar. Maksimal 10 file, total 20 MB.",
+      "fileTipe": "Tipe file {name} ndang didukung.",
+      "fileMax": "Maksimal {n} file.",
+      "fileTotal": "Total ukuran ni file lobi sian 20 MB.",
+      "fileSummary": "{n} file, {size} sian 20 MB",
+      "successTitle": "Barita terkirim",
+      "successBody": "Nunga terkirim barita mu. Mauliate, tim nami maninjau.",
+      "another": "Kirim pangidoan na asing",
+      "submit": "Kirim Pangidoan",
+      "errGeneric": "Gagal mangirim barita."
+    },
+    "galleryForm": {
+      "foto": "Foto",
+      "keteranganPlaceholder": "Opsional, umpamana ulaon manang tanggal ni foto",
+      "fotoHint": "Format JPG manang PNG. Maksimal 15 foto, ukuran per foto sahat 15 MB.",
+      "onlyJpgPng": "Holan JPG manang PNG. File {name} dilewati.",
+      "sizeExceed": "Ukuran {name} lobi sian 15 MB.",
+      "maxFotos": "Maksimal {n} foto sahali kirim.",
+      "fotoSelected": "{n} foto dipillit",
+      "required": "Goar, email, dohot minimal sada foto ingkon diisi.",
+      "successBody": "Nunga hujalo hami foto mu. Tim nami maninjau dung i mangalehon na sesuai di galeri. Sai dipasupasu Tuhan Jesus i ma ho.",
+      "submit": "Kirim Foto laho Diverifikasi"
+    },
+    "wartaForm": {
+      "berkas": "Berkas warta",
+      "keteranganPlaceholder": "Umpama: Warta parmingguon Minggu tanggal sadia",
+      "fileSelected": "{n} file dipillit",
+      "advice": "Dihaporsuk mangirim warta di bentuk PDF. Berkas hasil scan manang dokumen Word (docx) tabo dikonversi jolo tu PDF asa tampil rapi. Somal do pangurus ni huria na paradehon berkas on.",
+      "required": "Goar, email, dohot berkas warta ingkon diisi.",
+      "successBody": "Nunga hujalo hami warta mu. Tim paverifikasi dung i mangunggahna tu halaman on. Sai dipasupasu Tuhan Jesus i ma ho.",
+      "submit": "Kirim Warta laho Diverifikasi"
+    },
+    "wartaViewer": {
+      "srSearch": "Diligi warta marhite tanggal manang bulan",
+      "searchPlaceholder": "Diligi bulan manang tanggal, umpama Februari",
+      "unit": "warta",
+      "terbaru": "Na Imbaru",
+      "terlama": "Na Matua",
+      "empty": "Ndang adong dope warta tata parmingguon.",
+      "noMatch": "Ndang adong warta na cocok.",
+      "pratinjau": "Pratinjau",
+      "bukaTab": "Ungkap di tab baru",
+      "bukaTabTitle": "Ungkap warta di tab baru",
+      "unduh": "Unduh",
+      "unduhTitle": "Unduh warta",
+      "iframeTitle": "Pratinjau Warta Tata Parmingguon"
+    },
+    "hymnReader": {
+      "srSearch": "Diligi nomor manang judul ni ende",
+      "searchPlaceholder": "Diligi {prefix} nomor manang judul",
+      "unit": "ende",
+      "loading": "Mamuat data ni ende...",
+      "error": "Gagal mamuat data ni ende. Muat ulang halaman laho mancoba muse.",
+      "tooMany": "Turis lam spesifik laho mempersempit hasil.",
+      "noMatch": "Ndang adong ende na cocok.",
+      "selectPrompt": "Pillit ende sian daftar."
+    },
+    "bibleReader": {
+      "srSearch": "Diligi buku, pasal, manang ayat",
+      "searchPlaceholder": "Diligi ayat, umpama Johannes 3:16 manang Kejadian 1",
+      "versi": "Versi",
+      "kitab": "Buku",
+      "pasal": "Pasal",
+      "plLabel": "Padan na Robi",
+      "pbLabel": "Padan na Imbaru",
+      "loading": "Mamuat teks...",
+      "error": "Gagal mamuat teks. Periksa koneksi dung i coba pasal na asing.",
+      "prev": "Pasal na parjolo",
+      "next": "Pasal na dung i"
+    },
+    "chat": {
+      "greeting": "Syalom. Ahu do Parhalado Digital HKBP Glugur. Dohot las ni roha hubantu ho taringot tu tingki parmingguon, sejarah, parhaladoon, dohot informasi ni huria nta. Adong na naeng sungkunonmu?",
+      "error": "Sai marsihol roha, layanan sedang terganggu. Coba ulahi, manang hubungi huria di (061) 6611846.",
+      "headerTitle": "Parhalado Digital HKBP Glugur",
+      "headerSub": "Rade mangurupi ho",
+      "closeAria": "Tutup obrolan",
+      "inputPlaceholder": "Surat sungkunanmu...",
+      "sendAria": "Kirim barita",
+      "reportLink": "Adong informasi na lilu? Laporhon dison",
+      "openAria": "Ungkap obrolan dohot Parhalado Digital",
+      "reportIntro": "Adong informasi na lilu? Paboa dison. Laporan diteruskon tu tim nami.",
+      "reportPesanPlaceholder": "Jelashon informasi na ingkon paurason",
+      "reportLampiranHint": "Lampiran gambar, Excel, Word, manang PDF. Maks 10 file, 20 MB.",
+      "fileSelected": "{n} file dipillit",
+      "required": "Goar, email, dohot barita ingkon diisi.",
+      "errGeneric": "Gagal mangirim laporan.",
+      "sending": "Mangirim...",
+      "kirimLaporan": "Kirim Laporan",
+      "batal": "Ambolongkon",
+      "kembali": "Mulak",
+      "reportSuccessBody": "Nunga hujalo hami laporan mu jala diteruskon tu tim laho ditinjau. Sai dipasupasu Tuhan Jesus i ma ho."
+    }
+  },
+  "meta": {
+    "default": {
+      "title": "HKBP Glugur, Huria Ressort Medan Utara di Medan",
+      "description": "HKBP Glugur (Huria Kristen Batak Protestan) di Jl. Pembangunan III No.57A, Glugur Darat, Medan. Ida tingki parmingguon Minggu, sejarah HKBP, parhaladoon ni ruas, dohot inganan ni huria pusat ni Ressort Medan Utara, Distrik X Medan Aceh.",
+      "ogTitle": "HKBP Glugur, Huria HKBP Ressort Medan Utara, Medan",
+      "ogDescription": "Bagas laho martumbur di haporseaon, holong, dohot parhaladoon di Glugur Darat, Medan. Ida tingki parmingguon, sejarah, dohot parhaladoon HKBP Glugur.",
+      "twitterTitle": "HKBP Glugur, Huria HKBP Medan",
+      "twitterDescription": "Tingki parmingguon, sejarah, dohot parhaladoon HKBP Glugur di Glugur Darat, Medan.",
+      "ogImageAlt": "HKBP Glugur, huria HKBP Ressort Medan Utara di Glugur Darat, Medan"
+    },
+    "kepemimpinan": {
+      "title": "Pimpinan HKBP dohot Distrik X Medan Aceh",
+      "description": "Daftar pimpinan HKBP dohot pimpinan Distrik X Medan Aceh periode 2024 sahat 2028, linggoman parhaladoon HKBP Glugur."
+    },
+    "informasi": {
+      "title": "Informasi ni Ruas: Parhaladoon dohot Tarif",
+      "description": "Rekening pelean HKBP Glugur, tarif pangumban fasilitas ni huria, dohot syarat administrasi martumpol dohot pamasumasuon."
+    },
+    "sintua": {
+      "title": "Parhalado Sintua",
+      "description": "Daftar Sintua na marhalado tu ruas HKBP Glugur, Ressort Medan Utara, Distrik X Medan Aceh."
+    },
+    "buku": {
+      "title": "Buku Digital: Alkitab dohot Ende",
+      "description": "Jaha Alkitab (Terjemahan Baru, Terjemahan Lama, Batak Toba), Buku Ende, dohot Kidung Jemaat pintor sian situs HKBP Glugur."
+    },
+    "alkitab": {
+      "title": "Jaha Alkitab: TB, TL, Batak Toba",
+      "description": "Jaha Alkitab online di Terjemahan Baru, Terjemahan Lama, dohot Batak Toba. Pillit buku dohot pasal pintor di situs HKBP Glugur."
+    },
+    "bukuEnde": {
+      "title": "Buku Ende HKBP Online",
+      "description": "Jaha lirik Buku Ende HKBP marhata Batak Toba. Diligi ende marhite nomor manang judul di situs HKBP Glugur."
+    },
+    "kidungJemaat": {
+      "title": "Kidung Jemaat Online",
+      "description": "Jaha lirik Kidung Jemaat marhata Indonesia. Diligi ende marhite nomor manang judul di situs HKBP Glugur."
+    },
+    "warta": {
+      "title": "Warta Tata Parmingguon",
+      "description": "Jaha jala unduh Warta Tata Parmingguon HKBP Glugur di bentuk PDF. Pangurus ni huria boi mangirim warta laho diverifikasi jala dipublikasihon."
+    },
+    "media": {
+      "title": "Galeri Foto dohot Video",
+      "description": "Ida video ulaon dohot parmingguon HKBP Glugur di YouTube, jala ida album foto ni huria di Google Maps dohot Facebook."
+    },
+    "pengembang": {
+      "title": "Taringot tu Pangembang Situs",
+      "description": "Situs HKBP Glugur dipauli songon prakarsa relawan sian Bintang Tobing, Product dohot Project Manager rap dohot Full-Stack Developer."
+    },
+    "permintaan": {
+      "title": "Pangidoan Paurason Isi",
+      "description": "Kirim pangidoan paurason manang panambaon isi, artikel, dohot informasi di situs HKBP Glugur. Sertahon lampiran molo parlu."
+    },
+    "tema": {
+      "title": "Taon Transformasi HKBP 2024 sahat 2028",
+      "description": "Lapatan tema Transformasi HKBP 2024 sahat 2028, mardasarhon Roma 12:2, rap dohot visi dohot misi parhaladoon."
+    },
+    "sejarah": {
+      "title": "Sejarah HKBP Glugur",
+      "description": "Barita ni pardalanan HKBP Glugur di Glugur Darat, Medan, sian bona ni HKBP di Tano Batak sahat gabe pusat Ressort Medan Utara, Distrik X Medan Aceh."
+    },
+    "ulasan": {
+      "title": "Ulasan Situs HKBP Glugur",
+      "description": "Jaha jala lehon ulasan tu situs HKBP Glugur. Bagihon pengalamanmu mamangke situs on."
+    }
+  }
+}

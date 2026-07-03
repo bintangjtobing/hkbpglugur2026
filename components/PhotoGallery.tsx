@@ -3,10 +3,12 @@
 import { useEffect, useState } from "react";
 import { galleryPhotos } from "@/lib/gallery";
 import { withUtm } from "@/lib/utm";
+import { useDict } from "./DictionaryProvider";
 
 type Album = { label: string; desc: string; url: string };
 
 export function PhotoGallery({ albums }: { albums: readonly Album[] }) {
+  const t = useDict().dict.ui.photoGallery;
   const photos = galleryPhotos;
   const [open, setOpen] = useState<number | null>(null);
 
@@ -46,8 +48,7 @@ export function PhotoGallery({ albums }: { albums: readonly Album[] }) {
         </div>
       ) : (
         <div className="mt-10 rounded-[var(--radius-card)] border border-dashed border-mist-200 bg-white/60 p-8 text-center text-black/60">
-          Foto galeri akan tampil di sini. Album lengkap tersedia di Google Maps
-          dan Facebook melalui tautan di bawah.
+          {t.empty}
         </div>
       )}
 
@@ -93,7 +94,7 @@ export function PhotoGallery({ albums }: { albums: readonly Album[] }) {
             type="button"
             onClick={() => setOpen(null)}
             className="absolute right-5 top-5 flex h-11 w-11 items-center justify-center rounded-full bg-white/15 text-white hover:bg-white/25"
-            aria-label="Tutup"
+            aria-label={t.close}
           >
             <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18M6 6l12 12" /></svg>
           </button>
