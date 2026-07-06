@@ -11,7 +11,7 @@ const csp = [
   "img-src 'self' data: https:",
   "font-src 'self' data:",
   "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://www.clarity.ms https://*.clarity.ms",
-  "frame-src https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com",
+  "frame-src 'self' blob: https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com",
   "frame-ancestors 'self'",
   "base-uri 'self'",
   "form-action 'self'",
